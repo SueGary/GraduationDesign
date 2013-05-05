@@ -33,6 +33,25 @@
             this.PnlInfo = new System.Windows.Forms.Panel();
             this.PnlInfoBack = new System.Windows.Forms.Panel();
             this.PnlControlArea = new System.Windows.Forms.Panel();
+            this.Lbl_GroupPhysicalExercise = new System.Windows.Forms.Label();
+            this.Lbl_PhysicalExercise = new System.Windows.Forms.Label();
+            this.TxtPhysicalExercise = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_PersonalDiet = new System.Windows.Forms.Label();
+            this.TxtPersonalDiet = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_PersonalSleep = new System.Windows.Forms.Label();
+            this.TxtPersonalSleep = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_CigaretteSmoking = new System.Windows.Forms.Label();
+            this.TxtCigaretteSmoking = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_AlcoholDrinking = new System.Windows.Forms.Label();
+            this.TxtAlcoholDrinking = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_OtherCircumstances = new System.Windows.Forms.Label();
+            this.TxtOtherCircumstances = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_PreviousHistory = new System.Windows.Forms.Label();
+            this.TxtPreviousHistory = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_DrugAllergy = new System.Windows.Forms.Label();
+            this.TxtDrugAllergy = new SUJIALI.PEIS.UIL.UserControls.TextBox();
+            this.Lbl_ReadingHistoryOfExposure = new System.Windows.Forms.Label();
+            this.TxtReadingHistoryOfExposure = new SUJIALI.PEIS.UIL.UserControls.TextBox();
             this.Lbl_ReservationId = new System.Windows.Forms.Label();
             this.TxtReservationId = new SUJIALI.PEIS.UIL.UserControls.TextBox();
             this.PicNotNullReservationId = new System.Windows.Forms.PictureBox();
@@ -88,25 +107,6 @@
             this.PnlFooter = new System.Windows.Forms.Panel();
             this.BtnSave = new SUJIALI.PEIS.UIL.UserControls.Button();
             this.BtnCancel = new SUJIALI.PEIS.UIL.UserControls.Button();
-            this.Lbl_GroupPhysicalExercise = new System.Windows.Forms.Label();
-            this.Lbl_PhysicalExercise = new System.Windows.Forms.Label();
-            this.TxtPhysicalExercise = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_PersonalDiet = new System.Windows.Forms.Label();
-            this.TxtPersonalDiet = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_PersonalSleep = new System.Windows.Forms.Label();
-            this.TxtPersonalSleep = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_CigaretteSmoking = new System.Windows.Forms.Label();
-            this.TxtCigaretteSmoking = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_AlcoholDrinking = new System.Windows.Forms.Label();
-            this.TxtAlcoholDrinking = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_OtherCircumstances = new System.Windows.Forms.Label();
-            this.TxtOtherCircumstances = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_PreviousHistory = new System.Windows.Forms.Label();
-            this.TxtPreviousHistory = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_DrugAllergy = new System.Windows.Forms.Label();
-            this.TxtDrugAllergy = new SUJIALI.PEIS.UIL.UserControls.TextBox();
-            this.Lbl_ReadingHistoryOfExposure = new System.Windows.Forms.Label();
-            this.TxtReadingHistoryOfExposure = new SUJIALI.PEIS.UIL.UserControls.TextBox();
             this.PnlScrollArea.SuspendLayout();
             this.PnlInfo.SuspendLayout();
             this.PnlInfoBack.SuspendLayout();
@@ -247,6 +247,215 @@
             this.PnlControlArea.Padding = new System.Windows.Forms.Padding(20);
             this.PnlControlArea.Size = new System.Drawing.Size(771, 1302);
             this.PnlControlArea.TabIndex = 4;
+            // 
+            // Lbl_GroupPhysicalExercise
+            // 
+            this.Lbl_GroupPhysicalExercise.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.Lbl_GroupPhysicalExercise.Location = new System.Drawing.Point(471, 108);
+            this.Lbl_GroupPhysicalExercise.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_GroupPhysicalExercise.Name = "Lbl_GroupPhysicalExercise";
+            this.Lbl_GroupPhysicalExercise.Size = new System.Drawing.Size(300, 40);
+            this.Lbl_GroupPhysicalExercise.TabIndex = 16;
+            this.Lbl_GroupPhysicalExercise.Text = "个人情况";
+            this.Lbl_GroupPhysicalExercise.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // Lbl_PhysicalExercise
+            // 
+            this.Lbl_PhysicalExercise.Location = new System.Drawing.Point(471, 148);
+            this.Lbl_PhysicalExercise.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_PhysicalExercise.Name = "Lbl_PhysicalExercise";
+            this.Lbl_PhysicalExercise.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_PhysicalExercise.TabIndex = 19;
+            this.Lbl_PhysicalExercise.Text = "体育锻炼情况：";
+            this.Lbl_PhysicalExercise.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtPhysicalExercise
+            // 
+            this.TxtPhysicalExercise.BackColor = System.Drawing.Color.White;
+            this.TxtPhysicalExercise.Location = new System.Drawing.Point(561, 156);
+            this.TxtPhysicalExercise.Multiline = false;
+            this.TxtPhysicalExercise.Name = "TxtPhysicalExercise";
+            this.TxtPhysicalExercise.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtPhysicalExercise.PasswordChar = '\0';
+            this.TxtPhysicalExercise.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtPhysicalExercise.Size = new System.Drawing.Size(200, 27);
+            this.TxtPhysicalExercise.TabIndex = 10;
+            // 
+            // Lbl_PersonalDiet
+            // 
+            this.Lbl_PersonalDiet.Location = new System.Drawing.Point(471, 188);
+            this.Lbl_PersonalDiet.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_PersonalDiet.Name = "Lbl_PersonalDiet";
+            this.Lbl_PersonalDiet.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_PersonalDiet.TabIndex = 18;
+            this.Lbl_PersonalDiet.Text = "个人饮食情况：";
+            this.Lbl_PersonalDiet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtPersonalDiet
+            // 
+            this.TxtPersonalDiet.BackColor = System.Drawing.Color.White;
+            this.TxtPersonalDiet.Location = new System.Drawing.Point(561, 196);
+            this.TxtPersonalDiet.Multiline = false;
+            this.TxtPersonalDiet.Name = "TxtPersonalDiet";
+            this.TxtPersonalDiet.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtPersonalDiet.PasswordChar = '\0';
+            this.TxtPersonalDiet.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtPersonalDiet.Size = new System.Drawing.Size(200, 27);
+            this.TxtPersonalDiet.TabIndex = 12;
+            // 
+            // Lbl_PersonalSleep
+            // 
+            this.Lbl_PersonalSleep.Location = new System.Drawing.Point(471, 228);
+            this.Lbl_PersonalSleep.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_PersonalSleep.Name = "Lbl_PersonalSleep";
+            this.Lbl_PersonalSleep.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_PersonalSleep.TabIndex = 17;
+            this.Lbl_PersonalSleep.Text = "个人睡眠情况：";
+            this.Lbl_PersonalSleep.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtPersonalSleep
+            // 
+            this.TxtPersonalSleep.BackColor = System.Drawing.Color.White;
+            this.TxtPersonalSleep.Location = new System.Drawing.Point(561, 236);
+            this.TxtPersonalSleep.Multiline = false;
+            this.TxtPersonalSleep.Name = "TxtPersonalSleep";
+            this.TxtPersonalSleep.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtPersonalSleep.PasswordChar = '\0';
+            this.TxtPersonalSleep.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtPersonalSleep.Size = new System.Drawing.Size(200, 27);
+            this.TxtPersonalSleep.TabIndex = 5;
+            // 
+            // Lbl_CigaretteSmoking
+            // 
+            this.Lbl_CigaretteSmoking.Location = new System.Drawing.Point(471, 268);
+            this.Lbl_CigaretteSmoking.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_CigaretteSmoking.Name = "Lbl_CigaretteSmoking";
+            this.Lbl_CigaretteSmoking.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_CigaretteSmoking.TabIndex = 22;
+            this.Lbl_CigaretteSmoking.Text = "吸烟情况：";
+            this.Lbl_CigaretteSmoking.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtCigaretteSmoking
+            // 
+            this.TxtCigaretteSmoking.BackColor = System.Drawing.Color.White;
+            this.TxtCigaretteSmoking.Location = new System.Drawing.Point(561, 276);
+            this.TxtCigaretteSmoking.Multiline = false;
+            this.TxtCigaretteSmoking.Name = "TxtCigaretteSmoking";
+            this.TxtCigaretteSmoking.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtCigaretteSmoking.PasswordChar = '\0';
+            this.TxtCigaretteSmoking.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtCigaretteSmoking.Size = new System.Drawing.Size(200, 27);
+            this.TxtCigaretteSmoking.TabIndex = 4;
+            // 
+            // Lbl_AlcoholDrinking
+            // 
+            this.Lbl_AlcoholDrinking.Location = new System.Drawing.Point(471, 308);
+            this.Lbl_AlcoholDrinking.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_AlcoholDrinking.Name = "Lbl_AlcoholDrinking";
+            this.Lbl_AlcoholDrinking.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_AlcoholDrinking.TabIndex = 21;
+            this.Lbl_AlcoholDrinking.Text = "饮酒情况：";
+            this.Lbl_AlcoholDrinking.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtAlcoholDrinking
+            // 
+            this.TxtAlcoholDrinking.BackColor = System.Drawing.Color.White;
+            this.TxtAlcoholDrinking.Location = new System.Drawing.Point(561, 316);
+            this.TxtAlcoholDrinking.Multiline = false;
+            this.TxtAlcoholDrinking.Name = "TxtAlcoholDrinking";
+            this.TxtAlcoholDrinking.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtAlcoholDrinking.PasswordChar = '\0';
+            this.TxtAlcoholDrinking.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtAlcoholDrinking.Size = new System.Drawing.Size(200, 27);
+            this.TxtAlcoholDrinking.TabIndex = 8;
+            // 
+            // Lbl_OtherCircumstances
+            // 
+            this.Lbl_OtherCircumstances.Location = new System.Drawing.Point(471, 348);
+            this.Lbl_OtherCircumstances.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_OtherCircumstances.Name = "Lbl_OtherCircumstances";
+            this.Lbl_OtherCircumstances.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_OtherCircumstances.TabIndex = 20;
+            this.Lbl_OtherCircumstances.Text = "其他情况：";
+            this.Lbl_OtherCircumstances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtOtherCircumstances
+            // 
+            this.TxtOtherCircumstances.BackColor = System.Drawing.Color.White;
+            this.TxtOtherCircumstances.Location = new System.Drawing.Point(561, 356);
+            this.TxtOtherCircumstances.Multiline = false;
+            this.TxtOtherCircumstances.Name = "TxtOtherCircumstances";
+            this.TxtOtherCircumstances.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtOtherCircumstances.PasswordChar = '\0';
+            this.TxtOtherCircumstances.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtOtherCircumstances.Size = new System.Drawing.Size(200, 27);
+            this.TxtOtherCircumstances.TabIndex = 7;
+            // 
+            // Lbl_PreviousHistory
+            // 
+            this.Lbl_PreviousHistory.Location = new System.Drawing.Point(471, 388);
+            this.Lbl_PreviousHistory.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_PreviousHistory.Name = "Lbl_PreviousHistory";
+            this.Lbl_PreviousHistory.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_PreviousHistory.TabIndex = 13;
+            this.Lbl_PreviousHistory.Text = "既往史：";
+            this.Lbl_PreviousHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtPreviousHistory
+            // 
+            this.TxtPreviousHistory.BackColor = System.Drawing.Color.White;
+            this.TxtPreviousHistory.Location = new System.Drawing.Point(561, 396);
+            this.TxtPreviousHistory.Multiline = false;
+            this.TxtPreviousHistory.Name = "TxtPreviousHistory";
+            this.TxtPreviousHistory.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtPreviousHistory.PasswordChar = '\0';
+            this.TxtPreviousHistory.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtPreviousHistory.Size = new System.Drawing.Size(200, 27);
+            this.TxtPreviousHistory.TabIndex = 6;
+            // 
+            // Lbl_DrugAllergy
+            // 
+            this.Lbl_DrugAllergy.Location = new System.Drawing.Point(471, 428);
+            this.Lbl_DrugAllergy.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_DrugAllergy.Name = "Lbl_DrugAllergy";
+            this.Lbl_DrugAllergy.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_DrugAllergy.TabIndex = 15;
+            this.Lbl_DrugAllergy.Text = "药物过敏：";
+            this.Lbl_DrugAllergy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtDrugAllergy
+            // 
+            this.TxtDrugAllergy.BackColor = System.Drawing.Color.White;
+            this.TxtDrugAllergy.Location = new System.Drawing.Point(561, 436);
+            this.TxtDrugAllergy.Multiline = false;
+            this.TxtDrugAllergy.Name = "TxtDrugAllergy";
+            this.TxtDrugAllergy.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtDrugAllergy.PasswordChar = '\0';
+            this.TxtDrugAllergy.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtDrugAllergy.Size = new System.Drawing.Size(200, 27);
+            this.TxtDrugAllergy.TabIndex = 9;
+            // 
+            // Lbl_ReadingHistoryOfExposure
+            // 
+            this.Lbl_ReadingHistoryOfExposure.Location = new System.Drawing.Point(471, 468);
+            this.Lbl_ReadingHistoryOfExposure.Margin = new System.Windows.Forms.Padding(0);
+            this.Lbl_ReadingHistoryOfExposure.Name = "Lbl_ReadingHistoryOfExposure";
+            this.Lbl_ReadingHistoryOfExposure.Size = new System.Drawing.Size(90, 40);
+            this.Lbl_ReadingHistoryOfExposure.TabIndex = 14;
+            this.Lbl_ReadingHistoryOfExposure.Text = "读物接触史：";
+            this.Lbl_ReadingHistoryOfExposure.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // TxtReadingHistoryOfExposure
+            // 
+            this.TxtReadingHistoryOfExposure.BackColor = System.Drawing.Color.White;
+            this.TxtReadingHistoryOfExposure.Location = new System.Drawing.Point(561, 476);
+            this.TxtReadingHistoryOfExposure.Multiline = false;
+            this.TxtReadingHistoryOfExposure.Name = "TxtReadingHistoryOfExposure";
+            this.TxtReadingHistoryOfExposure.Padding = new System.Windows.Forms.Padding(1);
+            this.TxtReadingHistoryOfExposure.PasswordChar = '\0';
+            this.TxtReadingHistoryOfExposure.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.TxtReadingHistoryOfExposure.Size = new System.Drawing.Size(200, 27);
+            this.TxtReadingHistoryOfExposure.TabIndex = 11;
             // 
             // Lbl_ReservationId
             // 
@@ -835,215 +1044,6 @@
             this.BtnCancel.TabIndex = 1;
             this.BtnCancel.Text = "取消";
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
-            // 
-            // Lbl_GroupPhysicalExercise
-            // 
-            this.Lbl_GroupPhysicalExercise.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.Lbl_GroupPhysicalExercise.Location = new System.Drawing.Point(471, 108);
-            this.Lbl_GroupPhysicalExercise.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_GroupPhysicalExercise.Name = "Lbl_GroupPhysicalExercise";
-            this.Lbl_GroupPhysicalExercise.Size = new System.Drawing.Size(300, 40);
-            this.Lbl_GroupPhysicalExercise.TabIndex = 16;
-            this.Lbl_GroupPhysicalExercise.Text = "个人情况";
-            this.Lbl_GroupPhysicalExercise.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // Lbl_PhysicalExercise
-            // 
-            this.Lbl_PhysicalExercise.Location = new System.Drawing.Point(471, 148);
-            this.Lbl_PhysicalExercise.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_PhysicalExercise.Name = "Lbl_PhysicalExercise";
-            this.Lbl_PhysicalExercise.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_PhysicalExercise.TabIndex = 19;
-            this.Lbl_PhysicalExercise.Text = "体育锻炼情况：";
-            this.Lbl_PhysicalExercise.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtPhysicalExercise
-            // 
-            this.TxtPhysicalExercise.BackColor = System.Drawing.Color.White;
-            this.TxtPhysicalExercise.Location = new System.Drawing.Point(561, 156);
-            this.TxtPhysicalExercise.Multiline = false;
-            this.TxtPhysicalExercise.Name = "TxtPhysicalExercise";
-            this.TxtPhysicalExercise.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtPhysicalExercise.PasswordChar = '\0';
-            this.TxtPhysicalExercise.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtPhysicalExercise.Size = new System.Drawing.Size(200, 27);
-            this.TxtPhysicalExercise.TabIndex = 10;
-            // 
-            // Lbl_PersonalDiet
-            // 
-            this.Lbl_PersonalDiet.Location = new System.Drawing.Point(471, 188);
-            this.Lbl_PersonalDiet.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_PersonalDiet.Name = "Lbl_PersonalDiet";
-            this.Lbl_PersonalDiet.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_PersonalDiet.TabIndex = 18;
-            this.Lbl_PersonalDiet.Text = "个人饮食情况：";
-            this.Lbl_PersonalDiet.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtPersonalDiet
-            // 
-            this.TxtPersonalDiet.BackColor = System.Drawing.Color.White;
-            this.TxtPersonalDiet.Location = new System.Drawing.Point(561, 196);
-            this.TxtPersonalDiet.Multiline = false;
-            this.TxtPersonalDiet.Name = "TxtPersonalDiet";
-            this.TxtPersonalDiet.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtPersonalDiet.PasswordChar = '\0';
-            this.TxtPersonalDiet.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtPersonalDiet.Size = new System.Drawing.Size(200, 27);
-            this.TxtPersonalDiet.TabIndex = 12;
-            // 
-            // Lbl_PersonalSleep
-            // 
-            this.Lbl_PersonalSleep.Location = new System.Drawing.Point(471, 228);
-            this.Lbl_PersonalSleep.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_PersonalSleep.Name = "Lbl_PersonalSleep";
-            this.Lbl_PersonalSleep.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_PersonalSleep.TabIndex = 17;
-            this.Lbl_PersonalSleep.Text = "个人睡眠情况：";
-            this.Lbl_PersonalSleep.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtPersonalSleep
-            // 
-            this.TxtPersonalSleep.BackColor = System.Drawing.Color.White;
-            this.TxtPersonalSleep.Location = new System.Drawing.Point(561, 236);
-            this.TxtPersonalSleep.Multiline = false;
-            this.TxtPersonalSleep.Name = "TxtPersonalSleep";
-            this.TxtPersonalSleep.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtPersonalSleep.PasswordChar = '\0';
-            this.TxtPersonalSleep.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtPersonalSleep.Size = new System.Drawing.Size(200, 27);
-            this.TxtPersonalSleep.TabIndex = 5;
-            // 
-            // Lbl_CigaretteSmoking
-            // 
-            this.Lbl_CigaretteSmoking.Location = new System.Drawing.Point(471, 268);
-            this.Lbl_CigaretteSmoking.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_CigaretteSmoking.Name = "Lbl_CigaretteSmoking";
-            this.Lbl_CigaretteSmoking.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_CigaretteSmoking.TabIndex = 22;
-            this.Lbl_CigaretteSmoking.Text = "吸烟情况：";
-            this.Lbl_CigaretteSmoking.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtCigaretteSmoking
-            // 
-            this.TxtCigaretteSmoking.BackColor = System.Drawing.Color.White;
-            this.TxtCigaretteSmoking.Location = new System.Drawing.Point(561, 276);
-            this.TxtCigaretteSmoking.Multiline = false;
-            this.TxtCigaretteSmoking.Name = "TxtCigaretteSmoking";
-            this.TxtCigaretteSmoking.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtCigaretteSmoking.PasswordChar = '\0';
-            this.TxtCigaretteSmoking.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtCigaretteSmoking.Size = new System.Drawing.Size(200, 27);
-            this.TxtCigaretteSmoking.TabIndex = 4;
-            // 
-            // Lbl_AlcoholDrinking
-            // 
-            this.Lbl_AlcoholDrinking.Location = new System.Drawing.Point(471, 308);
-            this.Lbl_AlcoholDrinking.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_AlcoholDrinking.Name = "Lbl_AlcoholDrinking";
-            this.Lbl_AlcoholDrinking.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_AlcoholDrinking.TabIndex = 21;
-            this.Lbl_AlcoholDrinking.Text = "饮酒情况：";
-            this.Lbl_AlcoholDrinking.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtAlcoholDrinking
-            // 
-            this.TxtAlcoholDrinking.BackColor = System.Drawing.Color.White;
-            this.TxtAlcoholDrinking.Location = new System.Drawing.Point(561, 316);
-            this.TxtAlcoholDrinking.Multiline = false;
-            this.TxtAlcoholDrinking.Name = "TxtAlcoholDrinking";
-            this.TxtAlcoholDrinking.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtAlcoholDrinking.PasswordChar = '\0';
-            this.TxtAlcoholDrinking.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtAlcoholDrinking.Size = new System.Drawing.Size(200, 27);
-            this.TxtAlcoholDrinking.TabIndex = 8;
-            // 
-            // Lbl_OtherCircumstances
-            // 
-            this.Lbl_OtherCircumstances.Location = new System.Drawing.Point(471, 348);
-            this.Lbl_OtherCircumstances.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_OtherCircumstances.Name = "Lbl_OtherCircumstances";
-            this.Lbl_OtherCircumstances.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_OtherCircumstances.TabIndex = 20;
-            this.Lbl_OtherCircumstances.Text = "其他情况：";
-            this.Lbl_OtherCircumstances.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtOtherCircumstances
-            // 
-            this.TxtOtherCircumstances.BackColor = System.Drawing.Color.White;
-            this.TxtOtherCircumstances.Location = new System.Drawing.Point(561, 356);
-            this.TxtOtherCircumstances.Multiline = false;
-            this.TxtOtherCircumstances.Name = "TxtOtherCircumstances";
-            this.TxtOtherCircumstances.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtOtherCircumstances.PasswordChar = '\0';
-            this.TxtOtherCircumstances.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtOtherCircumstances.Size = new System.Drawing.Size(200, 27);
-            this.TxtOtherCircumstances.TabIndex = 7;
-            // 
-            // Lbl_PreviousHistory
-            // 
-            this.Lbl_PreviousHistory.Location = new System.Drawing.Point(471, 388);
-            this.Lbl_PreviousHistory.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_PreviousHistory.Name = "Lbl_PreviousHistory";
-            this.Lbl_PreviousHistory.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_PreviousHistory.TabIndex = 13;
-            this.Lbl_PreviousHistory.Text = "既往史：";
-            this.Lbl_PreviousHistory.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtPreviousHistory
-            // 
-            this.TxtPreviousHistory.BackColor = System.Drawing.Color.White;
-            this.TxtPreviousHistory.Location = new System.Drawing.Point(561, 396);
-            this.TxtPreviousHistory.Multiline = false;
-            this.TxtPreviousHistory.Name = "TxtPreviousHistory";
-            this.TxtPreviousHistory.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtPreviousHistory.PasswordChar = '\0';
-            this.TxtPreviousHistory.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtPreviousHistory.Size = new System.Drawing.Size(200, 27);
-            this.TxtPreviousHistory.TabIndex = 6;
-            // 
-            // Lbl_DrugAllergy
-            // 
-            this.Lbl_DrugAllergy.Location = new System.Drawing.Point(471, 428);
-            this.Lbl_DrugAllergy.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_DrugAllergy.Name = "Lbl_DrugAllergy";
-            this.Lbl_DrugAllergy.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_DrugAllergy.TabIndex = 15;
-            this.Lbl_DrugAllergy.Text = "药物过敏：";
-            this.Lbl_DrugAllergy.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtDrugAllergy
-            // 
-            this.TxtDrugAllergy.BackColor = System.Drawing.Color.White;
-            this.TxtDrugAllergy.Location = new System.Drawing.Point(561, 436);
-            this.TxtDrugAllergy.Multiline = false;
-            this.TxtDrugAllergy.Name = "TxtDrugAllergy";
-            this.TxtDrugAllergy.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtDrugAllergy.PasswordChar = '\0';
-            this.TxtDrugAllergy.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtDrugAllergy.Size = new System.Drawing.Size(200, 27);
-            this.TxtDrugAllergy.TabIndex = 9;
-            // 
-            // Lbl_ReadingHistoryOfExposure
-            // 
-            this.Lbl_ReadingHistoryOfExposure.Location = new System.Drawing.Point(471, 468);
-            this.Lbl_ReadingHistoryOfExposure.Margin = new System.Windows.Forms.Padding(0);
-            this.Lbl_ReadingHistoryOfExposure.Name = "Lbl_ReadingHistoryOfExposure";
-            this.Lbl_ReadingHistoryOfExposure.Size = new System.Drawing.Size(90, 40);
-            this.Lbl_ReadingHistoryOfExposure.TabIndex = 14;
-            this.Lbl_ReadingHistoryOfExposure.Text = "读物接触史：";
-            this.Lbl_ReadingHistoryOfExposure.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            // 
-            // TxtReadingHistoryOfExposure
-            // 
-            this.TxtReadingHistoryOfExposure.BackColor = System.Drawing.Color.White;
-            this.TxtReadingHistoryOfExposure.Location = new System.Drawing.Point(561, 476);
-            this.TxtReadingHistoryOfExposure.Multiline = false;
-            this.TxtReadingHistoryOfExposure.Name = "TxtReadingHistoryOfExposure";
-            this.TxtReadingHistoryOfExposure.Padding = new System.Windows.Forms.Padding(1);
-            this.TxtReadingHistoryOfExposure.PasswordChar = '\0';
-            this.TxtReadingHistoryOfExposure.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtReadingHistoryOfExposure.Size = new System.Drawing.Size(200, 27);
-            this.TxtReadingHistoryOfExposure.TabIndex = 11;
             // 
             // Create
             // 

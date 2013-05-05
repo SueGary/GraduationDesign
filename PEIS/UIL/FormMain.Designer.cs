@@ -84,7 +84,7 @@
             this.NavBar.TabIndex = 1;
             this.NavBar.QuitSystemClick += new System.EventHandler(this.NavBar_QuitSystemClick);
             this.NavBar.ImageButtonClick += new SUJIALI.PEIS.UIL.UserControls.NavBar.ButtonClickHander(this.NavBar_ImageButtonClick);
-            this.NavBar.Load += new System.EventHandler(this.NavBar_Load);
+          //  this.NavBar.Load += new System.EventHandler(this.NavBar_Load);
             // 
             // FormMain
             // 
@@ -97,7 +97,7 @@
             this.Name = "FormMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PhysicalExamination";
-            this.Load += new System.EventHandler(this.FormMain_Load);
+           // this.Load += new System.EventHandler(this.FormMain_Load);
             this.PnlHeader.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.PicLogo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PicCompanyLogo)).EndInit();

@@ -17,8 +17,8 @@ namespace SUJIALI.PEIS.UIL
     /// </summary>
     public partial class FormMain : Form
     {
-        private static FormMain instance;
-
+  
+      private static FormMain instance;
         /// <summary>
         /// 返回该窗体的唯一实例。如果之前该窗体没有被创建，进行创建并返回该窗体的唯一实例。
         /// 此处采用单键模式对窗体的唯一实例进行控制，以便外界窗体或控件可以随时访问本窗体。
@@ -57,7 +57,7 @@ namespace SUJIALI.PEIS.UIL
                     FormMain.LoadNewControl(Main.Default.Instance);
                     break;
 
-                case "TmpPath": // “空白模块”功能模块
+                case "TmpPath": // “登记模块”功能模块
                     FormMain.LoadNewControl(TmpPath.Default.Instance);
                     break;
 
@@ -81,14 +81,14 @@ namespace SUJIALI.PEIS.UIL
             FormMain.Instance.PnlContent.Controls.Add(control);
         }
        
-        private void FormMain_Load(object sender, EventArgs e)
-        {
+        //private void FormMain_Load(object sender, EventArgs e)
+        //{
 
-        }
+        //}
 
-        private void NavBar_Load(object sender, EventArgs e)
-        {
+        //private void NavBar_Load(object sender, EventArgs e)
+        //{
 
-        }
+        //}
     }
 }

@@ -28,7 +28,8 @@ namespace SUJIALI.PEIS.UIL.UserControls
             ////示例：根据用户角色修改导航条
             //if(!NowUser.IsAdministrator)                      //如果不是管理员
             //{
-            //    NavButtonGroup.RemoveAt(2);                   //删除导航栏中第3组导般条
+             //   NavButtonGroup.RemoveAt(1);
+             //   NavButtonGroup.RemoveAt(0);   //删除导航栏中第3组导般条
             //    NavButtonGroup[1].ImageButtons.RemoveAt(0);   //删除导航栏中第2组导般条中的第1个图像按钮
             //}
 
@@ -45,10 +46,34 @@ namespace SUJIALI.PEIS.UIL.UserControls
             {
                 ImageButtons = new List<ImageButton>() 
                 {
-                    new ImageButton("欢迎使用","Main",Resources.NavBtnMain)
+                    new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                    new ImageButton("欢迎使用1","Main",Resources.NavBtnMain),
+                     new ImageButton("欢迎使用2","Main",Resources.NavBtnMain),
+                      new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                       new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                        new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                         new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                          new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                           new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                            new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                             new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                              new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                               new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                                new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                                 new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                                  new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+                                   new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
+
                 }
             } ,
             new ButtonGroup("录入信息")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+             new ButtonGroup("录入信息2")
             {
                 ImageButtons = new List<ImageButton>() 
                 {
