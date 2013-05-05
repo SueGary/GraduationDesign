@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PEIS", "PEIS.csproj", "{6212D737-B8F6-4D2B-B4E5-6F192A826506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6212D737-B8F6-4D2B-B4E5-6F192A826506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6212D737-B8F6-4D2B-B4E5-6F192A826506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6212D737-B8F6-4D2B-B4E5-6F192A826506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6212D737-B8F6-4D2B-B4E5-6F192A826506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

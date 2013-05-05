@@ -1,0 +1,14 @@
+E:\GraduationDesign\PEIS\bin\PEIS.exe.config
+E:\GraduationDesign\PEIS\obj\Debug\ResolveAssemblyReference.cache
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.Properties.Resources.resources
+E:\GraduationDesign\PEIS\obj\Debug\ResGen.read.1.tlog
+E:\GraduationDesign\PEIS\obj\Debug\ResGen.write.1.tlog
+E:\GraduationDesign\PEIS\bin\PEIS.exe
+E:\GraduationDesign\PEIS\bin\PEIS.pdb
+E:\GraduationDesign\PEIS\obj\Debug\PEIS.exe
+E:\GraduationDesign\PEIS\obj\Debug\PEIS.pdb
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.FormMain.resources
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.Main.Default.resources
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Create.resources
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Default.resources
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Modify.resources
