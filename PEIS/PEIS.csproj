@@ -136,6 +136,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="UIL\FormMain.resx">
       <DependentUpon>FormMain.cs</DependentUpon>
@@ -151,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UIL\TmpPath\Modify.resx">
       <DependentUpon>Modify.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\UserControls\NavBar.resx">
+      <DependentUpon>NavBar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
     <None Include="Properties\Settings.settings">

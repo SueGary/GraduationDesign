@@ -80,6 +80,11 @@ namespace SUJIALI.PEIS.UIL
             FormMain.Instance.PnlContent.Controls.Clear();
             FormMain.Instance.PnlContent.Controls.Add(control);
         }
+
+        private void PnlContent_Paint(object sender, PaintEventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
        
         //private void FormMain_Load(object sender, EventArgs e)
         //{

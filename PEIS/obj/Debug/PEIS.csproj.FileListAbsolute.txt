@@ -12,3 +12,4 @@ E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.Main.Default.resources
 E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Create.resources
 E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Default.resources
 E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Modify.resources
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.UserControls.NavBar.resources

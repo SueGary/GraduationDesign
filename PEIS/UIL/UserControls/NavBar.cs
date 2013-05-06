@@ -47,7 +47,7 @@ namespace SUJIALI.PEIS.UIL.UserControls
                 ImageButtons = new List<ImageButton>() 
                 {
                     new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                    new ImageButton("欢迎使用1","Main",Resources.NavBtnMain),
+                    new ImageButton("欢迎使用1","Main",Resources.logo2),
                      new ImageButton("欢迎使用2","Main",Resources.NavBtnMain),
                       new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
                        new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
@@ -456,5 +456,6 @@ namespace SUJIALI.PEIS.UIL.UserControls
         }
 
         #endregion
+
     }
 }
