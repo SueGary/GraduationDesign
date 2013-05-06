@@ -46,24 +46,11 @@ namespace SUJIALI.PEIS.UIL.UserControls
             {
                 ImageButtons = new List<ImageButton>() 
                 {
-                    new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                    new ImageButton("欢迎使用1","Main",Resources.logo2),
-                     new ImageButton("欢迎使用2","Main",Resources.NavBtnMain),
-                      new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                       new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                        new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                         new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                          new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                           new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                            new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                             new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                              new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                               new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                                new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                                 new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                                  new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-                                   new ImageButton("欢迎使用","Main",Resources.NavBtnMain),
-
+                    new ImageButton("欢迎使用1","Main",Resources.NavBtnMain),     
+                    new ImageButton("欢迎使用2","Main",Resources.NavBtnMain), 
+                    new ImageButton("欢迎使用3","Main",Resources.NavBtnMain),  
+                    new ImageButton("欢迎使用4","Main",Resources.NavBtnMain),  
+                    new ImageButton("欢迎使用5","Main",Resources.NavBtnMain),  
                 }
             } ,
             new ButtonGroup("录入信息")
@@ -74,6 +61,55 @@ namespace SUJIALI.PEIS.UIL.UserControls
                 }
             } ,
              new ButtonGroup("录入信息2")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息2")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息3")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息4")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息5")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息6")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息7")
+            {
+                ImageButtons = new List<ImageButton>() 
+                {
+                    new ImageButton("空白模块","TmpPath",Resources.NavBtnTmpPath)
+                }
+            } ,
+                 new ButtonGroup("录入信息8")
             {
                 ImageButtons = new List<ImageButton>() 
                 {
@@ -366,7 +402,8 @@ namespace SUJIALI.PEIS.UIL.UserControls
                 // 图像按钮上的图像
                 //
                 ButtonImage.Cursor = Cursors.Hand;
-                ButtonImage.Location = new Point(56, 12);
+             //   ButtonImage.Location = new Point(56, 12);
+                ButtonImage.Location = new Point(56,0);
                 ButtonImage.Size = new Size(40, 40);
                 ButtonImage.MouseMove += new MouseEventHandler(ButtonImage_MouseMove);
                 ButtonImage.MouseLeave += new EventHandler(ButtonImage_MouseLeave);
@@ -376,7 +413,8 @@ namespace SUJIALI.PEIS.UIL.UserControls
                 //
                 ButtonText.TextAlign = ContentAlignment.MiddleCenter;
                 ButtonText.ForeColor = Color.FromArgb(68, 68, 68);
-                ButtonText.Location = new Point(0, 55);
+               // ButtonText.Location = new Point(0, 55);
+                ButtonText.Location = new Point(0, 35);
                 ButtonText.Size = new Size(153, 15);
                 //
                 //ImageButton图像按钮 
