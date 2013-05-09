@@ -40,6 +40,11 @@
     <Reference Include="System.Configuration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="PhysicalExaminationDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PhysicalExaminationDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="UIL\FormMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -150,6 +155,9 @@
     <EmbeddedResource Include="UIL\TmpPath\Default.resx">
       <DependentUpon>Default.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UIL\TmpPath\Delete.resx">
+      <DependentUpon>Delete.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UIL\TmpPath\Modify.resx">
       <DependentUpon>Modify.cs</DependentUpon>
     </EmbeddedResource>
@@ -157,6 +165,17 @@
       <DependentUpon>NavBar.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config" />
+    <None Include="PhysicalExaminationDataSet.xsc">
+      <DependentUpon>PhysicalExaminationDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="PhysicalExaminationDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>PhysicalExaminationDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="PhysicalExaminationDataSet.xss">
+      <DependentUpon>PhysicalExaminationDataSet.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
