@@ -40,6 +40,7 @@ namespace SUJIALI.PEIS.UIL
         /// </summary>
         private FormMain()
         {
+            
             // 初始化主窗体中的控件，载入默认模块到窗体的PnlContent控件中。
             InitializeComponent();                                  
             Main.Default newControl = Main.Default.Instance;    
