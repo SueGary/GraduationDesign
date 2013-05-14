@@ -1,0 +1,16 @@
+CREATE TABLE  TJTCMX
+(
+TJ_TCID	Nvarchar(10) PRIMARY KEY,
+TJ_TCXMID	Nvarchar(10),
+TJ_TCZK	Nvarchar(10),
+TJ_TCFY	Int,
+TJ_TCMS	Text,
+
+
+
+
+
+
+
+
+)

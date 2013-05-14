@@ -1,0 +1,6 @@
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.Properties.Resources.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form1.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config

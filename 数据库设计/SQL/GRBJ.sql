@@ -1,0 +1,8 @@
+CREATE TABLE  GRBJ
+(
+ID	Int IDENTITY(1,1) PRIMARY KEY,
+TJRYID	Nvarchar(10),
+MXID	Nvarchar(10),
+
+
+)

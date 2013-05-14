@@ -1,0 +1,9 @@
+CREATE TABLE  BJJYMX
+(
+MXID	int IDENTITY(1,1) PRIMARY KEY,
+MSID	Nvarchar(10),
+JYMS	text,
+ZZ	text,
+LY	text,
+
+)

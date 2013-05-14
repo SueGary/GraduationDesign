@@ -35,3 +35,10 @@ F:\C#\毕业设计\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.write
 F:\C#\毕业设计\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.write.8.tlog
 F:\C#\毕业设计\GraduationDesign\PEIS\obj\Debug\ResGen.write.1.tlog
 F:\C#\毕业设计\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Delete.resources
+E:\GraduationDesign\PEIS\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Delete.resources
+E:\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.read.1.tlog
+E:\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.read.7.tlog
+E:\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.read.8.tlog
+E:\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.write.1.tlog
+E:\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.write.7.tlog
+E:\GraduationDesign\PEIS\obj\Debug\GenerateResource-ResGen.write.8.tlog

@@ -1,0 +1,8 @@
+CREATE TABLE  SSMS
+(
+SSID	Nvarchar(10) PRIMARY KEY,
+SSMS	text
+
+
+
+)
