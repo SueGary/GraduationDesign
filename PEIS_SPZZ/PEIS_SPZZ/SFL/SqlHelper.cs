@@ -5,7 +5,7 @@ using System.Data.SqlClient;
 using System.Text;
 using System.Data;
 
-namespace SUJIALI.PEIS.SFL
+namespace PEIS_SPZZ.SFL
 {
     public class SqlHelper
     {

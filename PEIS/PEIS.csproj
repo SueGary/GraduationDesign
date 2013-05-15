@@ -164,7 +164,9 @@
     <EmbeddedResource Include="UIL\UserControls\NavBar.resx">
       <DependentUpon>NavBar.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="PhysicalExaminationDataSet.xsc">
       <DependentUpon>PhysicalExaminationDataSet.xsd</DependentUpon>
     </None>

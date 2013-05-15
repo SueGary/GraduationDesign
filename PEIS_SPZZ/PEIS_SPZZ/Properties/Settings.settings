@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="Setting" Type="System.String" Scope="User">
-      <Value Profile="(Default)">Data Source=PENGHAORAN-PC\MYDATABASE;Initial Catalog=PhysicalExamination;Integrated Security=True</Value>
+      <Value Profile="(Default)">Data Source=。;Initial Catalog=tj_db;Integrated Security=True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

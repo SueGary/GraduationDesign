@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SUJIALI.PEIS.SFL
+namespace PEIS_SPZZ.SFL
 {
     public class DataValid
     {

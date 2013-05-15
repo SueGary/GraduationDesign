@@ -22,16 +22,7 @@ namespace SUJIALI.PEIS.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PENGHAORAN-PC\\MYDATABASE;Initial Catalog=PhysicalExamination;Integrat" +
-            "ed Security=True")]
-        public string PhysicalExaminationConnectionString {
-            get {
-                return ((string)(this["PhysicalExaminationConnectionString"]));
-            }
-        }
+
+        public string PhysicalExaminationConnectionString { get; set; }
     }
 }

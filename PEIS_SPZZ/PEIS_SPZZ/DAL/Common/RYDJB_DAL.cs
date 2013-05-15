@@ -33,11 +33,11 @@ namespace PEIS_SPZZ.DAL.Common
                     switch (System.Configuration.ConfigurationManager.AppSettings["DataBaseType"])
                     {
                         case "SqlServer":
-                            rYDJB_DAL = new SqlServer.RYDJB_DAL();
+                   //         rYDJB_DAL = new SqlServer.RYDJB_DAL();
                             break;
 
                         default:
-                            rYDJB_DAL = new SqlServer.RYDJB_DAL();
+                   //         rYDJB_DAL = new SqlServer.RYDJB_DAL();
                             break;
                     }
                 }

@@ -60,9 +60,359 @@ namespace PEIS_SPZZ.Properties {
             }
         }
         
-        public static System.Drawing.Bitmap Image1 {
+        public static System.Drawing.Bitmap BtnDelete {
             get {
-                object obj = ResourceManager.GetObject("Image1", resourceCulture);
+                object obj = ResourceManager.GetObject("BtnDelete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap BtnDelete02 {
+            get {
+                object obj = ResourceManager.GetObject("BtnDelete02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap BtnGO {
+            get {
+                object obj = ResourceManager.GetObject("BtnGO", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap BtnModify {
+            get {
+                object obj = ResourceManager.GetObject("BtnModify", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap BtnModify02 {
+            get {
+                object obj = ResourceManager.GetObject("BtnModify02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap BtnView {
+            get {
+                object obj = ResourceManager.GetObject("BtnView", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap BtnView02 {
+            get {
+                object obj = ResourceManager.GetObject("BtnView02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap ButtonBG01 {
+            get {
+                object obj = ResourceManager.GetObject("ButtonBG01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap ButtonBG02 {
+            get {
+                object obj = ResourceManager.GetObject("ButtonBG02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap CompanyLogo {
+            get {
+                object obj = ResourceManager.GetObject("CompanyLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Delete {
+            get {
+                object obj = ResourceManager.GetObject("Delete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap DesignerLogo {
+            get {
+                object obj = ResourceManager.GetObject("DesignerLogo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap FooterBG {
+            get {
+                object obj = ResourceManager.GetObject("FooterBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap HeaderBG {
+            get {
+                object obj = ResourceManager.GetObject("HeaderBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Image11 {
+            get {
+                object obj = ResourceManager.GetObject("Image11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Input {
+            get {
+                object obj = ResourceManager.GetObject("Input", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap Logo {
+            get {
+                object obj = ResourceManager.GetObject("Logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap logo2 {
+            get {
+                object obj = ResourceManager.GetObject("logo2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap logo21 {
+            get {
+                object obj = ResourceManager.GetObject("logo21", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap logo22 {
+            get {
+                object obj = ResourceManager.GetObject("logo22", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap LogoMain {
+            get {
+                object obj = ResourceManager.GetObject("LogoMain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap LogoTmpPath {
+            get {
+                object obj = ResourceManager.GetObject("LogoTmpPath", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap MessageError {
+            get {
+                object obj = ResourceManager.GetObject("MessageError", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap MessageInfo {
+            get {
+                object obj = ResourceManager.GetObject("MessageInfo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap MessageWarn {
+            get {
+                object obj = ResourceManager.GetObject("MessageWarn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap NavBarBG01 {
+            get {
+                object obj = ResourceManager.GetObject("NavBarBG01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap NavBarBG02 {
+            get {
+                object obj = ResourceManager.GetObject("NavBarBG02", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap NavBtnBG {
+            get {
+                object obj = ResourceManager.GetObject("NavBtnBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap NavBtnMain {
+            get {
+                object obj = ResourceManager.GetObject("NavBtnMain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap NavBtnTmpPath {
+            get {
+                object obj = ResourceManager.GetObject("NavBtnTmpPath", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap NotNull {
+            get {
+                object obj = ResourceManager.GetObject("NotNull", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap PageFirst {
+            get {
+                object obj = ResourceManager.GetObject("PageFirst", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap PageLast {
+            get {
+                object obj = ResourceManager.GetObject("PageLast", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap PageNext {
+            get {
+                object obj = ResourceManager.GetObject("PageNext", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap PagePrev {
+            get {
+                object obj = ResourceManager.GetObject("PagePrev", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap ReadOnly {
+            get {
+                object obj = ResourceManager.GetObject("ReadOnly", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap SideBarBG {
+            get {
+                object obj = ResourceManager.GetObject("SideBarBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TableHeaderBG {
+            get {
+                object obj = ResourceManager.GetObject("TableHeaderBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TableRowBG {
+            get {
+                object obj = ResourceManager.GetObject("TableRowBG", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TipError {
+            get {
+                object obj = ResourceManager.GetObject("TipError", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TipIE {
+            get {
+                object obj = ResourceManager.GetObject("TipIE", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TipInfo {
+            get {
+                object obj = ResourceManager.GetObject("TipInfo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TipScreen {
+            get {
+                object obj = ResourceManager.GetObject("TipScreen", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TipService {
+            get {
+                object obj = ResourceManager.GetObject("TipService", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TipWarn {
+            get {
+                object obj = ResourceManager.GetObject("TipWarn", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TitleLine {
+            get {
+                object obj = ResourceManager.GetObject("TitleLine", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TitleMain {
+            get {
+                object obj = ResourceManager.GetObject("TitleMain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TitleTmpPathCreate {
+            get {
+                object obj = ResourceManager.GetObject("TitleTmpPathCreate", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TitleTmpPathDelete {
+            get {
+                object obj = ResourceManager.GetObject("TitleTmpPathDelete", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TitleTmpPathList {
+            get {
+                object obj = ResourceManager.GetObject("TitleTmpPathList", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap TitleTmpPathModify {
+            get {
+                object obj = ResourceManager.GetObject("TitleTmpPathModify", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

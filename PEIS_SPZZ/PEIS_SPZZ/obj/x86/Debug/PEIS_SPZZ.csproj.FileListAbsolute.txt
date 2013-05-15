@@ -4,3 +4,7 @@ E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form1.resour
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb

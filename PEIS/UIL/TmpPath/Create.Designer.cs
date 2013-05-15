@@ -133,7 +133,7 @@
             this.PnlScrollArea.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.PnlScrollArea.Location = new System.Drawing.Point(0, 0);
             this.PnlScrollArea.Name = "PnlScrollArea";
-            this.PnlScrollArea.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.PnlScrollArea.Padding = new System.Windows.Forms.Padding(20);
             this.PnlScrollArea.Size = new System.Drawing.Size(830, 550);
             this.PnlScrollArea.TabIndex = 4;
             // 
@@ -244,7 +244,7 @@
             this.PnlControlArea.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlControlArea.Location = new System.Drawing.Point(0, 26);
             this.PnlControlArea.Name = "PnlControlArea";
-            this.PnlControlArea.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.PnlControlArea.Padding = new System.Windows.Forms.Padding(20);
             this.PnlControlArea.Size = new System.Drawing.Size(771, 1302);
             this.PnlControlArea.TabIndex = 4;
             // 
@@ -273,7 +273,7 @@
             // 
             this.TxtPhysicalExercise.BackColor = System.Drawing.Color.White;
             this.TxtPhysicalExercise.Location = new System.Drawing.Point(561, 156);
-            this.TxtPhysicalExercise.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPhysicalExercise.Margin = new System.Windows.Forms.Padding(4);
             this.TxtPhysicalExercise.Multiline = false;
             this.TxtPhysicalExercise.Name = "TxtPhysicalExercise";
             this.TxtPhysicalExercise.Padding = new System.Windows.Forms.Padding(1);
@@ -296,7 +296,7 @@
             // 
             this.TxtPersonalDiet.BackColor = System.Drawing.Color.White;
             this.TxtPersonalDiet.Location = new System.Drawing.Point(561, 196);
-            this.TxtPersonalDiet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPersonalDiet.Margin = new System.Windows.Forms.Padding(4);
             this.TxtPersonalDiet.Multiline = false;
             this.TxtPersonalDiet.Name = "TxtPersonalDiet";
             this.TxtPersonalDiet.Padding = new System.Windows.Forms.Padding(1);
@@ -319,7 +319,7 @@
             // 
             this.TxtPersonalSleep.BackColor = System.Drawing.Color.White;
             this.TxtPersonalSleep.Location = new System.Drawing.Point(561, 236);
-            this.TxtPersonalSleep.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPersonalSleep.Margin = new System.Windows.Forms.Padding(4);
             this.TxtPersonalSleep.Multiline = false;
             this.TxtPersonalSleep.Name = "TxtPersonalSleep";
             this.TxtPersonalSleep.Padding = new System.Windows.Forms.Padding(1);
@@ -342,7 +342,7 @@
             // 
             this.TxtCigaretteSmoking.BackColor = System.Drawing.Color.White;
             this.TxtCigaretteSmoking.Location = new System.Drawing.Point(561, 276);
-            this.TxtCigaretteSmoking.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtCigaretteSmoking.Margin = new System.Windows.Forms.Padding(4);
             this.TxtCigaretteSmoking.Multiline = false;
             this.TxtCigaretteSmoking.Name = "TxtCigaretteSmoking";
             this.TxtCigaretteSmoking.Padding = new System.Windows.Forms.Padding(1);
@@ -365,7 +365,7 @@
             // 
             this.TxtAlcoholDrinking.BackColor = System.Drawing.Color.White;
             this.TxtAlcoholDrinking.Location = new System.Drawing.Point(561, 316);
-            this.TxtAlcoholDrinking.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtAlcoholDrinking.Margin = new System.Windows.Forms.Padding(4);
             this.TxtAlcoholDrinking.Multiline = false;
             this.TxtAlcoholDrinking.Name = "TxtAlcoholDrinking";
             this.TxtAlcoholDrinking.Padding = new System.Windows.Forms.Padding(1);
@@ -388,7 +388,7 @@
             // 
             this.TxtOtherCircumstances.BackColor = System.Drawing.Color.White;
             this.TxtOtherCircumstances.Location = new System.Drawing.Point(561, 356);
-            this.TxtOtherCircumstances.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtOtherCircumstances.Margin = new System.Windows.Forms.Padding(4);
             this.TxtOtherCircumstances.Multiline = false;
             this.TxtOtherCircumstances.Name = "TxtOtherCircumstances";
             this.TxtOtherCircumstances.Padding = new System.Windows.Forms.Padding(1);
@@ -411,7 +411,7 @@
             // 
             this.TxtPreviousHistory.BackColor = System.Drawing.Color.White;
             this.TxtPreviousHistory.Location = new System.Drawing.Point(561, 396);
-            this.TxtPreviousHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPreviousHistory.Margin = new System.Windows.Forms.Padding(4);
             this.TxtPreviousHistory.Multiline = false;
             this.TxtPreviousHistory.Name = "TxtPreviousHistory";
             this.TxtPreviousHistory.Padding = new System.Windows.Forms.Padding(1);
@@ -434,7 +434,7 @@
             // 
             this.TxtDrugAllergy.BackColor = System.Drawing.Color.White;
             this.TxtDrugAllergy.Location = new System.Drawing.Point(561, 436);
-            this.TxtDrugAllergy.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtDrugAllergy.Margin = new System.Windows.Forms.Padding(4);
             this.TxtDrugAllergy.Multiline = false;
             this.TxtDrugAllergy.Name = "TxtDrugAllergy";
             this.TxtDrugAllergy.Padding = new System.Windows.Forms.Padding(1);
@@ -457,7 +457,7 @@
             // 
             this.TxtReadingHistoryOfExposure.BackColor = System.Drawing.Color.White;
             this.TxtReadingHistoryOfExposure.Location = new System.Drawing.Point(561, 476);
-            this.TxtReadingHistoryOfExposure.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtReadingHistoryOfExposure.Margin = new System.Windows.Forms.Padding(4);
             this.TxtReadingHistoryOfExposure.Multiline = false;
             this.TxtReadingHistoryOfExposure.Name = "TxtReadingHistoryOfExposure";
             this.TxtReadingHistoryOfExposure.Padding = new System.Windows.Forms.Padding(1);
@@ -480,7 +480,7 @@
             // 
             this.TxtReservationId.BackColor = System.Drawing.Color.White;
             this.TxtReservationId.Location = new System.Drawing.Point(230, 88);
-            this.TxtReservationId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtReservationId.Margin = new System.Windows.Forms.Padding(4);
             this.TxtReservationId.Multiline = false;
             this.TxtReservationId.Name = "TxtReservationId";
             this.TxtReservationId.Padding = new System.Windows.Forms.Padding(1);
@@ -512,7 +512,7 @@
             // 
             this.TxtPhysicalExamination.BackColor = System.Drawing.Color.White;
             this.TxtPhysicalExamination.Location = new System.Drawing.Point(230, 128);
-            this.TxtPhysicalExamination.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtPhysicalExamination.Margin = new System.Windows.Forms.Padding(4);
             this.TxtPhysicalExamination.Multiline = false;
             this.TxtPhysicalExamination.Name = "TxtPhysicalExamination";
             this.TxtPhysicalExamination.Padding = new System.Windows.Forms.Padding(1);
@@ -544,7 +544,7 @@
             // 
             this.TxtName.BackColor = System.Drawing.Color.White;
             this.TxtName.Location = new System.Drawing.Point(230, 168);
-            this.TxtName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtName.Margin = new System.Windows.Forms.Padding(4);
             this.TxtName.Multiline = false;
             this.TxtName.Name = "TxtName";
             this.TxtName.Padding = new System.Windows.Forms.Padding(1);
@@ -576,7 +576,7 @@
             // 
             this.TxtNameOfRubyCode.BackColor = System.Drawing.Color.White;
             this.TxtNameOfRubyCode.Location = new System.Drawing.Point(230, 208);
-            this.TxtNameOfRubyCode.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNameOfRubyCode.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNameOfRubyCode.Multiline = false;
             this.TxtNameOfRubyCode.Name = "TxtNameOfRubyCode";
             this.TxtNameOfRubyCode.Padding = new System.Windows.Forms.Padding(1);
@@ -636,7 +636,7 @@
             // 
             this.TxtDateOfBirth.BackColor = System.Drawing.Color.White;
             this.TxtDateOfBirth.Location = new System.Drawing.Point(230, 288);
-            this.TxtDateOfBirth.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtDateOfBirth.Margin = new System.Windows.Forms.Padding(4);
             this.TxtDateOfBirth.Multiline = false;
             this.TxtDateOfBirth.Name = "TxtDateOfBirth";
             this.TxtDateOfBirth.Padding = new System.Windows.Forms.Padding(1);
@@ -659,7 +659,7 @@
             // 
             this.TxtIDCard.BackColor = System.Drawing.Color.White;
             this.TxtIDCard.Location = new System.Drawing.Point(230, 328);
-            this.TxtIDCard.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtIDCard.Margin = new System.Windows.Forms.Padding(4);
             this.TxtIDCard.Multiline = false;
             this.TxtIDCard.Name = "TxtIDCard";
             this.TxtIDCard.Padding = new System.Windows.Forms.Padding(1);
@@ -691,7 +691,7 @@
             // 
             this.TxtNationa.BackColor = System.Drawing.Color.White;
             this.TxtNationa.Location = new System.Drawing.Point(230, 368);
-            this.TxtNationa.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNationa.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNationa.Multiline = false;
             this.TxtNationa.Name = "TxtNationa";
             this.TxtNationa.Padding = new System.Windows.Forms.Padding(1);
@@ -714,7 +714,7 @@
             // 
             this.TxtThePoliticalLandscape.BackColor = System.Drawing.Color.White;
             this.TxtThePoliticalLandscape.Location = new System.Drawing.Point(230, 408);
-            this.TxtThePoliticalLandscape.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtThePoliticalLandscape.Margin = new System.Windows.Forms.Padding(4);
             this.TxtThePoliticalLandscape.Multiline = false;
             this.TxtThePoliticalLandscape.Name = "TxtThePoliticalLandscape";
             this.TxtThePoliticalLandscape.Padding = new System.Windows.Forms.Padding(1);
@@ -737,7 +737,7 @@
             // 
             this.TxtMaritalStatus.BackColor = System.Drawing.Color.White;
             this.TxtMaritalStatus.Location = new System.Drawing.Point(230, 448);
-            this.TxtMaritalStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtMaritalStatus.Margin = new System.Windows.Forms.Padding(4);
             this.TxtMaritalStatus.Multiline = false;
             this.TxtMaritalStatus.Name = "TxtMaritalStatus";
             this.TxtMaritalStatus.Padding = new System.Windows.Forms.Padding(1);
@@ -760,7 +760,7 @@
             // 
             this.TxtWhereHisherHousehold.BackColor = System.Drawing.Color.White;
             this.TxtWhereHisherHousehold.Location = new System.Drawing.Point(230, 488);
-            this.TxtWhereHisherHousehold.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtWhereHisherHousehold.Margin = new System.Windows.Forms.Padding(4);
             this.TxtWhereHisherHousehold.Multiline = false;
             this.TxtWhereHisherHousehold.Name = "TxtWhereHisherHousehold";
             this.TxtWhereHisherHousehold.Padding = new System.Windows.Forms.Padding(1);
@@ -783,7 +783,7 @@
             // 
             this.TxtCurrentResidentialAddress.BackColor = System.Drawing.Color.White;
             this.TxtCurrentResidentialAddress.Location = new System.Drawing.Point(230, 528);
-            this.TxtCurrentResidentialAddress.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtCurrentResidentialAddress.Margin = new System.Windows.Forms.Padding(4);
             this.TxtCurrentResidentialAddress.Multiline = false;
             this.TxtCurrentResidentialAddress.Name = "TxtCurrentResidentialAddress";
             this.TxtCurrentResidentialAddress.Padding = new System.Windows.Forms.Padding(1);
@@ -806,7 +806,7 @@
             // 
             this.TxtNativePlace.BackColor = System.Drawing.Color.White;
             this.TxtNativePlace.Location = new System.Drawing.Point(230, 568);
-            this.TxtNativePlace.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtNativePlace.Margin = new System.Windows.Forms.Padding(4);
             this.TxtNativePlace.Multiline = false;
             this.TxtNativePlace.Name = "TxtNativePlace";
             this.TxtNativePlace.Padding = new System.Windows.Forms.Padding(1);
@@ -829,7 +829,7 @@
             // 
             this.TxtContactPhone.BackColor = System.Drawing.Color.White;
             this.TxtContactPhone.Location = new System.Drawing.Point(230, 608);
-            this.TxtContactPhone.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtContactPhone.Margin = new System.Windows.Forms.Padding(4);
             this.TxtContactPhone.Multiline = false;
             this.TxtContactPhone.Name = "TxtContactPhone";
             this.TxtContactPhone.Padding = new System.Windows.Forms.Padding(1);
@@ -852,7 +852,7 @@
             // 
             this.TxtEducationLevel.BackColor = System.Drawing.Color.White;
             this.TxtEducationLevel.Location = new System.Drawing.Point(230, 648);
-            this.TxtEducationLevel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtEducationLevel.Margin = new System.Windows.Forms.Padding(4);
             this.TxtEducationLevel.Multiline = false;
             this.TxtEducationLevel.Name = "TxtEducationLevel";
             this.TxtEducationLevel.Padding = new System.Windows.Forms.Padding(1);
@@ -875,7 +875,7 @@
             // 
             this.TxtProfessional.BackColor = System.Drawing.Color.White;
             this.TxtProfessional.Location = new System.Drawing.Point(230, 688);
-            this.TxtProfessional.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtProfessional.Margin = new System.Windows.Forms.Padding(4);
             this.TxtProfessional.Multiline = false;
             this.TxtProfessional.Name = "TxtProfessional";
             this.TxtProfessional.Padding = new System.Windows.Forms.Padding(1);
@@ -898,7 +898,7 @@
             // 
             this.TxtCompanyId.BackColor = System.Drawing.Color.White;
             this.TxtCompanyId.Location = new System.Drawing.Point(230, 728);
-            this.TxtCompanyId.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtCompanyId.Margin = new System.Windows.Forms.Padding(4);
             this.TxtCompanyId.Multiline = false;
             this.TxtCompanyId.Name = "TxtCompanyId";
             this.TxtCompanyId.Padding = new System.Windows.Forms.Padding(1);
@@ -921,7 +921,7 @@
             // 
             this.TxtFamilyHistory.BackColor = System.Drawing.Color.White;
             this.TxtFamilyHistory.Location = new System.Drawing.Point(230, 768);
-            this.TxtFamilyHistory.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtFamilyHistory.Margin = new System.Windows.Forms.Padding(4);
             this.TxtFamilyHistory.Multiline = false;
             this.TxtFamilyHistory.Name = "TxtFamilyHistory";
             this.TxtFamilyHistory.Padding = new System.Windows.Forms.Padding(1);
@@ -944,7 +944,7 @@
             // 
             this.TxtBilling.BackColor = System.Drawing.Color.White;
             this.TxtBilling.Location = new System.Drawing.Point(230, 808);
-            this.TxtBilling.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtBilling.Margin = new System.Windows.Forms.Padding(4);
             this.TxtBilling.Multiline = false;
             this.TxtBilling.Name = "TxtBilling";
             this.TxtBilling.Padding = new System.Windows.Forms.Padding(1);
@@ -967,7 +967,7 @@
             // 
             this.TxtDateOfRegistration.BackColor = System.Drawing.Color.White;
             this.TxtDateOfRegistration.Location = new System.Drawing.Point(230, 848);
-            this.TxtDateOfRegistration.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtDateOfRegistration.Margin = new System.Windows.Forms.Padding(4);
             this.TxtDateOfRegistration.Multiline = false;
             this.TxtDateOfRegistration.Name = "TxtDateOfRegistration";
             this.TxtDateOfRegistration.Padding = new System.Windows.Forms.Padding(1);
@@ -1000,7 +1000,7 @@
             // 
             this.PicLogo.Image = global::SUJIALI.PEIS.Properties.Resources.LogoTmpPath;
             this.PicLogo.Location = new System.Drawing.Point(20, 20);
-            this.PicLogo.Margin = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.PicLogo.Margin = new System.Windows.Forms.Padding(20);
             this.PicLogo.Name = "PicLogo";
             this.PicLogo.Size = new System.Drawing.Size(100, 100);
             this.PicLogo.TabIndex = 0;
@@ -1054,7 +1054,7 @@
             this.BtnSave.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnSave.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(163)))), ((int)(((byte)(193)))));
             this.BtnSave.Location = new System.Drawing.Point(642, 12);
-            this.BtnSave.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSave.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSave.Name = "BtnSave";
             this.BtnSave.Padding = new System.Windows.Forms.Padding(1);
             this.BtnSave.Size = new System.Drawing.Size(82, 26);
@@ -1067,7 +1067,7 @@
             this.BtnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(163)))), ((int)(((byte)(193)))));
             this.BtnCancel.Location = new System.Drawing.Point(730, 12);
-            this.BtnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnCancel.Margin = new System.Windows.Forms.Padding(4);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Padding = new System.Windows.Forms.Padding(1);
             this.BtnCancel.Size = new System.Drawing.Size(82, 26);

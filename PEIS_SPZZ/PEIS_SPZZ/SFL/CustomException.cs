@@ -2,13 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace SUJIALI.PEIS.SFL
+namespace PEIS_SPZZ.SFL
 {
     /// <summary>
     /// 对象名称：系统自定义异常类
     /// 对象说明：继承自应用程序异常类，扩展了异常类型和详细信息属性。
-    /// 作者姓名：大喷嚏（BudStudio）
-    /// 编写日期：2010/04/10 20:03:18
     /// </summary>
     public class CustomException : ApplicationException
     {

@@ -37,6 +37,7 @@
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -47,20 +48,86 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLL\BJJY_BLL.cs" />
+    <Compile Include="BLL\GRBJ_BLL.cs" />
+    <Compile Include="BLL\GRMZYD_BLL.cs" />
+    <Compile Include="BLL\GRXYTZ_BLL.cs" />
+    <Compile Include="BLL\GRYYXXB_BLL.cs" />
+    <Compile Include="BLL\JJZN_BLL.cs" />
     <Compile Include="BLL\RYDJB_BLL.cs" />
+    <Compile Include="BLL\TJTC_BLL.cs" />
+    <Compile Include="BLL\TJXM_BLL.cs" />
+    <Compile Include="BLL\TJ_JCXMB_BLL.cs" />
+    <Compile Include="BLL\TJ_SFMXB_BLL.cs" />
+    <Compile Include="BLL\TJ_XXB_BLL.cs" />
+    <Compile Include="BLL\TJ_YHB_BLL.cs" />
+    <Compile Include="BLL\TJ_ZTB_BLL.cs" />
+    <Compile Include="BLL\TTDJB_BLL.cs" />
+    <Compile Include="BLL\YYKS_BLL.cs" />
+    <Compile Include="COL\BJJY.cs" />
+    <Compile Include="COL\GRBJ.cs" />
+    <Compile Include="COL\GRMZYD.cs" />
+    <Compile Include="COL\GRXYTZ.cs" />
+    <Compile Include="COL\GRYYXXB.cs" />
+    <Compile Include="COL\JJZN.cs" />
     <Compile Include="COL\Marriage.cs" />
     <Compile Include="COL\PageData.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="COL\RYDJB.cs" />
     <Compile Include="COL\Sex.cs" />
+    <Compile Include="COL\TJTC.cs" />
+    <Compile Include="COL\TJXM.cs" />
+    <Compile Include="COL\TJ_JCXMB.cs" />
+    <Compile Include="COL\TJ_SFMXB.cs" />
+    <Compile Include="COL\TJ_XXB.cs" />
+    <Compile Include="COL\TJ_YHB.cs" />
+    <Compile Include="COL\TJ_ZTB.cs" />
+    <Compile Include="COL\TTDJB.cs" />
+    <Compile Include="COL\YYKS.cs" />
+    <Compile Include="DAL\Common\BJJY_DAL.cs" />
+    <Compile Include="DAL\Common\GRBJ_DAL.cs" />
+    <Compile Include="DAL\Common\GRMZYD_DAL.cs" />
+    <Compile Include="DAL\Common\GRXYTZ_DAL.cs" />
+    <Compile Include="DAL\Common\GRYYXXB_DAL.cs" />
+    <Compile Include="DAL\Common\JJZN_DAL.cs" />
     <Compile Include="DAL\Common\RYDJB_DAL.cs" />
+    <Compile Include="DAL\Common\TJTC_DAL.cs" />
+    <Compile Include="DAL\Common\TJXM_DAL.cs" />
+    <Compile Include="DAL\Common\TJ_JCXMB_DAL.CS" />
+    <Compile Include="DAL\Common\TJ_SFMXB_DAL.cs" />
+    <Compile Include="DAL\Common\TJ_XXB_DAL.cs" />
+    <Compile Include="DAL\Common\TJ_YHB_DAL.cs" />
+    <Compile Include="DAL\Common\TJ_ZTB_DAL.cs" />
+    <Compile Include="DAL\Common\TTDJB_DAL.cs" />
+    <Compile Include="DAL\Common\YYKS_DAL.cs" />
+    <Compile Include="DAL\SqlServer\BJJY_DAL.cs" />
+    <Compile Include="DAL\SqlServer\GRBJ_DAL.cs" />
+    <Compile Include="DAL\SqlServer\GRMZYD_DAL.cs" />
+    <Compile Include="DAL\SqlServer\GRXYTZ_DAL.cs" />
+    <Compile Include="DAL\SqlServer\GRYYXXB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\JJZN_DAL.cs" />
     <Compile Include="DAL\SqlServer\RYDJB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJTC_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJXM_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJ_JCXMB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJ_SFMXB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJ_XXB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJ_YHB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TJ_ZTB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\TTDJB_DAL.cs" />
+    <Compile Include="DAL\SqlServer\YYKS_DAL.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SFL\CustomException.cs" />
-    <Compile Include="SFL\DataValid.cs" />
-    <Compile Include="SFL\SqlHelper.cs" />
+    <Compile Include="SFL\CustomException.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SFL\DataValid.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SFL\SqlHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="UIL\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,7 +163,157 @@
     <None Include="Resources\Image1.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="NewFolder2\" />
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnDelete02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnGO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnModify.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnModify02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnView.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BtnView02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBG01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBG02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CompanyLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DesignerLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FooterBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Input.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo22.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoTmpPath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MessageWarn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NavBarBG01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NavBarBG02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NavBtnBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NavBtnMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NavBtnTmpPath.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NotNull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PageFirst.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PageLast.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PageNext.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PagePrev.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ReadOnly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SideBarBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableHeaderBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TableRowBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TipError.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TipIE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TipInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TipScreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TipService.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TipWarn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleLine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleMain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleTmpPathCreate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleTmpPathDelete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleTmpPathList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TitleTmpPathModify.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

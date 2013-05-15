@@ -4,10 +4,23 @@ GraduationDesign
 ================
 资料往这里放
 ================
-任务：每个人根据自己的模块，分析业务流程，把基本表建立起来,查看数据设计里面的txt文件
-×××××××每个人根据自己的名字来命名新的文档来保存工作，以便我整合×××××××××
-================
-关于三层架构，能读懂我共享PEIS那个程序就行，运行PEIS要把数据库搭建起来，然后连接到自己搭建的数据库，可以在studio里面配置连接数据库参数，或者直接打开App.config，修改
+任务：基本框架几经搭建好，每个人根据自己的任务来写代码，
+苏嘉立：BJJY 保健建议  GRBJ个人保健 GRMZYD个人每周运动 GRXYTZ个人血
+压体制  JJZN 急救指南
+老苏：GRYYXXB 个人预约信息   RYDJB 人员登记
+老大：
+老哥：
 
-<!--SqlServer 连结字符串-->
-    <add key="SqlServerConnString" value="Data Source=gary;Initial Catalog=PhysicalExamination;User ID=sa;Password=123"/>
+TJ_JCXMB 检查项目
+TJ_SFMXB 检查收费明细表
+TJ_XXB  体检信息
+TJ_YHB   体检用户
+TJ_ZTB  体检状态
+TJTC  体检套餐
+TJXM  体检项目
+TTDJB  团体登记表
+YYKS 医院科室
+
+
+根据自己的负责模块，编写项目里头以上字母开头的BLL、COL、DAL 文件
+================

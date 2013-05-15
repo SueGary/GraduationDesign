@@ -61,20 +61,18 @@
             this.PnlScrollArea.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlScrollArea.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(102)))), ((int)(((byte)(102)))), ((int)(((byte)(102)))));
             this.PnlScrollArea.Location = new System.Drawing.Point(0, 0);
-            this.PnlScrollArea.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlScrollArea.Name = "PnlScrollArea";
-            this.PnlScrollArea.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.PnlScrollArea.Size = new System.Drawing.Size(1107, 688);
+            this.PnlScrollArea.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.PnlScrollArea.Size = new System.Drawing.Size(830, 550);
             this.PnlScrollArea.TabIndex = 4;
             // 
             // SpaceBottom
             // 
             this.SpaceBottom.BackColor = System.Drawing.Color.White;
             this.SpaceBottom.Dock = System.Windows.Forms.DockStyle.Top;
-            this.SpaceBottom.Location = new System.Drawing.Point(27, 400);
-            this.SpaceBottom.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SpaceBottom.Location = new System.Drawing.Point(20, 320);
             this.SpaceBottom.Name = "SpaceBottom";
-            this.SpaceBottom.Size = new System.Drawing.Size(1053, 25);
+            this.SpaceBottom.Size = new System.Drawing.Size(790, 20);
             this.SpaceBottom.TabIndex = 6;
             // 
             // PnlInfo
@@ -82,11 +80,10 @@
             this.PnlInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.PnlInfo.Controls.Add(this.PnlInfoBack);
             this.PnlInfo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PnlInfo.Location = new System.Drawing.Point(27, 25);
-            this.PnlInfo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlInfo.Location = new System.Drawing.Point(20, 20);
             this.PnlInfo.Name = "PnlInfo";
             this.PnlInfo.Padding = new System.Windows.Forms.Padding(1);
-            this.PnlInfo.Size = new System.Drawing.Size(1053, 375);
+            this.PnlInfo.Size = new System.Drawing.Size(790, 300);
             this.PnlInfo.TabIndex = 0;
             // 
             // PnlInfoBack
@@ -97,9 +94,8 @@
             this.PnlInfoBack.Controls.Add(this.PnlInfoTitle);
             this.PnlInfoBack.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlInfoBack.Location = new System.Drawing.Point(1, 1);
-            this.PnlInfoBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlInfoBack.Name = "PnlInfoBack";
-            this.PnlInfoBack.Size = new System.Drawing.Size(1051, 373);
+            this.PnlInfoBack.Size = new System.Drawing.Size(788, 298);
             this.PnlInfoBack.TabIndex = 2;
             // 
             // PnlControlArea
@@ -112,22 +108,21 @@
             this.PnlControlArea.Controls.Add(this.PicTitle);
             this.PnlControlArea.Controls.Add(this.PicLogo);
             this.PnlControlArea.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PnlControlArea.Location = new System.Drawing.Point(0, 32);
-            this.PnlControlArea.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlControlArea.Location = new System.Drawing.Point(0, 26);
             this.PnlControlArea.Name = "PnlControlArea";
-            this.PnlControlArea.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.PnlControlArea.Size = new System.Drawing.Size(1051, 341);
+            this.PnlControlArea.Padding = new System.Windows.Forms.Padding(20, 20, 20, 20);
+            this.PnlControlArea.Size = new System.Drawing.Size(788, 272);
             this.PnlControlArea.TabIndex = 4;
             // 
             // BtnDelete
             // 
             this.BtnDelete.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnDelete.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(163)))), ((int)(((byte)(193)))));
-            this.BtnDelete.Location = new System.Drawing.Point(793, 280);
-            this.BtnDelete.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.BtnDelete.Location = new System.Drawing.Point(595, 223);
+            this.BtnDelete.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnDelete.Name = "BtnDelete";
             this.BtnDelete.Padding = new System.Windows.Forms.Padding(1);
-            this.BtnDelete.Size = new System.Drawing.Size(109, 26);
+            this.BtnDelete.Size = new System.Drawing.Size(82, 26);
             this.BtnDelete.TabIndex = 5;
             this.BtnDelete.Text = "删除";
             this.BtnDelete.Click += new System.EventHandler(this.BtnDelete_Click);
@@ -136,21 +131,21 @@
             // 
             this.BtnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.BtnCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(135)))), ((int)(((byte)(163)))), ((int)(((byte)(193)))));
-            this.BtnCancel.Location = new System.Drawing.Point(911, 280);
-            this.BtnCancel.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.BtnCancel.Location = new System.Drawing.Point(683, 223);
+            this.BtnCancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnCancel.Name = "BtnCancel";
             this.BtnCancel.Padding = new System.Windows.Forms.Padding(1);
-            this.BtnCancel.Size = new System.Drawing.Size(109, 26);
+            this.BtnCancel.Size = new System.Drawing.Size(82, 26);
             this.BtnCancel.TabIndex = 4;
             this.BtnCancel.Text = "取消";
             this.BtnCancel.Click += new System.EventHandler(this.BtnCancel_Click);
             // 
             // LblModuleMemo
             // 
-            this.LblModuleMemo.Location = new System.Drawing.Point(187, 138);
+            this.LblModuleMemo.Location = new System.Drawing.Point(140, 110);
             this.LblModuleMemo.Margin = new System.Windows.Forms.Padding(0);
             this.LblModuleMemo.Name = "LblModuleMemo";
-            this.LblModuleMemo.Size = new System.Drawing.Size(820, 50);
+            this.LblModuleMemo.Size = new System.Drawing.Size(615, 40);
             this.LblModuleMemo.TabIndex = 3;
             this.LblModuleMemo.Text = "“个人信息”删除之后不可以恢复，真的要删除该信息吗？";
             this.LblModuleMemo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -158,30 +153,30 @@
             // PicTitleLine
             // 
             this.PicTitleLine.Image = global::SUJIALI.PEIS.Properties.Resources.TitleLine;
-            this.PicTitleLine.Location = new System.Drawing.Point(187, 75);
+            this.PicTitleLine.Location = new System.Drawing.Point(140, 60);
             this.PicTitleLine.Margin = new System.Windows.Forms.Padding(0);
             this.PicTitleLine.Name = "PicTitleLine";
-            this.PicTitleLine.Size = new System.Drawing.Size(467, 25);
+            this.PicTitleLine.Size = new System.Drawing.Size(350, 20);
             this.PicTitleLine.TabIndex = 2;
             this.PicTitleLine.TabStop = false;
             // 
             // PicTitle
             // 
             this.PicTitle.Image = global::SUJIALI.PEIS.Properties.Resources.TitleTmpPathDelete;
-            this.PicTitle.Location = new System.Drawing.Point(187, 25);
+            this.PicTitle.Location = new System.Drawing.Point(140, 20);
             this.PicTitle.Margin = new System.Windows.Forms.Padding(0);
             this.PicTitle.Name = "PicTitle";
-            this.PicTitle.Size = new System.Drawing.Size(467, 50);
+            this.PicTitle.Size = new System.Drawing.Size(350, 40);
             this.PicTitle.TabIndex = 1;
             this.PicTitle.TabStop = false;
             // 
             // PicLogo
             // 
             this.PicLogo.Image = global::SUJIALI.PEIS.Properties.Resources.Delete;
-            this.PicLogo.Location = new System.Drawing.Point(27, 25);
-            this.PicLogo.Margin = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.PicLogo.Location = new System.Drawing.Point(20, 20);
+            this.PicLogo.Margin = new System.Windows.Forms.Padding(20, 20, 20, 20);
             this.PicLogo.Name = "PicLogo";
-            this.PicLogo.Size = new System.Drawing.Size(133, 125);
+            this.PicLogo.Size = new System.Drawing.Size(100, 100);
             this.PicLogo.TabIndex = 0;
             this.PicLogo.TabStop = false;
             // 
@@ -189,10 +184,9 @@
             // 
             this.PnlInfoTopLine.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
             this.PnlInfoTopLine.Dock = System.Windows.Forms.DockStyle.Top;
-            this.PnlInfoTopLine.Location = new System.Drawing.Point(0, 31);
-            this.PnlInfoTopLine.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlInfoTopLine.Location = new System.Drawing.Point(0, 25);
             this.PnlInfoTopLine.Name = "PnlInfoTopLine";
-            this.PnlInfoTopLine.Size = new System.Drawing.Size(1051, 1);
+            this.PnlInfoTopLine.Size = new System.Drawing.Size(788, 1);
             this.PnlInfoTopLine.TabIndex = 3;
             // 
             // PnlInfoTitle
@@ -202,9 +196,8 @@
             this.PnlInfoTitle.Controls.Add(this.LblModuleTitle);
             this.PnlInfoTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.PnlInfoTitle.Location = new System.Drawing.Point(0, 0);
-            this.PnlInfoTitle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.PnlInfoTitle.Name = "PnlInfoTitle";
-            this.PnlInfoTitle.Size = new System.Drawing.Size(1051, 31);
+            this.PnlInfoTitle.Size = new System.Drawing.Size(788, 25);
             this.PnlInfoTitle.TabIndex = 2;
             // 
             // LblModuleTitle
@@ -212,10 +205,9 @@
             this.LblModuleTitle.BackColor = System.Drawing.Color.Transparent;
             this.LblModuleTitle.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.LblModuleTitle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.LblModuleTitle.Location = new System.Drawing.Point(7, 1);
-            this.LblModuleTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LblModuleTitle.Location = new System.Drawing.Point(5, 1);
             this.LblModuleTitle.Name = "LblModuleTitle";
-            this.LblModuleTitle.Size = new System.Drawing.Size(400, 29);
+            this.LblModuleTitle.Size = new System.Drawing.Size(300, 23);
             this.LblModuleTitle.TabIndex = 1;
             this.LblModuleTitle.Text = "空白模块";
             this.LblModuleTitle.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -224,22 +216,20 @@
             // 
             this.PnlFooter.BackgroundImage = global::SUJIALI.PEIS.Properties.Resources.FooterBG;
             this.PnlFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.PnlFooter.Location = new System.Drawing.Point(0, 688);
-            this.PnlFooter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.PnlFooter.Location = new System.Drawing.Point(0, 550);
             this.PnlFooter.Name = "PnlFooter";
-            this.PnlFooter.Size = new System.Drawing.Size(1107, 62);
+            this.PnlFooter.Size = new System.Drawing.Size(830, 50);
             this.PnlFooter.TabIndex = 3;
             // 
             // Delete
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.PnlScrollArea);
             this.Controls.Add(this.PnlFooter);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Delete";
-            this.Size = new System.Drawing.Size(1107, 750);
+            this.Size = new System.Drawing.Size(830, 600);
             this.PnlScrollArea.ResumeLayout(false);
             this.PnlInfo.ResumeLayout(false);
             this.PnlInfoBack.ResumeLayout(false);

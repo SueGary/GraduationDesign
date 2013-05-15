@@ -25,8 +25,7 @@ namespace PEIS_SPZZ.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=PENGHAORAN-PC\\MYDATABASE;Initial Catalog=PhysicalExamination;Integrat" +
-            "ed Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=。;Initial Catalog=tj_db;Integrated Security=True")]
         public string Setting {
             get {
                 return ((string)(this["Setting"]));
