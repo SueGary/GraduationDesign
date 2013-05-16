@@ -19,5 +19,48 @@ namespace PEIS_SPZZ.BLL
     /// </summary>
    public class GRMZYD_BLL
     {
+       internal static DAL.Common.GRMZYD_DAL DataAccess
+       {
+           get {
+
+               return DAL.Common.GRMZYD_DAL.Instance;      
+           }
+       }
+       public static void CheckValid(GRMZYD gRMZYD)
+       { 
+       
+       
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
