@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="tj_dbModel" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2008/09/edm">
+  <EntityContainer Name="tj_dbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BJJies" EntityType="tj_dbModel.BJJY" />
+    <EntitySet Name="BJJYMXes" EntityType="tj_dbModel.BJJYMX" />
+    <EntitySet Name="GRBJs" EntityType="tj_dbModel.GRBJ" />
+    <EntitySet Name="GRMZYDs" EntityType="tj_dbModel.GRMZYD" />
+    <EntitySet Name="GRXYTZs" EntityType="tj_dbModel.GRXYTZ" />
+    <EntitySet Name="SSMS" EntityType="tj_dbModel.SSM" />
+    <EntitySet Name="TJ_GRYYXXB" EntityType="tj_dbModel.TJ_GRYYXXB" />
+    <EntitySet Name="TJ_JCXMB" EntityType="tj_dbModel.TJ_JCXMB" />
+    <EntitySet Name="TJ_RYDJB" EntityType="tj_dbModel.TJ_RYDJB" />
+    <EntitySet Name="TJ_SFMXB" EntityType="tj_dbModel.TJ_SFMXB" />
+    <EntitySet Name="TJ_TTDJB" EntityType="tj_dbModel.TJ_TTDJB" />
+    <EntitySet Name="TJ_TTYYXXB" EntityType="tj_dbModel.TJ_TTYYXXB" />
+    <EntitySet Name="TJ_XXB" EntityType="tj_dbModel.TJ_XXB" />
+    <EntitySet Name="TJ_YHB" EntityType="tj_dbModel.TJ_YHB" />
+    <EntitySet Name="TJ_ZTB" EntityType="tj_dbModel.TJ_ZTB" />
+    <EntitySet Name="TJTCs" EntityType="tj_dbModel.TJTC" />
+    <EntitySet Name="TJTCMXes" EntityType="tj_dbModel.TJTCMX" />
+    <EntitySet Name="TJXMs" EntityType="tj_dbModel.TJXM" />
+    <EntitySet Name="YDCS" EntityType="tj_dbModel.YDC" />
+    <EntitySet Name="yyks" EntityType="tj_dbModel.yyk" />
+  </EntityContainer>
+  <EntityType Name="BJJY">
+    <Key>
+      <PropertyRef Name="MSID" />
+    </Key>
+    <Property Name="MSID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJMS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="BJJYMX">
+    <Key>
+      <PropertyRef Name="MXID" />
+    </Key>
+    <Property Name="MXID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MSID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="JYMS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="ZZ" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="LY" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="GRBJ">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJRYID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MXID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="GRMZYD">
+    <Key>
+      <PropertyRef Name="YDID" />
+    </Key>
+    <Property Name="YDID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJRYID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="SJ" Type="DateTime" />
+    <Property Name="JHYD" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="LSQK" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="GRXYTZ">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJRYID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="SSY" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="SZY" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TZ" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="XL" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="RQSJ" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="SSM">
+    <Key>
+      <PropertyRef Name="SSID" />
+    </Key>
+    <Property Name="SSID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="SSMS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TJ_GRYYXXB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJRYID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJXM" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SEX" Type="Int32" Nullable="false" />
+    <Property Name="LXDH" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TCXMBH" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="YYSJ" Type="DateTime" Nullable="false" />
+    <Property Name="TJSJ" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="TJ_JCXMB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="XMBH" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="XMMC" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ZHXMBH" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="PYM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="DW" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="CKXX" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="CKSX" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="ZCZ" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SFXY" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TJ_RYDJB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJRYID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="CARDNO" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJXM" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJXMPYM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="SEX" Type="Int32" Nullable="false" />
+    <Property Name="BIRTHDAY" Type="DateTime" Nullable="false" />
+    <Property Name="NL" Type="Int32" Nullable="false" />
+    <Property Name="SFZH" Type="String" Nullable="false" MaxLength="50" Unicode="true" FixedLength="false" />
+    <Property Name="DWBH" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MZ" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="HYZK" Type="Int32" />
+    <Property Name="XJZDZ" Type="String" MaxLength="100" Unicode="true" FixedLength="false" />
+    <Property Name="JG" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="LXDH" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="WHCD" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ZY" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TJ_SFMXB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="XTTBM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TCBH" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TCMC" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="DLID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="DLMC" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJSFID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJSFMC" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="FYLB" Type="Int32" />
+    <Property Name="TCZJE" Type="Int32" />
+    <Property Name="JLZT" Type="Int32" />
+    <Property Name="JFZT" Type="Int32" />
+    <Property Name="TJBZ" Type="Int32" />
+    <Property Name="YSDM" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TJ_TTDJB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TTBM" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TTMC" Type="String" Nullable="false" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="DZ" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="TTXZID" Type="Int32" Nullable="false" />
+    <Property Name="LXDH" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="YDDH" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="LXR" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="FRDB" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="DZYX" Type="String" MaxLength="30" Unicode="true" FixedLength="false" />
+    <Property Name="DJRQ" Type="DateTime" Nullable="false" />
+    <Property Name="JZRQ" Type="DateTime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TJ_TTYYXXB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="YYR" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="YYTT" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="YYSJ" Type="DateTime" Nullable="false" />
+    <Property Name="THRS" Type="Int32" Nullable="false" />
+    <Property Name="LXR" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="LXDH" Type="String" Nullable="false" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="CZYBM" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJSJ" Type="DateTime" />
+  </EntityType>
+  <EntityType Name="TJ_XXB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJRYID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="YYBH" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJBH" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJJL" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="BJCF" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="YSDM" Type="Int32" />
+    <Property Name="PGSJ" Type="DateTime" />
+    <Property Name="SHYS" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="SHSJ" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="JLZT" Type="Int32" />
+    <Property Name="DYBZ" Type="Int32" />
+    <Property Name="SDZT" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TJ_YHB">
+    <Key>
+      <PropertyRef Name="YHID" />
+    </Key>
+    <Property Name="YHID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="YHXM" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="YHM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="MM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJKS" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="KSBM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="YHQX" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="QXBM" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TJ_ZTB">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TJRYBH" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="DQZT" Type="Int32" />
+    <Property Name="TJXM" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SEX" Type="Int32" />
+    <Property Name="NL" Type="Int32" />
+    <Property Name="SFJF" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="FFFS" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="DJSJ" Type="DateTime" />
+    <Property Name="TCXZSJ" Type="DateTime" />
+    <Property Name="QRSJ" Type="DateTime" />
+    <Property Name="FJSJ" Type="DateTime" />
+    <Property Name="ZJSJ" Type="DateTime" />
+    <Property Name="TTBM" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="ZJYS" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TCMC" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="SFDYBG" Type="Int32" />
+    <Property Name="SFTC" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TJTC">
+    <Key>
+      <PropertyRef Name="TJ_TCID" />
+    </Key>
+    <Property Name="TJ_TCID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_TCMC" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_XBXZ" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TJTCMX">
+    <Key>
+      <PropertyRef Name="TJ_TCID" />
+    </Key>
+    <Property Name="TJ_TCID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_TCXMID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_TCZK" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_TCFY" Type="Int32" />
+    <Property Name="TJ_TCMS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="TJXM">
+    <Key>
+      <PropertyRef Name="TJ_XMID" />
+    </Key>
+    <Property Name="TJ_XMID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_XMMC" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="YDC">
+    <Key>
+      <PropertyRef Name="CDID" />
+    </Key>
+    <Property Name="CDID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="SSID" Type="String" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="CDMS" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+  </EntityType>
+  <EntityType Name="yyk">
+    <Key>
+      <PropertyRef Name="TJ_KSID" />
+    </Key>
+    <Property Name="TJ_KSID" Type="String" Nullable="false" MaxLength="10" Unicode="true" FixedLength="false" />
+    <Property Name="TJ_KSMC" Type="String" MaxLength="20" Unicode="true" FixedLength="false" />
+  </EntityType>
+</Schema>

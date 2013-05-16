@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using PEIS_SPZZ.COL;
 using PEIS_SPZZ.DAL;
 using PEIS_SPZZ.SFL;
-
+using PEIS_SPZZ.COL;
 
 
 namespace PEIS_SPZZ.BLL
@@ -22,14 +21,14 @@ namespace PEIS_SPZZ.BLL
        internal static DAL.Common.GRMZYD_DAL DataAccess
        {
            get {
-
+              
                return DAL.Common.GRMZYD_DAL.Instance;      
            }
        }
-       public static void CheckValid(GRMZYD gRMZYD)
-       { 
-       
-       
+       public static void CheckValid(GRMZYD  gRMZYD)
+       {
+           #region 检查各属性是否符合空值约束
+         
        }
 
 
