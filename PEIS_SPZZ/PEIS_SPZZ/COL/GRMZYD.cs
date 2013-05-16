@@ -1,5 +1,4 @@
 ﻿using System;
-using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,7 +11,7 @@ namespace PEIS_SPZZ.COL
     /// 作者姓名：苏嘉立
     /// 编写日期：2013-5-5 14:41:27
     /// </summary>
-    //[Serializable]
+    [Serializable]
     public class GRMZYD
     {
         /// <summary>
