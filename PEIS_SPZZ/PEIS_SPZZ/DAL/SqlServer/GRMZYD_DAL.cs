@@ -26,12 +26,12 @@ namespace PEIS_SPZZ.DAL.SqlServer
         public override int Insert(GRMZYD gRMZYD)
         {
             string sqlText = "INSERT INTO [GRMZYD]"
-                           + "([YDID],[TJRYID],[SJ],[JHYD],[LSQK])"
+                           + "([TJRYID],[SJ],[JHYD],[LSQK])"
                            + "VALUES"
-                           + "(@ydid,@tjryid,@sj,@jhyd,@lsqk)";
+                           + "(@tjryid,@sj,@jhyd,@lsqk)";
             SqlParameter[] parameters =
             {
-                new SqlParameter("@ydid",System.Data.SqlDbType.NVarChar,10){Value=gRMZYD.YdId},
+            //    new SqlParameter("@ydid",System.Data.SqlDbType.NVarChar,10){Value=gRMZYD.YdId},
                 new SqlParameter("@tjryid",System.Data.SqlDbType.NVarChar,10){Value=gRMZYD.TjryId},
                 new SqlParameter("@sj",System.Data.SqlDbType.NVarChar,10){Value=gRMZYD.Sj},
                 new SqlParameter("@jhyd",System.Data.SqlDbType.Text){Value=gRMZYD.Jhyd},

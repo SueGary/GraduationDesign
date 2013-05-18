@@ -34,5 +34,25 @@ namespace PEIS_SPZZ.Properties {
                 this["Setting"] = value;
             }
         }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute(".;Initial Catalog=PhysicalExamination;Integrated Security=True")]
+        public string PhysicalExaminationConnectionString {
+            get {
+                return ((string)(this["PhysicalExaminationConnectionString"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=.;Initial Catalog=tj_db;User ID=sa;Password=123")]
+        public string tj_dbConnectionString {
+            get {
+                return ((string)(this["tj_dbConnectionString"]));
+            }
+        }
     }
 }

@@ -27,13 +27,27 @@ namespace PEIS_SPZZ.BLL
            }
        }
        public static void CheckValid(GRMZYD gRMZYD)
-       { 
-       
-       
+       {
+           #region 检查各属性是否符合空值约束
+           if(DataValid.IsNull(gRMZYD.Jhyd))
+               throw new CustomException("“计划运动”不能为空，请您确认输入是否正确。");
+      //     if (DataValid.IsNull())
+            //   throw new CustomException("“计划运动”不能为空，请您确认输入是否正确。");
+           #endregion
+
+
+
        }
 
-
-
+       /// <summary>
+       /// 添加运动计划
+       /// </summary>
+       /// <param name="gRMZYD">个人每周运动（GRMZYD）实例对象</param>
+       /// <returns></returns>
+       public static int Insert(GRMZYD gRMZYD)
+       {
+           return DataAccess.Insert(gRMZYD);
+       }
 
 
 

@@ -34,10 +34,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.Services" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -128,11 +131,46 @@
     <Compile Include="SFL\SqlHelper.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="tj_dbDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>tj_dbDataSet.xsd</DependentUpon>
+    </Compile>
     <Compile Include="UIL\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="UIL\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\Main\hosMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\Main\hosMain.Designer.cs">
+      <DependentUpon>hosMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\Main\peoMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\Main\peoMain.Designer.cs">
+      <DependentUpon>peoMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\Reporter\reporter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\Reporter\reporter.Designer.cs">
+      <DependentUpon>reporter.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -147,6 +185,23 @@
     <EmbeddedResource Include="UIL\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UIL\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\Main\hosMain.resx">
+      <DependentUpon>hosMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\Main\peoMain.resx">
+      <DependentUpon>peoMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\Reporter\Report1.rdlc" />
+    <EmbeddedResource Include="UIL\Reporter\Report2.rdlc" />
+    <EmbeddedResource Include="UIL\Reporter\reporter.resx">
+      <DependentUpon>reporter.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
@@ -158,6 +213,17 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="tj_dbDataSet.xsc">
+      <DependentUpon>tj_dbDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="tj_dbDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>tj_dbDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="tj_dbDataSet.xss">
+      <DependentUpon>tj_dbDataSet.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Image1.png" />
@@ -315,6 +381,7 @@
   <ItemGroup>
     <None Include="Resources\TitleTmpPathModify.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

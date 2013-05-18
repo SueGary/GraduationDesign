@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
@@ -57,10 +56,11 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::PEIS_SPZZ.Properties.Resources.MessageWarn;
+            this.pictureBox2.Image = global::PEIS_SPZZ.Properties.Resources.MessageInfo;
             this.pictureBox2.Location = new System.Drawing.Point(107, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(339, 50);
@@ -69,7 +69,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Image = global::PEIS_SPZZ.Properties.Resources.TipInfo;
             this.pictureBox1.Location = new System.Drawing.Point(0, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(101, 99);
@@ -93,6 +93,7 @@
             this.label2.Size = new System.Drawing.Size(41, 12);
             this.label2.TabIndex = 5;
             this.label2.Text = "label2";
+            this.label2.Visible = false;
             // 
             // Form1
             // 

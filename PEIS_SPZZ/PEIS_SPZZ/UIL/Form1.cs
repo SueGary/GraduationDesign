@@ -13,6 +13,7 @@ namespace PEIS_SPZZ.UIL
 {
     public partial class Form1 : Form
     {
+        private static Size detailModeSize = new Size(700, 350);
         private static Form1 instance;
         /// <summary>
         /// 返回该窗体的唯一实例。如果之前该窗体没有被创建，进行创建并返回该窗体的唯一实例。
@@ -24,7 +25,7 @@ namespace PEIS_SPZZ.UIL
             {
                 if (instance == null)
                 {
-                    instance = new Form1();
+                    instance = new Form1();              
                 }
                 return instance;
             }
@@ -35,7 +36,10 @@ namespace PEIS_SPZZ.UIL
           //  this.label1.Text = a;
            // this.label2.Text = b;
         }
-
+        /// <summary>
+        /// 根据异常信息，给用户提示异常描述
+        /// </summary>
+        /// <param name="exception"></param>
         public static void ShowException(Exception exception)
         {
             Form1 formSysMessage = new Form1();
@@ -62,7 +66,32 @@ namespace PEIS_SPZZ.UIL
                         break;
 
                 }
+                // 判断是否需要显示异常的详细信息，如具体异常原因，执行的SQL语句等。可由App.Config配置。
+                if (System.Configuration.ConfigurationManager.AppSettings["ShowExceptionDetail"] == "true")
+                {
+                    if (!string.IsNullOrEmpty(customException.DetailMessage))
+                    {
+                        formSysMessage.label2.Visible = true;
+                        formSysMessage.label2.Text = customException.DetailMessage;
+                        formSysMessage.Size = detailModeSize;
+                    }
+
             }
+       
+            }
+            formSysMessage.ShowDialog();
+        }
+        /// <summary>
+        /// 无异常，提示操作成功
+        /// </summary>
+        /// <param name="message">描述内容</param>
+        public static void ShowSuccess(string message)
+        {
+            Form1 formSysMessage = new Form1();
+            formSysMessage.label1.Text = message; ;
+            formSysMessage.ShowDialog();
+        
+        
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -74,6 +103,12 @@ namespace PEIS_SPZZ.UIL
         {
             
            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+            this.Close();
         }
     }
 }
