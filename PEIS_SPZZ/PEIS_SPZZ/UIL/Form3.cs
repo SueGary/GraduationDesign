@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 using System.Diagnostics;
+using PEIS_SPZZ.SFL;
 
 namespace PEIS_SPZZ.UIL
 {
@@ -44,6 +45,8 @@ namespace PEIS_SPZZ.UIL
 
         private void button1_Click(object sender, EventArgs e)
         {
+           // Method.StringToDatetime(textBox1.Text);
+            Debug.Write(Method.StringToDatetime(textBox1.Text));
             //Form2 tes = new Form2();
            // tes.Id = "09207106541";
            // tes.ShowDialog();
@@ -51,10 +54,10 @@ namespace PEIS_SPZZ.UIL
             //GenerateId();
             DateTime test=DateTime.Now;
            // Label test1 = new Label();
-           this.label1.Text = string.Format("{0:这是数字yyyyMMddHHmmss}",test);
-        test.s
+           // this.label1.Text = Method.CreateLiuShuiId().ToString();
+            //  test.s
            // test1.Show();
-            Debug.Write(GenerateId1()+"\n");
+          //  Debug.Write(GenerateId1()+"\n");
         }
     }
 }
