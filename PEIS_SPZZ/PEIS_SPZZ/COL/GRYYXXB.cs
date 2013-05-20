@@ -45,13 +45,54 @@ namespace PEIS_SPZZ.COL
        /// [变量] 体检时间
        /// </summary>
        private string tjsj;
-
-       //public int Id { }
-       //public string Tjryid { }
-       //public string Sex { }
-       //public string Lxdh { }
-       //public string Tcxmbh { }
-       //public string Yysj { }
-       //public string
+       /// <summary>
+       /// [属性]标识每一条预约记录
+       /// </summary>
+       public int Id {
+           get { return id; }
+           set { id = value;}
+       }
+       /// <summary>
+       /// [属性]个人体检ID
+       /// </summary>
+       public string Tjryid {
+           get { return tjryid; }
+           set { tjryid = value; }
+       }
+       /// <summary>
+       /// [属性]性别
+       /// </summary>
+       public int Sex {
+           get { return sex; }
+           set { sex = value; }
+       }
+       /// <summary>
+       /// [属性]联系电话
+       /// </summary>
+       public string Lxdh {
+           get { return lxdh; }
+           set { lxdh = value; }
+       }
+       /// <summary>
+       /// [属性]套餐项目编号
+       /// </summary>
+       public string Tcxmbh {
+           get { return tcxmbh; }
+           set { tcxmbh = value; }
+       }
+       /// <summary>
+       /// [属性]预约时间
+       /// </summary>
+       public string Yysj {
+           get { return yysj; }
+           set { yysj = value; }
+       }
+       /// <summary>
+       /// [属性]体检时间
+       /// </summary>
+       public string Tjsj {
+           get { return tjsj; }
+           set { tjsj = value; }
+       }
     }
 }
