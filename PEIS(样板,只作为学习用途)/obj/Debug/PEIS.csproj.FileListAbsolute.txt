@@ -52,3 +52,6 @@ E:\GraduationDesign\PEIS(样板)\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Modify.resou
 E:\GraduationDesign\PEIS(样板)\obj\Debug\SUJIALI.PEIS.UIL.UserControls.NavBar.resources
 E:\GraduationDesign\PEIS(样板)\obj\Debug\ResGen.read.1.tlog
 E:\GraduationDesign\PEIS(样板)\obj\Debug\ResGen.write.1.tlog
+E:\GraduationDesign\PEIS(样板,只作为学习用途)\bin\PEIS.exe.config
+E:\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\PEIS.exe
+E:\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\PEIS.pdb

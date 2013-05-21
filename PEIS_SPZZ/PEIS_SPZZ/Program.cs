@@ -5,6 +5,7 @@ using System.Windows.Forms;
 using PEIS_SPZZ.UIL;
 using System.Threading;
 using PEIS_SPZZ.UIL.Main;
+using PEIS_SPZZ.UIL.login;
 
 namespace PEIS_SPZZ
 {
@@ -22,7 +23,7 @@ namespace PEIS_SPZZ
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form3());
+            Application.Run(new login());
 
          
         }

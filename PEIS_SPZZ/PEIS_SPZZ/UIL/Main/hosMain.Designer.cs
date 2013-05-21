@@ -78,14 +78,14 @@
             // 个人预约ToolStripMenuItem
             // 
             this.个人预约ToolStripMenuItem.Name = "个人预约ToolStripMenuItem";
-            this.个人预约ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.个人预约ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.个人预约ToolStripMenuItem.Text = "个人预约";
             this.个人预约ToolStripMenuItem.Click += new System.EventHandler(this.个人预约ToolStripMenuItem_Click);
             // 
             // 单位预约ToolStripMenuItem
             // 
             this.单位预约ToolStripMenuItem.Name = "单位预约ToolStripMenuItem";
-            this.单位预约ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.单位预约ToolStripMenuItem.Size = new System.Drawing.Size(124, 22);
             this.单位预约ToolStripMenuItem.Text = "单位预约";
             // 
             // 体检登记ToolStripMenuItem
@@ -190,6 +190,8 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "hosMain";
             this.Text = "Main";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.hosMain_FormClosed);
+            this.Load += new System.EventHandler(this.hosMain_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

@@ -20,5 +20,15 @@ namespace PEIS_SPZZ.UIL.Main
         {
             Form1 test = Form1.Instance;
         }
+
+        private void hosMain_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            this.Owner.Dispose();
+        }
+
+        private void hosMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

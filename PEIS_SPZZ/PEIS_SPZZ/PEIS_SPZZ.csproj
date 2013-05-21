@@ -155,6 +155,12 @@
     <Compile Include="UIL\Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\login\login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\login\login.Designer.cs">
+      <DependentUpon>login.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIL\Main\hosMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -191,6 +197,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UIL\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\login\login.resx">
+      <DependentUpon>login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIL\Main\hosMain.resx">
       <DependentUpon>hosMain.cs</DependentUpon>
