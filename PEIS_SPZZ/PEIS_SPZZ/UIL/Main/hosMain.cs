@@ -23,7 +23,7 @@ namespace PEIS_SPZZ.UIL.Main
 
         private void hosMain_FormClosed(object sender, FormClosedEventArgs e)
         {
-            this.Owner.Dispose();
+            this.Owner.Show();
         }
 
         private void hosMain_Load(object sender, EventArgs e)
