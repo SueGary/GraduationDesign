@@ -49,6 +49,9 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="ZedGraph">
+      <HintPath>..\codefans.net\ZedGraph.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLL\BJJY_BLL.cs" />
@@ -155,6 +158,12 @@
     <Compile Include="UIL\Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\GraphForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\GraphForm.Designer.cs">
+      <DependentUpon>GraphForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIL\login\login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -197,6 +206,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UIL\Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\GraphForm.resx">
+      <DependentUpon>GraphForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIL\login\login.resx">
       <DependentUpon>login.cs</DependentUpon>

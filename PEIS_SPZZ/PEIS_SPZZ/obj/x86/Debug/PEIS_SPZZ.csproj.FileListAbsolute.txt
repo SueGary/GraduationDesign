@@ -19,3 +19,5 @@ E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Reporter.rep
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.cache
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.login.login.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.GraphForm.resources
