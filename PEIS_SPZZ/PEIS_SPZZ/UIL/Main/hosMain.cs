@@ -30,5 +30,10 @@ namespace PEIS_SPZZ.UIL.Main
         {
 
         }
+
+        private void 基本资料设置ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
