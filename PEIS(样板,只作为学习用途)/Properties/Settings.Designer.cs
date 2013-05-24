@@ -22,7 +22,15 @@ namespace SUJIALI.PEIS.Properties {
                 return defaultInstance;
             }
         }
-
-        public string PhysicalExaminationConnectionString { get; set; }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
+        [global::System.Configuration.DefaultSettingValueAttribute(".;Initial Catalog=PhysicalExamination;Integrated Security=True")]
+        public string PhysicalExaminationConnectionString {
+            get {
+                return ((string)(this["PhysicalExaminationConnectionString"]));
+            }
+        }
     }
 }

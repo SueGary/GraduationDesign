@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PEIS_SPZZ.DAL.Common
 {
-    class GRYYXXB_DAL
+    public abstract class GRYYXXB_DAL
     {
     }
 }

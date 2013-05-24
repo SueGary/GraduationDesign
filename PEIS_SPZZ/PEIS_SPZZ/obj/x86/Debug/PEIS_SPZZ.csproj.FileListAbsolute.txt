@@ -21,3 +21,23 @@ E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.login.login.resources
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.GraphForm.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form1.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form2.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form3.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.GraphForm.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.login.login.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.hosMain.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.peoMain.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Reporter.reporter.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.cache
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll

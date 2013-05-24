@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PEIS_SPZZ.DAL.Common
 {
-    class TTDJB_DAL
+    public abstract class TTDJB_DAL
     {
     }
 }
