@@ -64,7 +64,7 @@ namespace PEIS_SPZZ {
         
         private YDCSDataTable tableYDCS;
         
-        private yyksDataTable tableyyks;
+        private YYKSDataTable tableYYKS;
         
         private global::System.Data.SchemaSerializationMode _schemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
         
@@ -154,8 +154,8 @@ namespace PEIS_SPZZ {
                 if ((ds.Tables["YDCS"] != null)) {
                     base.Tables.Add(new YDCSDataTable(ds.Tables["YDCS"]));
                 }
-                if ((ds.Tables["yyks"] != null)) {
-                    base.Tables.Add(new yyksDataTable(ds.Tables["yyks"]));
+                if ((ds.Tables["YYKS"] != null)) {
+                    base.Tables.Add(new YYKSDataTable(ds.Tables["YYKS"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -379,9 +379,9 @@ namespace PEIS_SPZZ {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Browsable(false)]
         [global::System.ComponentModel.DesignerSerializationVisibility(global::System.ComponentModel.DesignerSerializationVisibility.Content)]
-        public yyksDataTable yyks {
+        public YYKSDataTable YYKS {
             get {
-                return this.tableyyks;
+                return this.tableYYKS;
             }
         }
         
@@ -512,8 +512,8 @@ namespace PEIS_SPZZ {
                 if ((ds.Tables["YDCS"] != null)) {
                     base.Tables.Add(new YDCSDataTable(ds.Tables["YDCS"]));
                 }
-                if ((ds.Tables["yyks"] != null)) {
-                    base.Tables.Add(new yyksDataTable(ds.Tables["yyks"]));
+                if ((ds.Tables["YYKS"] != null)) {
+                    base.Tables.Add(new YYKSDataTable(ds.Tables["YYKS"]));
                 }
                 this.DataSetName = ds.DataSetName;
                 this.Prefix = ds.Prefix;
@@ -668,10 +668,10 @@ namespace PEIS_SPZZ {
                     this.tableYDCS.InitVars();
                 }
             }
-            this.tableyyks = ((yyksDataTable)(base.Tables["yyks"]));
+            this.tableYYKS = ((YYKSDataTable)(base.Tables["YYKS"]));
             if ((initTable == true)) {
-                if ((this.tableyyks != null)) {
-                    this.tableyyks.InitVars();
+                if ((this.tableYYKS != null)) {
+                    this.tableYYKS.InitVars();
                 }
             }
         }
@@ -724,8 +724,8 @@ namespace PEIS_SPZZ {
             base.Tables.Add(this.tableTJXMMX);
             this.tableYDCS = new YDCSDataTable();
             base.Tables.Add(this.tableYDCS);
-            this.tableyyks = new yyksDataTable();
-            base.Tables.Add(this.tableyyks);
+            this.tableYYKS = new YYKSDataTable();
+            base.Tables.Add(this.tableYYKS);
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -850,7 +850,7 @@ namespace PEIS_SPZZ {
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        private bool ShouldSerializeyyks() {
+        private bool ShouldSerializeYYKS() {
             return false;
         }
         
@@ -970,7 +970,7 @@ namespace PEIS_SPZZ {
         public delegate void YDCSRowChangeEventHandler(object sender, YDCSRowChangeEvent e);
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public delegate void yyksRowChangeEventHandler(object sender, yyksRowChangeEvent e);
+        public delegate void YYKSRowChangeEventHandler(object sender, YYKSRowChangeEvent e);
         
         /// <summary>
         ///Represents the strongly named DataTable class.
@@ -8178,7 +8178,7 @@ namespace PEIS_SPZZ {
         ///</summary>
         [global::System.Serializable()]
         [global::System.Xml.Serialization.XmlSchemaProviderAttribute("GetTypedTableSchema")]
-        public partial class yyksDataTable : global::System.Data.TypedTableBase<yyksRow> {
+        public partial class YYKSDataTable : global::System.Data.TypedTableBase<YYKSRow> {
             
             private global::System.Data.DataColumn columnTJ_KSID;
             
@@ -8186,8 +8186,8 @@ namespace PEIS_SPZZ {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksDataTable() {
-                this.TableName = "yyks";
+            public YYKSDataTable() {
+                this.TableName = "YYKS";
                 this.BeginInit();
                 this.InitClass();
                 this.EndInit();
@@ -8195,7 +8195,7 @@ namespace PEIS_SPZZ {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal yyksDataTable(global::System.Data.DataTable table) {
+            internal YYKSDataTable(global::System.Data.DataTable table) {
                 this.TableName = table.TableName;
                 if ((table.CaseSensitive != table.DataSet.CaseSensitive)) {
                     this.CaseSensitive = table.CaseSensitive;
@@ -8212,7 +8212,7 @@ namespace PEIS_SPZZ {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            protected yyksDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
+            protected YYKSDataTable(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context) : 
                     base(info, context) {
                 this.InitVars();
             }
@@ -8244,53 +8244,53 @@ namespace PEIS_SPZZ {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksRow this[int index] {
+            public YYKSRow this[int index] {
                 get {
-                    return ((yyksRow)(this.Rows[index]));
+                    return ((YYKSRow)(this.Rows[index]));
                 }
             }
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event yyksRowChangeEventHandler yyksRowChanging;
+            public event YYKSRowChangeEventHandler YYKSRowChanging;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event yyksRowChangeEventHandler yyksRowChanged;
+            public event YYKSRowChangeEventHandler YYKSRowChanged;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event yyksRowChangeEventHandler yyksRowDeleting;
+            public event YYKSRowChangeEventHandler YYKSRowDeleting;
             
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public event yyksRowChangeEventHandler yyksRowDeleted;
+            public event YYKSRowChangeEventHandler YYKSRowDeleted;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void AddyyksRow(yyksRow row) {
+            public void AddYYKSRow(YYKSRow row) {
                 this.Rows.Add(row);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksRow AddyyksRow(string TJ_KSID, string TJ_KSMC) {
-                yyksRow rowyyksRow = ((yyksRow)(this.NewRow()));
+            public YYKSRow AddYYKSRow(string TJ_KSID, string TJ_KSMC) {
+                YYKSRow rowYYKSRow = ((YYKSRow)(this.NewRow()));
                 object[] columnValuesArray = new object[] {
                         TJ_KSID,
                         TJ_KSMC};
-                rowyyksRow.ItemArray = columnValuesArray;
-                this.Rows.Add(rowyyksRow);
-                return rowyyksRow;
+                rowYYKSRow.ItemArray = columnValuesArray;
+                this.Rows.Add(rowYYKSRow);
+                return rowYYKSRow;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksRow FindByTJ_KSID(string TJ_KSID) {
-                return ((yyksRow)(this.Rows.Find(new object[] {
+            public YYKSRow FindByTJ_KSID(string TJ_KSID) {
+                return ((YYKSRow)(this.Rows.Find(new object[] {
                             TJ_KSID})));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public override global::System.Data.DataTable Clone() {
-                yyksDataTable cln = ((yyksDataTable)(base.Clone()));
+                YYKSDataTable cln = ((YYKSDataTable)(base.Clone()));
                 cln.InitVars();
                 return cln;
             }
@@ -8298,7 +8298,7 @@ namespace PEIS_SPZZ {
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataTable CreateInstance() {
-                return new yyksDataTable();
+                return new YYKSDataTable();
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -8325,28 +8325,28 @@ namespace PEIS_SPZZ {
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksRow NewyyksRow() {
-                return ((yyksRow)(this.NewRow()));
+            public YYKSRow NewYYKSRow() {
+                return ((YYKSRow)(this.NewRow()));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Data.DataRow NewRowFromBuilder(global::System.Data.DataRowBuilder builder) {
-                return new yyksRow(builder);
+                return new YYKSRow(builder);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override global::System.Type GetRowType() {
-                return typeof(yyksRow);
+                return typeof(YYKSRow);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanged(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanged(e);
-                if ((this.yyksRowChanged != null)) {
-                    this.yyksRowChanged(this, new yyksRowChangeEvent(((yyksRow)(e.Row)), e.Action));
+                if ((this.YYKSRowChanged != null)) {
+                    this.YYKSRowChanged(this, new YYKSRowChangeEvent(((YYKSRow)(e.Row)), e.Action));
                 }
             }
             
@@ -8354,8 +8354,8 @@ namespace PEIS_SPZZ {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowChanging(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowChanging(e);
-                if ((this.yyksRowChanging != null)) {
-                    this.yyksRowChanging(this, new yyksRowChangeEvent(((yyksRow)(e.Row)), e.Action));
+                if ((this.YYKSRowChanging != null)) {
+                    this.YYKSRowChanging(this, new YYKSRowChangeEvent(((YYKSRow)(e.Row)), e.Action));
                 }
             }
             
@@ -8363,8 +8363,8 @@ namespace PEIS_SPZZ {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleted(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleted(e);
-                if ((this.yyksRowDeleted != null)) {
-                    this.yyksRowDeleted(this, new yyksRowChangeEvent(((yyksRow)(e.Row)), e.Action));
+                if ((this.YYKSRowDeleted != null)) {
+                    this.YYKSRowDeleted(this, new YYKSRowChangeEvent(((YYKSRow)(e.Row)), e.Action));
                 }
             }
             
@@ -8372,14 +8372,14 @@ namespace PEIS_SPZZ {
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             protected override void OnRowDeleting(global::System.Data.DataRowChangeEventArgs e) {
                 base.OnRowDeleting(e);
-                if ((this.yyksRowDeleting != null)) {
-                    this.yyksRowDeleting(this, new yyksRowChangeEvent(((yyksRow)(e.Row)), e.Action));
+                if ((this.YYKSRowDeleting != null)) {
+                    this.YYKSRowDeleting(this, new YYKSRowChangeEvent(((YYKSRow)(e.Row)), e.Action));
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public void RemoveyyksRow(yyksRow row) {
+            public void RemoveYYKSRow(YYKSRow row) {
                 this.Rows.Remove(row);
             }
             
@@ -8406,7 +8406,7 @@ namespace PEIS_SPZZ {
                 type.Attributes.Add(attribute1);
                 global::System.Xml.Schema.XmlSchemaAttribute attribute2 = new global::System.Xml.Schema.XmlSchemaAttribute();
                 attribute2.Name = "tableTypeName";
-                attribute2.FixedValue = "yyksDataTable";
+                attribute2.FixedValue = "YYKSDataTable";
                 type.Attributes.Add(attribute2);
                 type.Particle = sequence;
                 global::System.Xml.Schema.XmlSchema dsSchema = ds.GetSchemaSerializable();
@@ -12111,25 +12111,25 @@ namespace PEIS_SPZZ {
         /// <summary>
         ///Represents strongly named DataRow class.
         ///</summary>
-        public partial class yyksRow : global::System.Data.DataRow {
+        public partial class YYKSRow : global::System.Data.DataRow {
             
-            private yyksDataTable tableyyks;
+            private YYKSDataTable tableYYKS;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            internal yyksRow(global::System.Data.DataRowBuilder rb) : 
+            internal YYKSRow(global::System.Data.DataRowBuilder rb) : 
                     base(rb) {
-                this.tableyyks = ((yyksDataTable)(this.Table));
+                this.tableYYKS = ((YYKSDataTable)(this.Table));
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public string TJ_KSID {
                 get {
-                    return ((string)(this[this.tableyyks.TJ_KSIDColumn]));
+                    return ((string)(this[this.tableYYKS.TJ_KSIDColumn]));
                 }
                 set {
-                    this[this.tableyyks.TJ_KSIDColumn] = value;
+                    this[this.tableYYKS.TJ_KSIDColumn] = value;
                 }
             }
             
@@ -12138,27 +12138,27 @@ namespace PEIS_SPZZ {
             public string TJ_KSMC {
                 get {
                     try {
-                        return ((string)(this[this.tableyyks.TJ_KSMCColumn]));
+                        return ((string)(this[this.tableYYKS.TJ_KSMCColumn]));
                     }
                     catch (global::System.InvalidCastException e) {
-                        throw new global::System.Data.StrongTypingException("表“yyks”中列“TJ_KSMC”的值为 DBNull。", e);
+                        throw new global::System.Data.StrongTypingException("表“YYKS”中列“TJ_KSMC”的值为 DBNull。", e);
                     }
                 }
                 set {
-                    this[this.tableyyks.TJ_KSMCColumn] = value;
+                    this[this.tableYYKS.TJ_KSMCColumn] = value;
                 }
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public bool IsTJ_KSMCNull() {
-                return this.IsNull(this.tableyyks.TJ_KSMCColumn);
+                return this.IsNull(this.tableYYKS.TJ_KSMCColumn);
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
             public void SetTJ_KSMCNull() {
-                this[this.tableyyks.TJ_KSMCColumn] = global::System.Convert.DBNull;
+                this[this.tableYYKS.TJ_KSMCColumn] = global::System.Convert.DBNull;
             }
         }
         
@@ -12846,22 +12846,22 @@ namespace PEIS_SPZZ {
         ///Row event argument class
         ///</summary>
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public class yyksRowChangeEvent : global::System.EventArgs {
+        public class YYKSRowChangeEvent : global::System.EventArgs {
             
-            private yyksRow eventRow;
+            private YYKSRow eventRow;
             
             private global::System.Data.DataRowAction eventAction;
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksRowChangeEvent(yyksRow row, global::System.Data.DataRowAction action) {
+            public YYKSRowChangeEvent(YYKSRow row, global::System.Data.DataRowAction action) {
                 this.eventRow = row;
                 this.eventAction = action;
             }
             
             [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
             [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-            public yyksRow Row {
+            public YYKSRow Row {
                 get {
                     return this.eventRow;
                 }
@@ -13011,14 +13011,14 @@ namespace PEIS_SPZZ.tj_dbDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MSID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MSID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[BJJY] ([TJMS]) VALUES (@TJMS);\r\nSELECT MSID, TJMS FROM BJJY WH" +
-                "ERE (MSID = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[BJJY] ([TJMS]) VALUES (@TJMS);\nSELECT MSID, TJMS FROM BJJY WHE" +
+                "RE (MSID = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJMS", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJMS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[BJJY] SET [TJMS] = @TJMS WHERE (([MSID] = @Original_MSID));\r\nSELECT" +
-                " MSID, TJMS FROM BJJY WHERE (MSID = @MSID)";
+            this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[BJJY] SET [TJMS] = @TJMS WHERE (([MSID] = @Original_MSID));\nSELECT " +
+                "MSID, TJMS FROM BJJY WHERE (MSID = @MSID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJMS", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJMS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MSID", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MSID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -13320,8 +13320,8 @@ namespace PEIS_SPZZ.tj_dbDataSetTableAdapters {
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[BJJYMX] ([MSID], [JYMS], [ZZ], [LY]) VALUES (@MSID, @JYMS, @ZZ" +
-                ", @LY);\r\nSELECT MXID, MSID, JYMS, ZZ, LY FROM BJJYMX WHERE (MXID = SCOPE_IDENTIT" +
-                "Y())";
+                ", @LY);\nSELECT MXID, MSID, JYMS, ZZ, LY FROM BJJYMX WHERE (MXID = SCOPE_IDENTITY" +
+                "())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@JYMS", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "JYMS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -13331,8 +13331,8 @@ namespace PEIS_SPZZ.tj_dbDataSetTableAdapters {
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[BJJYMX] SET [MSID] = @MSID, [JYMS] = @JYMS, [ZZ] = @ZZ, [LY] = @LY " +
                 "WHERE (([MXID] = @Original_MXID) AND ((@IsNull_MSID = 1 AND [MSID] IS NULL) OR (" +
-                "[MSID] = @Original_MSID)));\r\nSELECT MXID, MSID, JYMS, ZZ, LY FROM BJJYMX WHERE (" +
-                "MXID = @MXID)";
+                "[MSID] = @Original_MSID)));\nSELECT MXID, MSID, JYMS, ZZ, LY FROM BJJYMX WHERE (M" +
+                "XID = @MXID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@JYMS", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "JYMS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -13691,8 +13691,8 @@ namespace PEIS_SPZZ.tj_dbDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_MXID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MXID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[GRBJ] ([TJRYID], [MXID]) VALUES (@TJRYID, @MXID);\r\nSELECT ID, " +
-                "TJRYID, MXID FROM GRBJ WHERE (ID = SCOPE_IDENTITY())";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[GRBJ] ([TJRYID], [MXID]) VALUES (@TJRYID, @MXID);\nSELECT ID, T" +
+                "JRYID, MXID FROM GRBJ WHERE (ID = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJRYID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJRYID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@MXID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "MXID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -14053,8 +14053,8 @@ SELECT ID, TJRYID, MXID FROM GRBJ WHERE (ID = @ID)";
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[GRMZYD] ([TJRYID], [SJ], [JHYD], [LSQK]) VALUES (@TJRYID, @SJ," +
-                " @JHYD, @LSQK);\r\nSELECT TJRYID, SJ, JHYD, LSQK, YDID FROM GRMZYD WHERE (YDID = S" +
-                "COPE_IDENTITY())";
+                " @JHYD, @LSQK);\nSELECT TJRYID, SJ, JHYD, LSQK, YDID FROM GRMZYD WHERE (YDID = SC" +
+                "OPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJRYID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJRYID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SJ", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SJ", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -14445,8 +14445,8 @@ SELECT TJRYID, SJ, JHYD, LSQK, YDID FROM GRMZYD WHERE (YDID = @YDID)";
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[GRXYTZ] ([TJRYID], [SSY], [SZY], [TZ], [XL], [RQSJ]) VALUES (@" +
-                "TJRYID, @SSY, @SZY, @TZ, @XL, @RQSJ);\r\nSELECT ID, TJRYID, SSY, SZY, TZ, XL, RQSJ" +
-                " FROM GRXYTZ WHERE (ID = SCOPE_IDENTITY())";
+                "TJRYID, @SSY, @SZY, @TZ, @XL, @RQSJ);\nSELECT ID, TJRYID, SSY, SZY, TZ, XL, RQSJ " +
+                "FROM GRXYTZ WHERE (ID = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJRYID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJRYID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSY", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSY", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -14853,15 +14853,15 @@ SELECT ID, TJRYID, SSY, SZY, TZ, XL, RQSJ FROM GRXYTZ WHERE (ID = @ID)";
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_SSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[SSMS] ([SSID], [SSMS]) VALUES (@SSID, @SSMS);\r\nSELECT SSID, SS" +
-                "MS FROM SSMS WHERE (SSID = @SSID)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[SSMS] ([SSID], [SSMS]) VALUES (@SSID, @SSMS);\nSELECT SSID, SSM" +
+                "S FROM SSMS WHERE (SSID = @SSID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSMS", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSMS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[SSMS] SET [SSID] = @SSID, [SSMS] = @SSMS WHERE (([SSID] = @Original" +
-                "_SSID));\r\nSELECT SSID, SSMS FROM SSMS WHERE (SSID = @SSID)";
+                "_SSID));\nSELECT SSID, SSMS FROM SSMS WHERE (SSID = @SSID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSMS", global::System.Data.SqlDbType.Text, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSMS", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -15192,9 +15192,9 @@ SELECT ID, TJRYID, SSY, SZY, TZ, XL, RQSJ FROM GRXYTZ WHERE (ID = @ID)";
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TJ_GRYYXXB] ([TJRYID], [TJXM], [SEX], [LXDH], [TCXMBH], [YYSJ]" +
-                ", [TJSJ]) VALUES (@TJRYID, @TJXM, @SEX, @LXDH, @TCXMBH, @YYSJ, @TJSJ);\r\nSELECT I" +
-                "D, TJRYID, TJXM, SEX, LXDH, TCXMBH, YYSJ, TJSJ FROM TJ_GRYYXXB WHERE (ID = SCOPE" +
-                "_IDENTITY())";
+                ", [TJSJ]) VALUES (@TJRYID, @TJXM, @SEX, @LXDH, @TCXMBH, @YYSJ, @TJSJ);\nSELECT ID" +
+                ", TJRYID, TJXM, SEX, LXDH, TCXMBH, YYSJ, TJSJ FROM TJ_GRYYXXB WHERE (ID = SCOPE_" +
+                "IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJRYID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJRYID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJXM", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJXM", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -19742,8 +19742,8 @@ SELECT ID, TJRYID, YYBH, TJBH, TJJL, BJCF, YSDM, PGSJ, SHYS, SHSJ, JLZT, DYBZ, S
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TJ_YHB] ([YHID], [YHXM], [YHM], [MM], [TJKS], [KSBM], [YHQX], " +
-                "[QXBM]) VALUES (@YHID, @YHXM, @YHM, @MM, @TJKS, @KSBM, @YHQX, @QXBM);\r\nSELECT YH" +
-                "ID, YHXM, YHM, MM, TJKS, KSBM, YHQX, QXBM FROM TJ_YHB WHERE (YHID = @YHID)";
+                "[QXBM]) VALUES (@YHID, @YHXM, @YHM, @MM, @TJKS, @KSBM, @YHQX, @QXBM);\nSELECT YHI" +
+                "D, YHXM, YHM, MM, TJKS, KSBM, YHQX, QXBM FROM TJ_YHB WHERE (YHID = @YHID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@YHID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "YHID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@YHXM", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "YHXM", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -20383,9 +20383,9 @@ SELECT ID, TJRYBH, DQZT, TJXM, SEX, NL, SFJF, FFFS, DJSJ, TCXZSJ, QRSJ, FJSJ, ZJ
                 "M)) AND ((@IsNull_ZJYS = 1 AND [ZJYS] IS NULL) OR ([ZJYS] = @Original_ZJYS)) AND" +
                 " ((@IsNull_TCMC = 1 AND [TCMC] IS NULL) OR ([TCMC] = @Original_TCMC)) AND ((@IsN" +
                 "ull_SFDYBG = 1 AND [SFDYBG] IS NULL) OR ([SFDYBG] = @Original_SFDYBG)) AND ((@Is" +
-                "Null_SFTC = 1 AND [SFTC] IS NULL) OR ([SFTC] = @Original_SFTC)));\r\nSELECT ID, TJ" +
-                "RYBH, DQZT, TJXM, SEX, NL, SFJF, FFFS, DJSJ, TCXZSJ, QRSJ, FJSJ, ZJSJ, TTBM, ZJY" +
-                "S, TCMC, SFDYBG, SFTC FROM TJ_ZTB WHERE (ID = @ID)";
+                "Null_SFTC = 1 AND [SFTC] IS NULL) OR ([SFTC] = @Original_SFTC)));\nSELECT ID, TJR" +
+                "YBH, DQZT, TJXM, SEX, NL, SFJF, FFFS, DJSJ, TCXZSJ, QRSJ, FJSJ, ZJSJ, TTBM, ZJYS" +
+                ", TCMC, SFDYBG, SFTC FROM TJ_ZTB WHERE (ID = @ID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJRYBH", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJRYBH", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@DQZT", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "DQZT", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -21309,8 +21309,8 @@ SELECT ID, TJRYBH, DQZT, TJXM, SEX, NL, SFJF, FFFS, DJSJ, TCXZSJ, QRSJ, FJSJ, ZJ
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TJTC] ([TJ_TCID], [TJ_TCMC], [TJ_XBXZ]) VALUES (@TJ_TCID, @TJ_" +
-                "TCMC, @TJ_XBXZ);\r\nSELECT TJ_TCID, TJ_TCMC, TJ_XBXZ FROM TJTC WHERE (TJ_TCID = @T" +
-                "J_TCID)";
+                "TCMC, @TJ_XBXZ);\nSELECT TJ_TCID, TJ_TCMC, TJ_XBXZ FROM TJTC WHERE (TJ_TCID = @TJ" +
+                "_TCID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_TCID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_TCID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_TCMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_TCMC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -21693,8 +21693,8 @@ SELECT TJ_TCID, TJ_TCMC, TJ_XBXZ FROM TJTC WHERE (TJ_TCID = @TJ_TCID)";
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
             this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TJTCMX] ([TJ_TCID], [TJ_TCXMID], [TJ_TCZK], [TJ_TCFY], [TJ_TCM" +
-                "S]) VALUES (@TJ_TCID, @TJ_TCXMID, @TJ_TCZK, @TJ_TCFY, @TJ_TCMS);\r\nSELECT TJ_TCID" +
-                ", TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID = @TJ_TCID)";
+                "S]) VALUES (@TJ_TCID, @TJ_TCXMID, @TJ_TCZK, @TJ_TCFY, @TJ_TCMS);\nSELECT TJ_TCID," +
+                " TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID = @TJ_TCID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_TCID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_TCID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_TCXMID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_TCXMID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -22116,8 +22116,8 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TJ_XMMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_XMMC", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TJXM] ([TJ_XMID], [TJ_XMMC]) VALUES (@TJ_XMID, @TJ_XMMC);\r\nSEL" +
-                "ECT TJ_XMID, TJ_XMMC FROM TJXM WHERE (TJ_XMID = @TJ_XMID)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[TJXM] ([TJ_XMID], [TJ_XMMC]) VALUES (@TJ_XMID, @TJ_XMMC);\nSELE" +
+                "CT TJ_XMID, TJ_XMMC FROM TJXM WHERE (TJ_XMID = @TJ_XMID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_XMID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_XMID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_XMMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_XMMC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -22125,8 +22125,8 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[TJXM] SET [TJ_XMID] = @TJ_XMID, [TJ_XMMC] = @TJ_XMMC WHERE (([TJ_XM" +
                 "ID] = @Original_TJ_XMID) AND ((@IsNull_TJ_XMMC = 1 AND [TJ_XMMC] IS NULL) OR ([T" +
-                "J_XMMC] = @Original_TJ_XMMC)));\r\nSELECT TJ_XMID, TJ_XMMC FROM TJXM WHERE (TJ_XMI" +
-                "D = @TJ_XMID)";
+                "J_XMMC] = @Original_TJ_XMMC)));\nSELECT TJ_XMID, TJ_XMMC FROM TJXM WHERE (TJ_XMID" +
+                " = @TJ_XMID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_XMID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_XMID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_XMMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_XMMC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -22725,8 +22725,8 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_SSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSID", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[YDCS] ([CDID], [SSID], [CDMS]) VALUES (@CDID, @SSID, @CDMS);\r\n" +
-                "SELECT CDID, SSID, CDMS FROM YDCS WHERE (CDID = @CDID)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[YDCS] ([CDID], [SSID], [CDMS]) VALUES (@CDID, @SSID, @CDMS);\nS" +
+                "ELECT CDID, SSID, CDMS FROM YDCS WHERE (CDID = @CDID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CDID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CDID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -22735,7 +22735,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[YDCS] SET [CDID] = @CDID, [SSID] = @SSID, [CDMS] = @CDMS WHERE (([C" +
                 "DID] = @Original_CDID) AND ((@IsNull_SSID = 1 AND [SSID] IS NULL) OR ([SSID] = @" +
-                "Original_SSID)));\r\nSELECT CDID, SSID, CDMS FROM YDCS WHERE (CDID = @CDID)";
+                "Original_SSID)));\nSELECT CDID, SSID, CDMS FROM YDCS WHERE (CDID = @CDID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@CDID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "CDID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@SSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "SSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -22960,7 +22960,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
     [global::System.ComponentModel.DesignerAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterDesigner, Microsoft.VSDesigner" +
         ", Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]
     [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-    public partial class yyksTableAdapter : global::System.ComponentModel.Component {
+    public partial class YYKSTableAdapter : global::System.ComponentModel.Component {
         
         private global::System.Data.SqlClient.SqlDataAdapter _adapter;
         
@@ -22974,7 +22974,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
-        public yyksTableAdapter() {
+        public YYKSTableAdapter() {
             this.ClearBeforeFill = true;
         }
         
@@ -23071,7 +23071,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter = new global::System.Data.SqlClient.SqlDataAdapter();
             global::System.Data.Common.DataTableMapping tableMapping = new global::System.Data.Common.DataTableMapping();
             tableMapping.SourceTable = "Table";
-            tableMapping.DataSetTable = "yyks";
+            tableMapping.DataSetTable = "YYKS";
             tableMapping.ColumnMappings.Add("TJ_KSID", "TJ_KSID");
             tableMapping.ColumnMappings.Add("TJ_KSMC", "TJ_KSMC");
             this._adapter.TableMappings.Add(tableMapping);
@@ -23085,8 +23085,8 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_TJ_KSMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_KSMC", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[yyks] ([TJ_KSID], [TJ_KSMC]) VALUES (@TJ_KSID, @TJ_KSMC);\r\nSEL" +
-                "ECT TJ_KSID, TJ_KSMC FROM yyks WHERE (TJ_KSID = @TJ_KSID)";
+            this._adapter.InsertCommand.CommandText = "INSERT INTO [dbo].[yyks] ([TJ_KSID], [TJ_KSMC]) VALUES (@TJ_KSID, @TJ_KSMC);\nSELE" +
+                "CT TJ_KSID, TJ_KSMC FROM yyks WHERE (TJ_KSID = @TJ_KSID)";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_KSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_KSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_KSMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_KSMC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -23094,8 +23094,8 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
             this._adapter.UpdateCommand.Connection = this.Connection;
             this._adapter.UpdateCommand.CommandText = "UPDATE [dbo].[yyks] SET [TJ_KSID] = @TJ_KSID, [TJ_KSMC] = @TJ_KSMC WHERE (([TJ_KS" +
                 "ID] = @Original_TJ_KSID) AND ((@IsNull_TJ_KSMC = 1 AND [TJ_KSMC] IS NULL) OR ([T" +
-                "J_KSMC] = @Original_TJ_KSMC)));\r\nSELECT TJ_KSID, TJ_KSMC FROM yyks WHERE (TJ_KSI" +
-                "D = @TJ_KSID)";
+                "J_KSMC] = @Original_TJ_KSMC)));\nSELECT TJ_KSID, TJ_KSMC FROM yyks WHERE (TJ_KSID" +
+                " = @TJ_KSID)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_KSID", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_KSID", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@TJ_KSMC", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "TJ_KSMC", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -23125,7 +23125,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Fill, true)]
-        public virtual int Fill(tj_dbDataSet.yyksDataTable dataTable) {
+        public virtual int Fill(tj_dbDataSet.YYKSDataTable dataTable) {
             this.Adapter.SelectCommand = this.CommandCollection[0];
             if ((this.ClearBeforeFill == true)) {
                 dataTable.Clear();
@@ -23138,9 +23138,9 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         [global::System.ComponentModel.DataObjectMethodAttribute(global::System.ComponentModel.DataObjectMethodType.Select, true)]
-        public virtual tj_dbDataSet.yyksDataTable GetData() {
+        public virtual tj_dbDataSet.YYKSDataTable GetData() {
             this.Adapter.SelectCommand = this.CommandCollection[0];
-            tj_dbDataSet.yyksDataTable dataTable = new tj_dbDataSet.yyksDataTable();
+            tj_dbDataSet.YYKSDataTable dataTable = new tj_dbDataSet.YYKSDataTable();
             this.Adapter.Fill(dataTable);
             return dataTable;
         }
@@ -23148,7 +23148,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
-        public virtual int Update(tj_dbDataSet.yyksDataTable dataTable) {
+        public virtual int Update(tj_dbDataSet.YYKSDataTable dataTable) {
             return this.Adapter.Update(dataTable);
         }
         
@@ -23156,7 +23156,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         [global::System.ComponentModel.Design.HelpKeywordAttribute("vs.data.TableAdapter")]
         public virtual int Update(tj_dbDataSet dataSet) {
-            return this.Adapter.Update(dataSet, "yyks");
+            return this.Adapter.Update(dataSet, "YYKS");
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -23350,7 +23350,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         
         private YDCSTableAdapter _yDCSTableAdapter;
         
-        private yyksTableAdapter _yyksTableAdapter;
+        private YYKSTableAdapter _yYKSTableAdapter;
         
         private bool _backupDataSetBeforeUpdate;
         
@@ -23652,12 +23652,12 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
         [global::System.ComponentModel.EditorAttribute("Microsoft.VSDesigner.DataSource.Design.TableAdapterManagerPropertyEditor, Microso" +
             "ft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3" +
             "a", "System.Drawing.Design.UITypeEditor")]
-        public yyksTableAdapter yyksTableAdapter {
+        public YYKSTableAdapter YYKSTableAdapter {
             get {
-                return this._yyksTableAdapter;
+                return this._yYKSTableAdapter;
             }
             set {
-                this._yyksTableAdapter = value;
+                this._yYKSTableAdapter = value;
             }
         }
         
@@ -23760,9 +23760,9 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                             && (this._yDCSTableAdapter.Connection != null))) {
                     return this._yDCSTableAdapter.Connection;
                 }
-                if (((this._yyksTableAdapter != null) 
-                            && (this._yyksTableAdapter.Connection != null))) {
-                    return this._yyksTableAdapter.Connection;
+                if (((this._yYKSTableAdapter != null) 
+                            && (this._yYKSTableAdapter.Connection != null))) {
+                    return this._yYKSTableAdapter.Connection;
                 }
                 return null;
             }
@@ -23837,7 +23837,7 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                 if ((this._yDCSTableAdapter != null)) {
                     count = (count + 1);
                 }
-                if ((this._yyksTableAdapter != null)) {
+                if ((this._yYKSTableAdapter != null)) {
                     count = (count + 1);
                 }
                 return count;
@@ -23905,12 +23905,12 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                     allChangedRows.AddRange(updatedRows);
                 }
             }
-            if ((this._yyksTableAdapter != null)) {
-                global::System.Data.DataRow[] updatedRows = dataSet.yyks.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
+            if ((this._yYKSTableAdapter != null)) {
+                global::System.Data.DataRow[] updatedRows = dataSet.YYKS.Select(null, null, global::System.Data.DataViewRowState.ModifiedCurrent);
                 updatedRows = this.GetRealUpdatedRows(updatedRows, allAddedRows);
                 if (((updatedRows != null) 
                             && (0 < updatedRows.Length))) {
-                    result = (result + this._yyksTableAdapter.Update(updatedRows));
+                    result = (result + this._yYKSTableAdapter.Update(updatedRows));
                     allChangedRows.AddRange(updatedRows);
                 }
             }
@@ -24098,11 +24098,11 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                     allAddedRows.AddRange(addedRows);
                 }
             }
-            if ((this._yyksTableAdapter != null)) {
-                global::System.Data.DataRow[] addedRows = dataSet.yyks.Select(null, null, global::System.Data.DataViewRowState.Added);
+            if ((this._yYKSTableAdapter != null)) {
+                global::System.Data.DataRow[] addedRows = dataSet.YYKS.Select(null, null, global::System.Data.DataViewRowState.Added);
                 if (((addedRows != null) 
                             && (0 < addedRows.Length))) {
-                    result = (result + this._yyksTableAdapter.Update(addedRows));
+                    result = (result + this._yYKSTableAdapter.Update(addedRows));
                     allAddedRows.AddRange(addedRows);
                 }
             }
@@ -24340,11 +24340,11 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                     allChangedRows.AddRange(deletedRows);
                 }
             }
-            if ((this._yyksTableAdapter != null)) {
-                global::System.Data.DataRow[] deletedRows = dataSet.yyks.Select(null, null, global::System.Data.DataViewRowState.Deleted);
+            if ((this._yYKSTableAdapter != null)) {
+                global::System.Data.DataRow[] deletedRows = dataSet.YYKS.Select(null, null, global::System.Data.DataViewRowState.Deleted);
                 if (((deletedRows != null) 
                             && (0 < deletedRows.Length))) {
-                    result = (result + this._yyksTableAdapter.Update(deletedRows));
+                    result = (result + this._yYKSTableAdapter.Update(deletedRows));
                     allChangedRows.AddRange(deletedRows);
                 }
             }
@@ -24515,8 +24515,8 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                         && (this.MatchTableAdapterConnection(this._yDCSTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("由 TableAdapterManager 管理的所有 TableAdapter 必须使用相同的连接字符串。");
             }
-            if (((this._yyksTableAdapter != null) 
-                        && (this.MatchTableAdapterConnection(this._yyksTableAdapter.Connection) == false))) {
+            if (((this._yYKSTableAdapter != null) 
+                        && (this.MatchTableAdapterConnection(this._yYKSTableAdapter.Connection) == false))) {
                 throw new global::System.ArgumentException("由 TableAdapterManager 管理的所有 TableAdapter 必须使用相同的连接字符串。");
             }
             global::System.Data.IDbConnection workConnection = this.Connection;
@@ -24730,13 +24730,13 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                         adaptersWithAcceptChangesDuringUpdate.Add(this._yDCSTableAdapter.Adapter);
                     }
                 }
-                if ((this._yyksTableAdapter != null)) {
-                    revertConnections.Add(this._yyksTableAdapter, this._yyksTableAdapter.Connection);
-                    this._yyksTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
-                    this._yyksTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
-                    if (this._yyksTableAdapter.Adapter.AcceptChangesDuringUpdate) {
-                        this._yyksTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
-                        adaptersWithAcceptChangesDuringUpdate.Add(this._yyksTableAdapter.Adapter);
+                if ((this._yYKSTableAdapter != null)) {
+                    revertConnections.Add(this._yYKSTableAdapter, this._yYKSTableAdapter.Connection);
+                    this._yYKSTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(workConnection));
+                    this._yYKSTableAdapter.Transaction = ((global::System.Data.SqlClient.SqlTransaction)(workTransaction));
+                    if (this._yYKSTableAdapter.Adapter.AcceptChangesDuringUpdate) {
+                        this._yYKSTableAdapter.Adapter.AcceptChangesDuringUpdate = false;
+                        adaptersWithAcceptChangesDuringUpdate.Add(this._yYKSTableAdapter.Adapter);
                     }
                 }
                 // 
@@ -24877,9 +24877,9 @@ SELECT TJ_TCID, TJ_TCXMID, TJ_TCZK, TJ_TCFY, TJ_TCMS FROM TJTCMX WHERE (TJ_TCID 
                     this._yDCSTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._yDCSTableAdapter]));
                     this._yDCSTableAdapter.Transaction = null;
                 }
-                if ((this._yyksTableAdapter != null)) {
-                    this._yyksTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._yyksTableAdapter]));
-                    this._yyksTableAdapter.Transaction = null;
+                if ((this._yYKSTableAdapter != null)) {
+                    this._yYKSTableAdapter.Connection = ((global::System.Data.SqlClient.SqlConnection)(revertConnections[this._yYKSTableAdapter]));
+                    this._yYKSTableAdapter.Transaction = null;
                 }
                 if ((0 < adaptersWithAcceptChangesDuringUpdate.Count)) {
                     global::System.Data.Common.DataAdapter[] adapters = new System.Data.Common.DataAdapter[adaptersWithAcceptChangesDuringUpdate.Count];
