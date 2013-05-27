@@ -14,5 +14,34 @@ namespace PEIS_SPZZ.DAL.SqlServer
     /// </summary>
     public class YYKS_DAL:Common.YYKS_DAL
     {
+        public override int Insert(COL.YYKS yYKS)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Update(COL.YYKS yYKS)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Delete(int serialId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override COL.YYKS GetDataBySerialId(int serialId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override List<COL.YYKS> GetAllList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override COL.PageData GetPageList(int pageSize, int curPage)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

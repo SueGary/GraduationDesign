@@ -46,18 +46,24 @@ namespace PEIS_SPZZ.UIL
         private void button1_Click(object sender, EventArgs e)
         {
            // Method.StringToDatetime(textBox1.Text);
-            Debug.Write(Method.StringToDatetime(textBox1.Text));
+          //  Debug.Write(Method.StringToDatetime(textBox1.Text));
             //Form2 tes = new Form2();
            // tes.Id = "09207106541";
            // tes.ShowDialog();
             //   int a=1;
             //GenerateId();
             DateTime test=DateTime.Now;
+           Debug.Write("测试©"+test.ToString());
            // Label test1 = new Label();
            // this.label1.Text = Method.CreateLiuShuiId().ToString();
             //  test.s
            // test1.Show();
           //  Debug.Write(GenerateId1()+"\n");
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -14,5 +14,34 @@ namespace PEIS_SPZZ.DAL.SqlServer
     /// </summary>
     public class GRXYTZ_DAL:DAL.Common.GRXYTZ_DAL
     {
+        public override int Insert(COL.GRXYTZ gRXYTZ)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Update(COL.GRXYTZ gRXYTZ)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Delete(int serialId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override COL.GRXYTZ GetDataBySerialId(int serialId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override List<COL.GRXYTZ> GetAllList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override COL.PageData GetPageList(int pageSize, int curPage)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

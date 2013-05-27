@@ -14,7 +14,7 @@ namespace PEIS_SPZZ.DAL.SqlServer
     /// 作者姓名：苏嘉立
     /// 编写日期：2013-5-24
     /// </summary>
-    public class BJJY_DAL:Common.BJJY_DAL
+    public class BJJY_DAL:DAL.Common.BJJY_DAL
     {
         /// <summary>
         /// 将保健建议（BJJY）数据，采用INSERT操作插入到数据库中，并返回受影响的行数。

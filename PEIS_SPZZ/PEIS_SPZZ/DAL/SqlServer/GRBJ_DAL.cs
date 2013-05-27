@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using PEIS_SPZZ.COL;
+using PEIS_SPZZ.SFL;
 
 namespace PEIS_SPZZ.DAL.SqlServer
 {
@@ -12,7 +14,36 @@ namespace PEIS_SPZZ.DAL.SqlServer
     /// 作者姓名：苏嘉立
     /// 编写日期：2013-5-24
     /// </summary>
-    public class GRBJ_DAL:Common.GRBJ_DAL
+    public class GRBJ_DAL:DAL.Common.GRBJ_DAL
     {
+        public override int Insert(GRBJ gRBJ)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Update(GRBJ gRBJ)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override int Delete(int serialId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override GRBJ GetDataBySerialId(int serialId)
+        {
+            throw new NotImplementedException();
+        }
+
+        public override List<GRBJ> GetAllList()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override PageData GetPageList(int pageSize, int curPage)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
