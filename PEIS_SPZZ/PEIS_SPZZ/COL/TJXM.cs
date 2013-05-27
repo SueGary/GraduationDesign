@@ -5,7 +5,7 @@ using System.Text;
 
 namespace PEIS_SPZZ.COL
 {
-    class TJXM
+    public class TJXM
     {
     }
 }

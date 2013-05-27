@@ -38,7 +38,9 @@ namespace PEIS_SPZZ.SFL
         /// <returns></returns>
         public static DateTime StringToDatetime(string timeString) { 
             string format="yyyyMMddHHmmss";
+            
             DateTime dt = DateTime.ParseExact(timeString, format, System.Globalization.CultureInfo.CurrentCulture);
+         
             return dt;
         }
     }

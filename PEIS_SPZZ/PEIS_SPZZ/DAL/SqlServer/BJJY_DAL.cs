@@ -21,7 +21,7 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// </summary>
         /// <param name="gRXX">保健建议（BJJY）实例对象</param>
         public override int Insert(BJJY bJJY) {
-        string sqlText="INSERT INTO []"
+       // string sqlText="INSERT INTO []"
         
         
         }
