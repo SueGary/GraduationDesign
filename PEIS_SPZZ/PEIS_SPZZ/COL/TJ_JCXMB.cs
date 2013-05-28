@@ -10,9 +10,11 @@ namespace PEIS_SPZZ.COL
     /// 对象说明：该类作为数据载体，供业务逻辑层、数据访问层调用。
     /// 作者姓名：苏嘉立
     /// 编写日期：2013-5-18
-    /// </summary>
+    /// </summary
+    [Serializable]
     public class TJ_JCXMB
     {
+        #region 体检项目类【变量】
         /// <summary>
         /// [变量] 流水号
         /// </summary>
@@ -53,8 +55,8 @@ namespace PEIS_SPZZ.COL
         /// [变量]是否选用
         /// </summary>
         private string sfxy;
-
-
+        #endregion
+        #region 体检项目类【属性】
         /// <summary>
         /// [属性] 流水号
         /// </summary>
@@ -133,5 +135,6 @@ namespace PEIS_SPZZ.COL
             get { return xmbh; }
             set { xmbh = value; }
         }
+        #endregion
     }
 }

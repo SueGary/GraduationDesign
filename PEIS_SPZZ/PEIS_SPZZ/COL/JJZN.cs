@@ -11,6 +11,7 @@ namespace PEIS_SPZZ.COL
     /// 作者姓名：苏嘉立
     /// 编写日期：2013-5-18
      /// </summary>
+     [Serializable]
    public class JJZN
     {
        /// <summary>

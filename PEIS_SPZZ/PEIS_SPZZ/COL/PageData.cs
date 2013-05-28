@@ -11,6 +11,7 @@ namespace PEIS_SPZZ.COL
     /// 作者姓名：爱英思躺（QQ：2415540409）
     /// 编写日期：2010/06/11 14:28:06
     /// </summary>
+    [Serializable]
     public class PageData
     {
         /// <summary>
