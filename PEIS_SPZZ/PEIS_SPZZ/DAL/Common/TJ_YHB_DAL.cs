@@ -6,7 +6,6 @@ using PEIS_SPZZ.COL;
 using PEIS_SPZZ.SFL;
 using System.Data;
 
-
 namespace PEIS_SPZZ.DAL.Common
 {
     /// <summary>
