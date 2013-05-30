@@ -22,7 +22,7 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// <param name="gRXX">保健建议（BJJY）实例对象</param>
         public override int Insert(BJJY bJJY) {
        // string sqlText="INSERT INTO []"
-        
+            throw new NotImplementedException();
         
         }
 
@@ -31,11 +31,11 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// 将保健建议（BJJY）数据，根据主键“流水号（Msid）”采用UPDATE操作更新到数据库中，并返回受影响的行数。
         /// </summary>
         /// <param name="gRXX">保健建议（BJJY）实例对象</param>
-        public override int Update(BJJY bJJY) { 
-        
-        
-        
-        
+        public override int Update(BJJY bJJY) {
+
+
+
+            throw new NotImplementedException();
         
         }
 
@@ -45,8 +45,8 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// </summary>
         /// <param name="serialId">保健建议（BJJY）的主键“流水号（Msid）”</param>
         public override int Delete(int serialId){
-        
-        
+
+            throw new NotImplementedException();
         
         
         }
@@ -58,10 +58,10 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// </summary>
         /// <param name="serialId">保健建议（BJJY）的主键“流水号（Msid）”</param>
         public override BJJY GetDataBySerialId(int serialId){
-        
-        
-        
-        
+
+
+
+            throw new NotImplementedException();
         }
 
 
@@ -69,8 +69,8 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// 从数据库中读取并返回所有保健建议（BJJY）List列表。
         /// </summary>
         public override List<BJJY> GetAllList(){
-        
-        
+
+            throw new NotImplementedException();
         
         }
 
@@ -80,8 +80,7 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// 该方法所获取的保健建议（BJJY）列表仅用于在数据控件中显示，该方法只为对象中需要显示的属性进行赋值。
         /// </summary>
         public override PageData GetPageList(int pageSize, int curPage){
-        
-        
+            throw new NotImplementedException();
         
         
         }
