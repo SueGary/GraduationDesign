@@ -60,6 +60,14 @@ namespace PEIS_SPZZ.COL
            get { return tjryid; }
            set { tjryid = value; }
        }
+        /// <summary>
+       /// [属性]体检姓名
+        /// </summary>
+       public string Tjxm {
+           get { return tjxm; }
+           set { tjxm = value; }
+       
+       }
        /// <summary>
        /// [属性]性别
        /// </summary>

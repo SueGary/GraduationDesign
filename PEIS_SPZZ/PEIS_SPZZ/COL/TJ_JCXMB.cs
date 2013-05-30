@@ -76,64 +76,64 @@ namespace PEIS_SPZZ.COL
         /// </summary>
         public string Xmmc
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return xmmc; }
+            set { xmmc = value; }
         }
         /// <summary>
         /// [属性] 组合项目编号
         /// </summary>
         public string Zhxmbh
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return zhxmbh; }
+            set { zhxmbh = value; }
         }
         /// <summary>
         /// [属性] 项目名称拼音码
         /// </summary>
         public string Pym
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return pym; }
+            set { pym = value; }
         }
         /// <summary>
         /// [属性]单位
         /// </summary>
         public string Dw
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return dw; }
+            set { dw = value; }
         }
         /// <summary>
         /// [属性]参考下限
         /// </summary>
         public string Ckxx
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return ckxx; }
+            set { ckxx = value; }
         }
         /// <summary>
         /// [属性]参考上限
         /// </summary>
         public string Cksx
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return cksx; }
+            set { cksx = value; }
         }
         /// <summary>
         /// [属性]正常值
         /// </summary>
         public string Zcz
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return zcz; }
+            set { zcz = value; }
         }
         /// <summary>
         /// [属性]是否选用
         /// </summary>
         public string Sfxy
         {
-            get { return xmbh; }
-            set { xmbh = value; }
+            get { return sfxy; }
+            set { sfxy = value; }
         }
         #endregion
     }

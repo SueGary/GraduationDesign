@@ -51,8 +51,8 @@ namespace PEIS_SPZZ.COL
        /// [属性] 用户编号
        /// </summary>
        public string Yhid {
-           get { return Yhid; }
-           set { Yhid=value;}
+           get { return yhid; }
+           set { yhid = value; }
        }
        /// <summary>
        /// [属性] 用户姓名
