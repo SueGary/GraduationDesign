@@ -224,7 +224,9 @@
     <EmbeddedResource Include="UIL\Reporter\reporter.resx">
       <DependentUpon>reporter.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="App.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="ClassDiagram1.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
