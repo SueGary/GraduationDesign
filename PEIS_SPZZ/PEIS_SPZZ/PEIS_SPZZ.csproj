@@ -188,6 +188,12 @@
     <Compile Include="UIL\Reporter\reporter.Designer.cs">
       <DependentUpon>reporter.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\sujiali\GRXYTZ.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\sujiali\GRXYTZ.Designer.cs">
+      <DependentUpon>GRXYTZ.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIL\userDic\userDic.cs">
       <SubType>Form</SubType>
     </Compile>
