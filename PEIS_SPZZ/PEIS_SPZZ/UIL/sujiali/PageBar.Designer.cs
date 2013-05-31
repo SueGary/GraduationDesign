@@ -62,6 +62,7 @@
             this.BtnFirst.Size = new System.Drawing.Size(11, 22);
             this.BtnFirst.TabIndex = 0;
             this.BtnFirst.UseVisualStyleBackColor = false;
+            this.BtnFirst.Click += new System.EventHandler(this.BtnFirst_Click);
             // 
             // BtnPrev
             // 
@@ -77,6 +78,7 @@
             this.BtnPrev.Size = new System.Drawing.Size(10, 22);
             this.BtnPrev.TabIndex = 1;
             this.BtnPrev.UseVisualStyleBackColor = false;
+            this.BtnPrev.Click += new System.EventHandler(this.BtnPrev_Click);
             // 
             // LblCurPage
             // 
@@ -103,6 +105,7 @@
             this.BtnLast.Size = new System.Drawing.Size(11, 22);
             this.BtnLast.TabIndex = 3;
             this.BtnLast.UseVisualStyleBackColor = false;
+            this.BtnLast.Click += new System.EventHandler(this.BtnLast_Click);
             // 
             // BtnNext
             // 
@@ -118,6 +121,7 @@
             this.BtnNext.Size = new System.Drawing.Size(10, 22);
             this.BtnNext.TabIndex = 2;
             this.BtnNext.UseVisualStyleBackColor = false;
+            this.BtnNext.Click += new System.EventHandler(this.BtnNext_Click);
             // 
             // TextJumpPage
             // 
@@ -146,6 +150,7 @@
             this.BtnGO.Size = new System.Drawing.Size(22, 22);
             this.BtnGO.TabIndex = 2;
             this.BtnGO.UseVisualStyleBackColor = false;
+            this.BtnGO.Click += new System.EventHandler(this.BtnGO_Click);
             // 
             // PageBar
             // 
