@@ -69,3 +69,21 @@ E:\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\ResGen.write.1.
 C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS(样板,只作为学习用途)\bin\PEIS.exe.config
 C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\PEIS.exe
 C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\PEIS.pdb
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\bin\PEIS.exe.config
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\PEIS.exe
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\PEIS.pdb
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\bin\PEIS.exe
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\bin\PEIS.pdb
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\ResolveAssemblyReference.cache
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.Properties.Resources.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.FormMain.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.Main.Default.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Create.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Default.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Delete.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.TmpPath.Modify.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\SUJIALI.PEIS.UIL.UserControls.NavBar.resources
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\GenerateResource.read.1.tlog
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\ResGen.read.1.tlog
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\GenerateResource.write.1.tlog
+F:\C#\毕业设计\GraduationDesign\PEIS(样板,只作为学习用途)\obj\Debug\ResGen.write.1.tlog

@@ -35,5 +35,11 @@ namespace PEIS_SPZZ.UIL.Main
         {
 
         }
+
+        private void 用户字典ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            userDic.userDic us = new userDic.userDic();
+            us.Show();
+        }
     }
 }

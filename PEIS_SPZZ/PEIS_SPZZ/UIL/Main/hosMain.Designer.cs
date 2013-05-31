@@ -155,7 +155,7 @@
             this.用户字典ToolStripMenuItem.Name = "用户字典ToolStripMenuItem";
             this.用户字典ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
             this.用户字典ToolStripMenuItem.Text = "用户字典";
-      //      this.用户字典ToolStripMenuItem.Click += new System.EventHandler(this.基本资料设置ToolStripMenuItem_Click);
+            this.用户字典ToolStripMenuItem.Click += new System.EventHandler(this.用户字典ToolStripMenuItem_Click);
             // 
             // 科室设置ToolStripMenuItem
             // 

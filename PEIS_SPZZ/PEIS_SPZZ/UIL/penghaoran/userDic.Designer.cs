@@ -42,12 +42,12 @@
             this.tj_dbDataSet = new PEIS_SPZZ.tj_dbDataSet();
             this.tjdbDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.insbtn = new System.Windows.Forms.Button();
+            this.addbtn = new System.Windows.Forms.Button();
+            this.delbtn = new System.Windows.Forms.Button();
+            this.seabtn = new System.Windows.Forms.Button();
+            this.savbtn = new System.Windows.Forms.Button();
+            this.refbtn = new System.Windows.Forms.Button();
             this.tJ_YHBTableAdapter = new PEIS_SPZZ.tj_dbDataSetTableAdapters.TJ_YHBTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tJYHBBindingSource)).BeginInit();
@@ -152,73 +152,72 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Controls.Add(this.button6);
-            this.groupBox1.Controls.Add(this.button4);
-            this.groupBox1.Controls.Add(this.button5);
+            this.groupBox1.Controls.Add(this.insbtn);
+            this.groupBox1.Controls.Add(this.addbtn);
+            this.groupBox1.Controls.Add(this.delbtn);
+            this.groupBox1.Controls.Add(this.seabtn);
+            this.groupBox1.Controls.Add(this.savbtn);
+            this.groupBox1.Controls.Add(this.refbtn);
             this.groupBox1.Location = new System.Drawing.Point(-4, 0);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(596, 46);
             this.groupBox1.TabIndex = 1;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "用户字典";
             // 
-            // button2
+            // insbtn
             // 
-            this.button2.Location = new System.Drawing.Point(121, 17);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "插入";
-            this.button2.UseVisualStyleBackColor = true;
+            this.insbtn.Location = new System.Drawing.Point(121, 17);
+            this.insbtn.Name = "insbtn";
+            this.insbtn.Size = new System.Drawing.Size(75, 23);
+            this.insbtn.TabIndex = 1;
+            this.insbtn.Text = "插入";
+            this.insbtn.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // addbtn
             // 
-            this.button1.Location = new System.Drawing.Point(29, 17);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "增加";
-            this.button1.UseVisualStyleBackColor = true;
+            this.addbtn.Location = new System.Drawing.Point(29, 17);
+            this.addbtn.Name = "addbtn";
+            this.addbtn.Size = new System.Drawing.Size(75, 23);
+            this.addbtn.TabIndex = 0;
+            this.addbtn.Text = "添加";
+            this.addbtn.UseVisualStyleBackColor = true;
+            this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
             // 
-            // button3
+            // delbtn
             // 
-            this.button3.Location = new System.Drawing.Point(218, 17);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "删除";
-            this.button3.UseVisualStyleBackColor = true;
+            this.delbtn.Location = new System.Drawing.Point(218, 17);
+            this.delbtn.Name = "delbtn";
+            this.delbtn.Size = new System.Drawing.Size(75, 23);
+            this.delbtn.TabIndex = 2;
+            this.delbtn.Text = "删除";
+            this.delbtn.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // seabtn
             // 
-            this.button6.Location = new System.Drawing.Point(492, 17);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 5;
-            this.button6.Text = "查找";
-            this.button6.UseVisualStyleBackColor = true;
+            this.seabtn.Location = new System.Drawing.Point(492, 17);
+            this.seabtn.Name = "seabtn";
+            this.seabtn.Size = new System.Drawing.Size(75, 23);
+            this.seabtn.TabIndex = 5;
+            this.seabtn.Text = "查找";
+            this.seabtn.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // savbtn
             // 
-            this.button4.Location = new System.Drawing.Point(312, 17);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "保存";
-            this.button4.UseVisualStyleBackColor = true;
+            this.savbtn.Location = new System.Drawing.Point(312, 17);
+            this.savbtn.Name = "savbtn";
+            this.savbtn.Size = new System.Drawing.Size(75, 23);
+            this.savbtn.TabIndex = 3;
+            this.savbtn.Text = "保存";
+            this.savbtn.UseVisualStyleBackColor = true;
             // 
-            // button5
+            // refbtn
             // 
-            this.button5.Location = new System.Drawing.Point(402, 17);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "刷新";
-            this.button5.UseVisualStyleBackColor = true;
-            //this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.refbtn.Location = new System.Drawing.Point(402, 17);
+            this.refbtn.Name = "refbtn";
+            this.refbtn.Size = new System.Drawing.Size(75, 23);
+            this.refbtn.TabIndex = 4;
+            this.refbtn.Text = "刷新";
+            this.refbtn.UseVisualStyleBackColor = true;
             // 
             // tJ_YHBTableAdapter
             // 
@@ -232,7 +231,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "userDic";
-            this.Text = "userDic";
+            this.Text = "用户字典";
             this.Load += new System.EventHandler(this.userDic_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tJYHBBindingSource)).EndInit();
@@ -247,12 +246,12 @@
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button insbtn;
+        private System.Windows.Forms.Button addbtn;
+        private System.Windows.Forms.Button delbtn;
+        private System.Windows.Forms.Button savbtn;
+        private System.Windows.Forms.Button refbtn;
+        private System.Windows.Forms.Button seabtn;
         private System.Windows.Forms.BindingSource tjdbDataSetBindingSource;
         private tj_dbDataSet tj_dbDataSet;
         private System.Windows.Forms.BindingSource tJYHBBindingSource;
