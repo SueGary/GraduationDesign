@@ -22,5 +22,7 @@ namespace PEIS_SPZZ.UIL.userDic
             this.tJ_YHBTableAdapter.Fill(this.tj_dbDataSet.TJ_YHB);
 
         }
+
+ 
     }
 }
