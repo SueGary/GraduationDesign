@@ -6,7 +6,7 @@ using PEIS_SPZZ.UIL;
 using System.Threading;
 using PEIS_SPZZ.UIL.Main;
 using PEIS_SPZZ.UIL.login;
-
+using PEIS_SPZZ.UIL.sujiali;
 namespace PEIS_SPZZ
 {
     static class Program
@@ -23,7 +23,7 @@ namespace PEIS_SPZZ
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new hosMain());
+            Application.Run(new GRXYTZ());
 
          
         }

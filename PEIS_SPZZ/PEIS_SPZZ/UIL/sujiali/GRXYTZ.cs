@@ -15,5 +15,15 @@ namespace PEIS_SPZZ.UIL.sujiali
         {
             InitializeComponent();
         }
+
+        private void pageBar1_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pageBar1_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

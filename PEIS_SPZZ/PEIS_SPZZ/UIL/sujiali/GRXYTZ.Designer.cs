@@ -28,13 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.pageBar1 = new PEIS_SPZZ.UIL.sujiali.PageBar();
             this.SuspendLayout();
+            // 
+            // pageBar1
+            // 
+            this.pageBar1.BackColor = System.Drawing.Color.White;
+            this.pageBar1.Location = new System.Drawing.Point(91, 35);
+            this.pageBar1.MinimumSize = new System.Drawing.Size(350, 22);
+            this.pageBar1.Name = "pageBar1";
+            this.pageBar1.Size = new System.Drawing.Size(350, 22);
+            this.pageBar1.TabIndex = 0;
+            this.pageBar1.Load += new System.EventHandler(this.pageBar1_Load_1);
             // 
             // GRXYTZ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(854, 408);
+            this.Controls.Add(this.pageBar1);
             this.Name = "GRXYTZ";
             this.Text = "GRXYTZ";
             this.ResumeLayout(false);
@@ -42,5 +54,10 @@
         }
 
         #endregion
+
+        private PageBar pageBar1;
+
+
+        // private global::PageBar.PageBar pageBar1;
     }
 }

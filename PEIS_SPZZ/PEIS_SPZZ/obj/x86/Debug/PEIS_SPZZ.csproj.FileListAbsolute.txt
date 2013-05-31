@@ -85,3 +85,6 @@ F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.UserControls
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.GRXYTZ.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.PageBar.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.userDic.userDic.resources
