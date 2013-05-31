@@ -40,14 +40,14 @@
             this.工作量统计ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.报告输出ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.字典设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.基本资料设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.用户字典ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.科室设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.项目设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.套餐设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.保健建议设置ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.检验值标准字典ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.疾病字典ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.系统管理ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -81,14 +81,14 @@
             // 个人预约ToolStripMenuItem
             // 
             this.个人预约ToolStripMenuItem.Name = "个人预约ToolStripMenuItem";
-            this.个人预约ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.个人预约ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.个人预约ToolStripMenuItem.Text = "个人预约";
             this.个人预约ToolStripMenuItem.Click += new System.EventHandler(this.个人预约ToolStripMenuItem_Click);
             // 
             // 单位预约ToolStripMenuItem
             // 
             this.单位预约ToolStripMenuItem.Name = "单位预约ToolStripMenuItem";
-            this.单位预约ToolStripMenuItem.Size = new System.Drawing.Size(152, 24);
+            this.单位预约ToolStripMenuItem.Size = new System.Drawing.Size(138, 24);
             this.单位预约ToolStripMenuItem.Text = "单位预约";
             // 
             // 体检登记ToolStripMenuItem
@@ -139,7 +139,7 @@
             // 字典设置ToolStripMenuItem
             // 
             this.字典设置ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.基本资料设置ToolStripMenuItem,
+            this.用户字典ToolStripMenuItem,
             this.科室设置ToolStripMenuItem,
             this.项目设置ToolStripMenuItem,
             this.套餐设置ToolStripMenuItem,
@@ -150,11 +150,12 @@
             this.字典设置ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
             this.字典设置ToolStripMenuItem.Text = "字典维护";
             // 
-            // 基本资料设置ToolStripMenuItem
+            // 用户字典ToolStripMenuItem
             // 
-            this.基本资料设置ToolStripMenuItem.Name = "基本资料设置ToolStripMenuItem";
-            this.基本资料设置ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
-            this.基本资料设置ToolStripMenuItem.Text = "用户字典";
+            this.用户字典ToolStripMenuItem.Name = "用户字典ToolStripMenuItem";
+            this.用户字典ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
+            this.用户字典ToolStripMenuItem.Text = "用户字典";
+            this.用户字典ToolStripMenuItem.Click += new System.EventHandler(this.基本资料设置ToolStripMenuItem_Click);
             // 
             // 科室设置ToolStripMenuItem
             // 
@@ -180,12 +181,6 @@
             this.保健建议设置ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
             this.保健建议设置ToolStripMenuItem.Text = "保健建议设置";
             // 
-            // 系统管理ToolStripMenuItem
-            // 
-            this.系统管理ToolStripMenuItem.Name = "系统管理ToolStripMenuItem";
-            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
-            this.系统管理ToolStripMenuItem.Text = "系统管理";
-            // 
             // 检验值标准字典ToolStripMenuItem
             // 
             this.检验值标准字典ToolStripMenuItem.Name = "检验值标准字典ToolStripMenuItem";
@@ -198,6 +193,12 @@
             this.疾病字典ToolStripMenuItem.Size = new System.Drawing.Size(183, 24);
             this.疾病字典ToolStripMenuItem.Text = "疾病字典";
             // 
+            // 系统管理ToolStripMenuItem
+            // 
+            this.系统管理ToolStripMenuItem.Name = "系统管理ToolStripMenuItem";
+            this.系统管理ToolStripMenuItem.Size = new System.Drawing.Size(81, 24);
+            this.系统管理ToolStripMenuItem.Text = "系统管理";
+            // 
             // hosMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -205,7 +206,7 @@
             this.ClientSize = new System.Drawing.Size(820, 388);
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "hosMain";
             this.Text = "Main";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.hosMain_FormClosed);
@@ -232,7 +233,7 @@
         private System.Windows.Forms.ToolStripMenuItem 单位预约ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 个人登记ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 单位批处理登记ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 基本资料设置ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 用户字典ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 科室设置ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 项目设置ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 套餐设置ToolStripMenuItem;
