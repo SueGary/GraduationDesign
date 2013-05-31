@@ -194,6 +194,12 @@
     <Compile Include="UIL\sujiali\GRXYTZ.Designer.cs">
       <DependentUpon>GRXYTZ.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\sujiali\PageBar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIL\sujiali\PageBar.Designer.cs">
+      <DependentUpon>PageBar.cs</DependentUpon>
+    </Compile>
     <Compile Include="UIL\userDic\userDic.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -235,6 +241,12 @@
     <EmbeddedResource Include="UIL\Reporter\Report2.rdlc" />
     <EmbeddedResource Include="UIL\Reporter\reporter.resx">
       <DependentUpon>reporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\sujiali\GRXYTZ.resx">
+      <DependentUpon>GRXYTZ.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\sujiali\PageBar.resx">
+      <DependentUpon>PageBar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UIL\userDic\userDic.resx">
       <DependentUpon>userDic.cs</DependentUpon>

@@ -5,9 +5,9 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using SUJIALI.PEIS.Properties;
+using PEIS_SPZZ.Properties;
 
-namespace SUJIALI.PEIS.UIL.UserControls
+namespace PEIS_SPZZ.UIL.UserControls
 {
     /// <summary>
     /// 对象名称：导航栏类

@@ -1,4 +1,4 @@
-﻿namespace SUJIALI.PEIS.UIL.UserControls
+﻿namespace PEIS_SPZZ.UIL.UserControls
 {
     partial class NavBar
     {
@@ -37,7 +37,7 @@
             // 
             // PnlBackGround
             // 
-            this.PnlBackGround.BackgroundImage = global::SUJIALI.PEIS.Properties.Resources.SideBarBG;
+            this.PnlBackGround.BackgroundImage = global::PEIS_SPZZ.Properties.Resources.SideBarBG;
             this.PnlBackGround.Controls.Add(this.PnlBottomLine);
             this.PnlBackGround.Controls.Add(this.PnlTopLine);
             this.PnlBackGround.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -66,7 +66,7 @@
             // 
             // PnlLogo
             // 
-            this.PnlLogo.BackgroundImage = global::SUJIALI.PEIS.Properties.Resources.DesignerLogo;
+            this.PnlLogo.BackgroundImage = global::PEIS_SPZZ.Properties.Resources.DesignerLogo;
             this.PnlLogo.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PnlLogo.Location = new System.Drawing.Point(0, 443);
             this.PnlLogo.Name = "PnlLogo";
