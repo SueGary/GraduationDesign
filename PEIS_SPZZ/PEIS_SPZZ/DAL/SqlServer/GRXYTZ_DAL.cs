@@ -35,7 +35,7 @@ namespace PEIS_SPZZ.DAL.SqlServer
                 new SqlParameter("@SSY", SqlDbType.Text){ Value = gRXYTZ.Ssy},
                 new SqlParameter("@SZY", SqlDbType.Text){ Value = gRXYTZ.Szy },
                 new SqlParameter("@TZ", SqlDbType.Text){ Value = gRXYTZ.Tz},
-                new SqlParameter("@XL", SqlDbType.Text{ Value = gRXYTZ.Xl},
+                new SqlParameter("@XL", SqlDbType.Text){ Value = gRXYTZ.Xl},
                 new SqlParameter("@RQSJ", SqlDbType.DateTime){ Value = gRXYTZ.Rqsj } 
             };
             return SFL.SqlHelper.ExecuteNonQuery(sqlText, parameters);
@@ -57,7 +57,7 @@ namespace PEIS_SPZZ.DAL.SqlServer
                 new SqlParameter("@SSY", SqlDbType.Text){ Value = gRXYTZ.Ssy},
                 new SqlParameter("@SZY", SqlDbType.Text){ Value = gRXYTZ.Szy },
                 new SqlParameter("@TZ", SqlDbType.Text){ Value = gRXYTZ.Tz},
-                new SqlParameter("@XL", SqlDbType.Text{ Value = gRXYTZ.Xl},
+                new SqlParameter("@XL", SqlDbType.Text){ Value = gRXYTZ.Xl},
                 new SqlParameter("@RQSJ", SqlDbType.DateTime){ Value = gRXYTZ.Rqsj } 
                
             };

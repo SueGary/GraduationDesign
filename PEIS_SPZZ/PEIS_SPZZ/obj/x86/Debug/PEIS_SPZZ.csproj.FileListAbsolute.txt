@@ -1,0 +1,64 @@
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.Properties.Resources.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form1.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
+E:\Dropbox\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config
+E:\Dropbox\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
+E:\Dropbox\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form2.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form3.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.hosMain.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.peoMain.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Reporter.reporter.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.cache
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.login.login.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.GraphForm.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.Properties.Resources.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form1.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form2.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form3.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.GraphForm.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.login.login.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.hosMain.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.peoMain.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Reporter.reporter.resources
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.cache
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
+C:\Documents and Settings\Administrator\桌面\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe.config
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.Properties.Resources.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form1.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form2.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Form3.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.GraphForm.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.login.login.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.hosMain.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Main.peoMain.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.Reporter.reporter.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.userDic.userDic.resources
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.cache
+F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
