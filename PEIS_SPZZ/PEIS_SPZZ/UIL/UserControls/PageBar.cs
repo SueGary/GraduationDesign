@@ -5,10 +5,10 @@ using System.Drawing;
 using System.Data;
 using System.Text;
 using System.Windows.Forms;
-using SUJIALI.PEIS.COL;
-using SUJIALI.PEIS.SFL;
+using PEIS_SPZZ.COL;
+using PEIS_SPZZ.SFL;
 
-namespace SUJIALI.PEIS.UIL.UserControls
+namespace PEIS_SPZZ.UIL.UserControls
 {
     /// <summary>
     /// 对象名称：数据分页用户控件
