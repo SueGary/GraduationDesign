@@ -188,6 +188,12 @@
     <Compile Include="UIL\Reporter\reporter.Designer.cs">
       <DependentUpon>reporter.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\userDic\userDic.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\userDic\userDic.Designer.cs">
+      <DependentUpon>userDic.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -223,6 +229,9 @@
     <EmbeddedResource Include="UIL\Reporter\Report2.rdlc" />
     <EmbeddedResource Include="UIL\Reporter\reporter.resx">
       <DependentUpon>reporter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\userDic\userDic.resx">
+      <DependentUpon>userDic.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>
