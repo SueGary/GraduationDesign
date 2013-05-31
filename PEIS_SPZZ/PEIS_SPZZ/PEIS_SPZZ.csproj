@@ -200,10 +200,10 @@
     <Compile Include="UIL\sujiali\PageBar.Designer.cs">
       <DependentUpon>PageBar.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIL\userDic\userDic.cs">
+    <Compile Include="UIL\penghaoran\userDic.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UIL\userDic\userDic.Designer.cs">
+    <Compile Include="UIL\penghaoran\userDic.Designer.cs">
       <DependentUpon>userDic.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -248,7 +248,7 @@
     <EmbeddedResource Include="UIL\sujiali\PageBar.resx">
       <DependentUpon>PageBar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIL\userDic\userDic.resx">
+    <EmbeddedResource Include="UIL\penghaoran\userDic.resx">
       <DependentUpon>userDic.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config">

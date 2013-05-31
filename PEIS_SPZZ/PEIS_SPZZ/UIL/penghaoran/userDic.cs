@@ -16,8 +16,10 @@ namespace PEIS_SPZZ.UIL.userDic
             InitializeComponent();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void userDic_Load(object sender, EventArgs e)
         {
+            // TODO: 这行代码将数据加载到表“tj_dbDataSet.TJ_YHB”中。您可以根据需要移动或删除它。
+            this.tJ_YHBTableAdapter.Fill(this.tj_dbDataSet.TJ_YHB);
 
         }
     }
