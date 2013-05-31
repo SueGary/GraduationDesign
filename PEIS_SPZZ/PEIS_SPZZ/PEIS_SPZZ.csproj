@@ -206,6 +206,7 @@
     <Compile Include="UIL\penghaoran\userDic.Designer.cs">
       <DependentUpon>userDic.cs</DependentUpon>
     </Compile>
+    <Compile Include="UIL\sujiali\DataGridViewActionButtonColumn.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -433,7 +434,9 @@
   <ItemGroup>
     <None Include="Resources\TitleTmpPathModify.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="UIL\UserControls\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
