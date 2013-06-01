@@ -271,4 +271,13 @@
   <data name="TitleTmpPathModify" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TitleTmpPathModify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="grstzk_add" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sujiali\grstzk_add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grstzk_info" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sujiali\grstzk_info.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="grstzk_modify" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sujiali\grstzk_modify.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>
