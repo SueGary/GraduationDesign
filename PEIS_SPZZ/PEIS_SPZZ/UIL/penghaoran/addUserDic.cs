@@ -2,10 +2,6 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -23,11 +19,11 @@ namespace PEIS_SPZZ.UIL.penghaoran
         public bool seleUserDic()
         {
             bool validateUser = false;
-            
+            DBConnection.DtPh.Open();
             try
             {                
                 string selectSql = string.Format("select count(*) from TJ_YHB where YHID = '{0}' or YHM = '{1}'", textBox1.Text, textBox3.Text);
-                SqlCommand sqlSelectCmd = new SqlCommand(selectSql);
+                SqlCommand sqlSelectCmd = new SqlCommand(selectSql,DBConnection.DtPh);
                 int i = (int)sqlSelectCmd.ExecuteScalar();
                 if (i > 0)
                 {
@@ -41,7 +37,7 @@ namespace PEIS_SPZZ.UIL.penghaoran
             }
             finally
             {
-                this.Close();  
+                DBConnection.DtPh.Close();
             }
             return validateUser;
         }
@@ -55,12 +51,13 @@ namespace PEIS_SPZZ.UIL.penghaoran
                 }
                 else
                 {
+                    DBConnection.DtPh.Open();
                     try
                     {
                         string sql;
                         sql = "insert into TJ_YHB(YHID,YHXM,YHM,MM,TJKS,KSBM,YHQX,QXBM) values ('";
                         sql += textBox1.Text + "' , '" + textBox2.Text + "' , '" + textBox3.Text + "' , '" + textBox4.Text + "' , '" + textBox5.Text + "' , '" + textBox6.Text + "' , '" + textBox7.Text + "' , '" + textBox8.Text + "')";
-                        SqlCommand sqlcmd = new SqlCommand(sql);
+                        SqlCommand sqlcmd = new SqlCommand(sql,DBConnection.DtPh);
                         int i = sqlcmd.ExecuteNonQuery();
                         if (i > 0)
                         {
@@ -74,7 +71,7 @@ namespace PEIS_SPZZ.UIL.penghaoran
                     }
                     finally
                     {
-                        this.Close();
+                        DBConnection.DtPh.Close();
                     }
                 }
             }
@@ -82,6 +79,18 @@ namespace PEIS_SPZZ.UIL.penghaoran
             {
                 MessageBox.Show("请填完整相关信息!", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void resetbtn_Click(object sender, System.EventArgs e)
+        {
+            textBox1.Clear();
+            textBox2.Clear();
+            textBox3.Clear();
+            textBox4.Clear();
+            textBox5.Clear();
+            textBox6.Clear();
+            textBox7.Clear();
+            textBox8.Clear();
         }
     }
 }
