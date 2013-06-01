@@ -23,9 +23,15 @@ namespace PEIS_SPZZ
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+<<<<<<< HEAD
             Create test = Create.Instance;
             //Application.Run(test);
             Application.Run(new hosMain());
+=======
+            Default test = Default.Instance;
+            Application.Run(test);
+           // Application.Run(new Default());
+>>>>>>> 1b899edd4103f960730e69b407083a3321248f91
 
 
          

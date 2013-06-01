@@ -20,21 +20,22 @@ namespace PEIS_SPZZ.UIL.sujiali
     public partial class Create : Form
     {
         private COL.GRXYTZ gRXYTZ;
-        private static Create instance;
-        public static Create Instance {
-            get {
-                if (instance == null) {
-                    instance = new Create();
-                }
-                instance.gRXYTZ = new COL.GRXYTZ();
-                return instance;
-            }
-        }
+        //private static Create instance;
+        //public static Create Instance {
+        //    get {
+        //        if (instance == null) {
+        //            instance = new Create();
+        //        }
+        //        instance.
+        //        return instance;
+        //    }
+        //}
 
 
-        private Create()
+        public Create()
         {
             InitializeComponent();
+            gRXYTZ = new COL.GRXYTZ();
         }
 
 
@@ -58,6 +59,21 @@ namespace PEIS_SPZZ.UIL.sujiali
             BindFormToObject();
             GRXYTZ_BLL.Insert(gRXYTZ);  // 调用“业务逻辑层”的方法，检查有效性后插入至数据库。
             Form1.ShowSuccessMsg("“个人身体状况信息”添加成功，单击“确定”按钮返回信息列表。");
+        }
+
+        private void Create_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
+        }
+
+        private void Create_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Create_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            
         }
     }
 }
