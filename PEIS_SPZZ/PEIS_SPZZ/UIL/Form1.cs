@@ -81,6 +81,20 @@ namespace PEIS_SPZZ.UIL
             }
             formSysMessage.ShowDialog();
         }
+
+
+        /// <summary>
+        /// 显示操作成功类信息提示，如果App.config中的ShowSuccessMsg为false，将不显示操作成功信息。
+        /// </summary>
+        public static void ShowSuccessMsg(string message)
+        {
+            if (System.Configuration.ConfigurationManager.AppSettings["ShowSuccessMsg"] == "true")
+            {
+                Form1 formSysMessage = new Form1();
+                formSysMessage.label1.Text = message;
+                formSysMessage.ShowDialog();
+            }
+        }
         /// <summary>
         /// 无异常，提示操作成功
         /// </summary>

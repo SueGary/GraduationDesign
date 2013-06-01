@@ -17,7 +17,7 @@ namespace PEIS_SPZZ.COL
         /// <summary>
         /// [变量]唯一标识每一条记录
         /// </summary>
-        private int id;
+        private int? id;
         /// <summary>
         /// [变量]关联个人信息表
         /// </summary>
@@ -45,7 +45,7 @@ namespace PEIS_SPZZ.COL
         /// <summary>
         /// [属性]唯一标识每一条记录
         /// </summary>
-        public int Id {
+        public int? Id {
             get { return id; }
             set { id = value; }
         }

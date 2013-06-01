@@ -23,7 +23,10 @@ namespace PEIS_SPZZ
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new hosMain());
+            Create test = Create.Instance;
+            Application.Run(test);
+          //  Application.Run(new hosMain());
+
 
          
         }
