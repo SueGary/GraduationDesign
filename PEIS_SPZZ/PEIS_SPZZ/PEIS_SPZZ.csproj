@@ -468,6 +468,7 @@
     <Content Include="Resources\sujiali\grstzk_add.png" />
     <Content Include="Resources\sujiali\grstzk_info.png" />
     <Content Include="Resources\sujiali\grstzk_modify.png" />
+    <None Include="Resources\sujiali\SJL_line.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -340,6 +340,13 @@ namespace PEIS_SPZZ.Properties {
             }
         }
         
+        public static System.Drawing.Bitmap SJL_line {
+            get {
+                object obj = ResourceManager.GetObject("SJL_line", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         public static System.Drawing.Bitmap TableHeaderBG {
             get {
                 object obj = ResourceManager.GetObject("TableHeaderBG", resourceCulture);
