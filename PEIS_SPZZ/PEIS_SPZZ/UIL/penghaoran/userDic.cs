@@ -25,6 +25,8 @@ namespace PEIS_SPZZ.UIL.userDic
 
         private void addbtn_Click(object sender, EventArgs e)
         {
+            penghaoran.addUserDic asDic = new penghaoran.addUserDic();
+            asDic.Show();
 
         }
 

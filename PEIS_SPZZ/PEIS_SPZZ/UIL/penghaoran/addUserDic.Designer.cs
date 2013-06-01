@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.addbtn = new System.Windows.Forms.Button();
+            this.resetbtn = new System.Windows.Forms.Button();
             this.xhbhlab = new System.Windows.Forms.Label();
             this.yhxmlab = new System.Windows.Forms.Label();
             this.yhmlab = new System.Windows.Forms.Label();
@@ -76,23 +76,24 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
-            // button1
+            // addbtn
             // 
-            this.button1.Location = new System.Drawing.Point(66, 312);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
+            this.addbtn.Location = new System.Drawing.Point(66, 312);
+            this.addbtn.Name = "addbtn";
+            this.addbtn.Size = new System.Drawing.Size(75, 23);
+            this.addbtn.TabIndex = 0;
+            this.addbtn.Text = "添加";
+            this.addbtn.UseVisualStyleBackColor = true;
+            this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
             // 
-            // button2
+            // resetbtn
             // 
-            this.button2.Location = new System.Drawing.Point(307, 312);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.resetbtn.Location = new System.Drawing.Point(307, 312);
+            this.resetbtn.Name = "resetbtn";
+            this.resetbtn.Size = new System.Drawing.Size(75, 23);
+            this.resetbtn.TabIndex = 1;
+            this.resetbtn.Text = "重置";
+            this.resetbtn.UseVisualStyleBackColor = true;
             // 
             // xhbhlab
             // 
@@ -237,9 +238,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(464, 362);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.resetbtn);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.addbtn);
             this.Name = "addUserDic";
             this.Text = "添加用户";
             this.groupBox1.ResumeLayout(false);
@@ -266,8 +267,8 @@
         private System.Windows.Forms.Label yhmlab;
         private System.Windows.Forms.Label yhxmlab;
         private System.Windows.Forms.Label xhbhlab;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button addbtn;
+        private System.Windows.Forms.Button resetbtn;
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label qxbmlab;
     }

@@ -15,5 +15,13 @@ namespace PEIS_SPZZ.UIL.penghaoran
         {
             InitializeComponent();
         }
+       
+        private void addbtn_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && textBox6.Text != "" && textBox7.Text != "" && textBox8.Text != "")
+            {
+
+            }
+        }
     }
 }
