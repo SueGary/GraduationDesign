@@ -41,7 +41,7 @@ namespace PEIS_SPZZ.UIL.penghaoran
             }
             finally
             {
-                  
+                this.Close();  
             }
             return validateUser;
         }
@@ -49,7 +49,38 @@ namespace PEIS_SPZZ.UIL.penghaoran
         {
             if (textBox1.Text != "" && textBox2.Text != "" && textBox3.Text != "" && textBox4.Text != "" && textBox5.Text != "" && textBox6.Text != "" && textBox7.Text != "" && textBox8.Text != "")
             {
-
+                if (seleUserDic())
+                {
+                    MessageBox.Show("对不起，您所输入的用户编号或用户名已存在！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+                else
+                {
+                    try
+                    {
+                        string sql;
+                        sql = "insert into TJ_YHB(YHID,YHXM,YHM,MM,TJKS,KSBM,YHQX,QXBM) values ('";
+                        sql += textBox1.Text + "' , '" + textBox2.Text + "' , '" + textBox3.Text + "' , '" + textBox4.Text + "' , '" + textBox5.Text + "' , '" + textBox6.Text + "' , '" + textBox7.Text + "' , '" + textBox8.Text + "')";
+                        SqlCommand sqlcmd = new SqlCommand(sql);
+                        int i = sqlcmd.ExecuteNonQuery();
+                        if (i > 0)
+                        {
+                            MessageBox.Show("添加成功！", "提示", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                            this.Close();
+                        }
+                    }
+                    catch (System.Exception ex)
+                    {
+                        MessageBox.Show("添加失败!\n" + ex.Message, "提示", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                    finally
+                    {
+                        this.Close();
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("请填完整相关信息!", "错误", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }
