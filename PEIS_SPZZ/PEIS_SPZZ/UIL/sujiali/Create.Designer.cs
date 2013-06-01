@@ -47,10 +47,10 @@
             this.label8 = new System.Windows.Forms.Label();
             this.tjryidbox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
+            this.cancel = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.contentpb = new System.Windows.Forms.PictureBox();
             this.LOGOpb = new System.Windows.Forms.PictureBox();
-            this.cancel = new System.Windows.Forms.Button();
             this.xueya_box.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contentpb)).BeginInit();
@@ -128,20 +128,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label2.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label2.Location = new System.Drawing.Point(158, 247);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(69, 20);
+            this.label2.Size = new System.Drawing.Size(73, 21);
             this.label2.TabIndex = 0;
             this.label2.Text = "心率：";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label3.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label3.Location = new System.Drawing.Point(354, 247);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(59, 20);
+            this.label3.Size = new System.Drawing.Size(63, 21);
             this.label3.TabIndex = 0;
             this.label3.Text = "次/分";
             // 
@@ -156,10 +156,10 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label6.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label6.Location = new System.Drawing.Point(354, 311);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(29, 20);
+            this.label6.Size = new System.Drawing.Size(32, 21);
             this.label6.TabIndex = 0;
             this.label6.Text = "KG";
             // 
@@ -174,10 +174,10 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("宋体", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.label7.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             this.label7.Location = new System.Drawing.Point(158, 311);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 20);
+            this.label7.Size = new System.Drawing.Size(73, 21);
             this.label7.TabIndex = 0;
             this.label7.Text = "体重：";
             // 
@@ -234,6 +234,16 @@
             this.label9.TabIndex = 0;
             this.label9.Text = "体检人员ID：";
             // 
+            // cancel
+            // 
+            this.cancel.Location = new System.Drawing.Point(662, 411);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(75, 23);
+            this.cancel.TabIndex = 8;
+            this.cancel.Text = "取消";
+            this.cancel.UseVisualStyleBackColor = true;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::PEIS_SPZZ.Properties.Resources.SJL_line;
@@ -263,16 +273,6 @@
             this.LOGOpb.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.LOGOpb.TabIndex = 0;
             this.LOGOpb.TabStop = false;
-            // 
-            // cancel
-            // 
-            this.cancel.Location = new System.Drawing.Point(662, 411);
-            this.cancel.Name = "cancel";
-            this.cancel.Size = new System.Drawing.Size(75, 23);
-            this.cancel.TabIndex = 8;
-            this.cancel.Text = "取消";
-            this.cancel.UseVisualStyleBackColor = true;
-            this.cancel.Click += new System.EventHandler(this.cancel_Click);
             // 
             // Create
             // 
