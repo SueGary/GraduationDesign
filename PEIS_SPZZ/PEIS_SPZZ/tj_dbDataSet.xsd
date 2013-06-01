@@ -1602,7 +1602,7 @@ SELECT CDID, SSID, CDMS FROM YDCS WHERE (CDID = @CDID)</CommandText>
             </Mappings>
             <Sources />
           </TableAdapter>
-          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="yyksTableAdapter" GeneratorDataComponentClassName="yyksTableAdapter" Name="yyks" UserDataComponentName="yyksTableAdapter">
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="YYKSTableAdapter" GeneratorDataComponentClassName="YYKSTableAdapter" Name="YYKS" UserDataComponentName="YYKSTableAdapter">
             <MainSource>
               <DbSource ConnectionRef="tj_dbConnectionString (Settings)" DbObjectName="tj_db.dbo.yyks" DbObjectType="Table" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="true" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
                 <DeleteCommand>
@@ -2537,7 +2537,7 @@ SELECT TJ_KSID, TJ_KSMC FROM yyks WHERE (TJ_KSID = @TJ_KSID)</CommandText>
             </xs:sequence>
           </xs:complexType>
         </xs:element>
-        <xs:element name="yyks" msprop:Generator_TableClassName="yyksDataTable" msprop:Generator_TableVarName="tableyyks" msprop:Generator_TablePropName="yyks" msprop:Generator_RowDeletingName="yyksRowDeleting" msprop:Generator_UserTableName="yyks" msprop:Generator_RowChangingName="yyksRowChanging" msprop:Generator_RowEvHandlerName="yyksRowChangeEventHandler" msprop:Generator_RowDeletedName="yyksRowDeleted" msprop:Generator_RowEvArgName="yyksRowChangeEvent" msprop:Generator_RowChangedName="yyksRowChanged" msprop:Generator_RowClassName="yyksRow">
+        <xs:element name="YYKS" msprop:Generator_TableClassName="YYKSDataTable" msprop:Generator_TableVarName="tableYYKS" msprop:Generator_TablePropName="YYKS" msprop:Generator_RowDeletingName="YYKSRowDeleting" msprop:Generator_UserTableName="YYKS" msprop:Generator_RowChangingName="YYKSRowChanging" msprop:Generator_RowEvHandlerName="YYKSRowChangeEventHandler" msprop:Generator_RowDeletedName="YYKSRowDeleted" msprop:Generator_RowEvArgName="YYKSRowChangeEvent" msprop:Generator_RowChangedName="YYKSRowChanged" msprop:Generator_RowClassName="YYKSRow">
           <xs:complexType>
             <xs:sequence>
               <xs:element name="TJ_KSID" msprop:Generator_ColumnVarNameInTable="columnTJ_KSID" msprop:Generator_ColumnPropNameInRow="TJ_KSID" msprop:Generator_ColumnPropNameInTable="TJ_KSIDColumn" msprop:Generator_UserColumnName="TJ_KSID">
@@ -2635,8 +2635,8 @@ SELECT TJ_KSID, TJ_KSMC FROM yyks WHERE (TJ_KSID = @TJ_KSID)</CommandText>
       <xs:selector xpath=".//mstns:YDCS" />
       <xs:field xpath="mstns:CDID" />
     </xs:unique>
-    <xs:unique name="yyks_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
-      <xs:selector xpath=".//mstns:yyks" />
+    <xs:unique name="YYKS_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:YYKS" />
       <xs:field xpath="mstns:TJ_KSID" />
     </xs:unique>
   </xs:element>

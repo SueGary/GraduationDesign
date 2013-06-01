@@ -30,14 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.yHIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yHXMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yHMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.mMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.tJKSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.kSBMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.yHQXDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.qXBMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tJYHBBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.tj_dbDataSet = new PEIS_SPZZ.tj_dbDataSet();
             this.tjdbDataSetBindingSource = new System.Windows.Forms.BindingSource(this.components);
@@ -49,11 +41,21 @@
             this.savbtn = new System.Windows.Forms.Button();
             this.refbtn = new System.Windows.Forms.Button();
             this.tJ_YHBTableAdapter = new PEIS_SPZZ.tj_dbDataSetTableAdapters.TJ_YHBTableAdapter();
+            this.tJYHBBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.yHIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yHXMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yHMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.mMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tJKSDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.kSBMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.yHQXDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.qXBMDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tJYHBBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tj_dbDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.tjdbDataSetBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.tJYHBBindingSource1)).BeginInit();
             this.SuspendLayout();
             // 
             // dataGridView1
@@ -78,62 +80,6 @@
             this.dataGridView1.RowTemplate.Height = 27;
             this.dataGridView1.Size = new System.Drawing.Size(596, 400);
             this.dataGridView1.TabIndex = 0;
-            // 
-            // yHIDDataGridViewTextBoxColumn
-            // 
-            this.yHIDDataGridViewTextBoxColumn.DataPropertyName = "YHID";
-            this.yHIDDataGridViewTextBoxColumn.HeaderText = "YHID";
-            this.yHIDDataGridViewTextBoxColumn.Name = "yHIDDataGridViewTextBoxColumn";
-            this.yHIDDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // yHXMDataGridViewTextBoxColumn
-            // 
-            this.yHXMDataGridViewTextBoxColumn.DataPropertyName = "YHXM";
-            this.yHXMDataGridViewTextBoxColumn.HeaderText = "YHXM";
-            this.yHXMDataGridViewTextBoxColumn.Name = "yHXMDataGridViewTextBoxColumn";
-            this.yHXMDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // yHMDataGridViewTextBoxColumn
-            // 
-            this.yHMDataGridViewTextBoxColumn.DataPropertyName = "YHM";
-            this.yHMDataGridViewTextBoxColumn.HeaderText = "YHM";
-            this.yHMDataGridViewTextBoxColumn.Name = "yHMDataGridViewTextBoxColumn";
-            this.yHMDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // mMDataGridViewTextBoxColumn
-            // 
-            this.mMDataGridViewTextBoxColumn.DataPropertyName = "MM";
-            this.mMDataGridViewTextBoxColumn.HeaderText = "MM";
-            this.mMDataGridViewTextBoxColumn.Name = "mMDataGridViewTextBoxColumn";
-            this.mMDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // tJKSDataGridViewTextBoxColumn
-            // 
-            this.tJKSDataGridViewTextBoxColumn.DataPropertyName = "TJKS";
-            this.tJKSDataGridViewTextBoxColumn.HeaderText = "TJKS";
-            this.tJKSDataGridViewTextBoxColumn.Name = "tJKSDataGridViewTextBoxColumn";
-            this.tJKSDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // kSBMDataGridViewTextBoxColumn
-            // 
-            this.kSBMDataGridViewTextBoxColumn.DataPropertyName = "KSBM";
-            this.kSBMDataGridViewTextBoxColumn.HeaderText = "KSBM";
-            this.kSBMDataGridViewTextBoxColumn.Name = "kSBMDataGridViewTextBoxColumn";
-            this.kSBMDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // yHQXDataGridViewTextBoxColumn
-            // 
-            this.yHQXDataGridViewTextBoxColumn.DataPropertyName = "YHQX";
-            this.yHQXDataGridViewTextBoxColumn.HeaderText = "YHQX";
-            this.yHQXDataGridViewTextBoxColumn.Name = "yHQXDataGridViewTextBoxColumn";
-            this.yHQXDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // qXBMDataGridViewTextBoxColumn
-            // 
-            this.qXBMDataGridViewTextBoxColumn.DataPropertyName = "QXBM";
-            this.qXBMDataGridViewTextBoxColumn.HeaderText = "QXBM";
-            this.qXBMDataGridViewTextBoxColumn.Name = "qXBMDataGridViewTextBoxColumn";
-            this.qXBMDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // tJYHBBindingSource
             // 
@@ -223,6 +169,67 @@
             // 
             this.tJ_YHBTableAdapter.ClearBeforeFill = true;
             // 
+            // tJYHBBindingSource1
+            // 
+            this.tJYHBBindingSource1.DataMember = "TJ_YHB";
+            this.tJYHBBindingSource1.DataSource = this.tj_dbDataSet;
+            // 
+            // yHIDDataGridViewTextBoxColumn
+            // 
+            this.yHIDDataGridViewTextBoxColumn.DataPropertyName = "YHID";
+            this.yHIDDataGridViewTextBoxColumn.HeaderText = "YHID";
+            this.yHIDDataGridViewTextBoxColumn.Name = "yHIDDataGridViewTextBoxColumn";
+            this.yHIDDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // yHXMDataGridViewTextBoxColumn
+            // 
+            this.yHXMDataGridViewTextBoxColumn.DataPropertyName = "YHXM";
+            this.yHXMDataGridViewTextBoxColumn.HeaderText = "YHXM";
+            this.yHXMDataGridViewTextBoxColumn.Name = "yHXMDataGridViewTextBoxColumn";
+            this.yHXMDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // yHMDataGridViewTextBoxColumn
+            // 
+            this.yHMDataGridViewTextBoxColumn.DataPropertyName = "YHM";
+            this.yHMDataGridViewTextBoxColumn.HeaderText = "YHM";
+            this.yHMDataGridViewTextBoxColumn.Name = "yHMDataGridViewTextBoxColumn";
+            this.yHMDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // mMDataGridViewTextBoxColumn
+            // 
+            this.mMDataGridViewTextBoxColumn.DataPropertyName = "MM";
+            this.mMDataGridViewTextBoxColumn.HeaderText = "MM";
+            this.mMDataGridViewTextBoxColumn.Name = "mMDataGridViewTextBoxColumn";
+            this.mMDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // tJKSDataGridViewTextBoxColumn
+            // 
+            this.tJKSDataGridViewTextBoxColumn.DataPropertyName = "TJKS";
+            this.tJKSDataGridViewTextBoxColumn.HeaderText = "TJKS";
+            this.tJKSDataGridViewTextBoxColumn.Name = "tJKSDataGridViewTextBoxColumn";
+            this.tJKSDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // kSBMDataGridViewTextBoxColumn
+            // 
+            this.kSBMDataGridViewTextBoxColumn.DataPropertyName = "KSBM";
+            this.kSBMDataGridViewTextBoxColumn.HeaderText = "KSBM";
+            this.kSBMDataGridViewTextBoxColumn.Name = "kSBMDataGridViewTextBoxColumn";
+            this.kSBMDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // yHQXDataGridViewTextBoxColumn
+            // 
+            this.yHQXDataGridViewTextBoxColumn.DataPropertyName = "YHQX";
+            this.yHQXDataGridViewTextBoxColumn.HeaderText = "YHQX";
+            this.yHQXDataGridViewTextBoxColumn.Name = "yHQXDataGridViewTextBoxColumn";
+            this.yHQXDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
+            // qXBMDataGridViewTextBoxColumn
+            // 
+            this.qXBMDataGridViewTextBoxColumn.DataPropertyName = "QXBM";
+            this.qXBMDataGridViewTextBoxColumn.HeaderText = "QXBM";
+            this.qXBMDataGridViewTextBoxColumn.Name = "qXBMDataGridViewTextBoxColumn";
+            this.qXBMDataGridViewTextBoxColumn.ReadOnly = true;
+            // 
             // userDic
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -238,6 +245,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.tj_dbDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.tjdbDataSetBindingSource)).EndInit();
             this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.tJYHBBindingSource1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -256,6 +264,7 @@
         private tj_dbDataSet tj_dbDataSet;
         private System.Windows.Forms.BindingSource tJYHBBindingSource;
         private tj_dbDataSetTableAdapters.TJ_YHBTableAdapter tJ_YHBTableAdapter;
+        private System.Windows.Forms.BindingSource tJYHBBindingSource1;
         private System.Windows.Forms.DataGridViewTextBoxColumn yHIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn yHXMDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn yHMDataGridViewTextBoxColumn;
