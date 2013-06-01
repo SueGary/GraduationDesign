@@ -59,9 +59,6 @@ F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.GRXY
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.userDic.userDic.resources
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.read.1.tlog
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\GenerateResource.write.1.tlog
-F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.cache
-F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
-F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.UserControls.NavBar.resources
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.exe
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\PEIS_SPZZ.pdb
 F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\ZedGraph.dll
@@ -97,3 +94,8 @@ E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
 F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.Default.resources
+F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\Microsoft.ReportViewer.Common.dll
+F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.penghaoran.addUserDic.resources
+F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.Create.resources
+F:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.Default.resources
