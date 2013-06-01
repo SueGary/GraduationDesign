@@ -29,25 +29,25 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.qxbmlab = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.tishilab = new System.Windows.Forms.Label();
+            this.yhqxlab = new System.Windows.Forms.Label();
+            this.ksbmlab = new System.Windows.Forms.Label();
+            this.tjkslab = new System.Windows.Forms.Label();
+            this.mmlab = new System.Windows.Forms.Label();
+            this.yhmlab = new System.Windows.Forms.Label();
+            this.yhxmlab = new System.Windows.Forms.Label();
+            this.xhbhlab = new System.Windows.Forms.Label();
             this.addbtn = new System.Windows.Forms.Button();
             this.resetbtn = new System.Windows.Forms.Button();
-            this.xhbhlab = new System.Windows.Forms.Label();
-            this.yhxmlab = new System.Windows.Forms.Label();
-            this.yhmlab = new System.Windows.Forms.Label();
-            this.mmlab = new System.Windows.Forms.Label();
-            this.tjkslab = new System.Windows.Forms.Label();
-            this.ksbmlab = new System.Windows.Forms.Label();
-            this.yhqxlab = new System.Windows.Forms.Label();
-            this.tishilab = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.qxbmlab = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -76,6 +76,144 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(314, 181);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(100, 25);
+            this.textBox8.TabIndex = 16;
+            // 
+            // qxbmlab
+            // 
+            this.qxbmlab.AutoSize = true;
+            this.qxbmlab.Location = new System.Drawing.Point(244, 188);
+            this.qxbmlab.Name = "qxbmlab";
+            this.qxbmlab.Size = new System.Drawing.Size(67, 15);
+            this.qxbmlab.TabIndex = 15;
+            this.qxbmlab.Text = "权限编码";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(110, 188);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 25);
+            this.textBox7.TabIndex = 14;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(314, 134);
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(100, 25);
+            this.textBox6.TabIndex = 13;
+            // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(110, 134);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(100, 25);
+            this.textBox5.TabIndex = 12;
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(314, 80);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(100, 25);
+            this.textBox4.TabIndex = 11;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(110, 83);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(100, 25);
+            this.textBox3.TabIndex = 10;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(314, 39);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(100, 25);
+            this.textBox2.TabIndex = 9;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(110, 36);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 25);
+            this.textBox1.TabIndex = 8;
+            // 
+            // tishilab
+            // 
+            this.tishilab.AutoSize = true;
+            this.tishilab.ForeColor = System.Drawing.Color.Red;
+            this.tishilab.Location = new System.Drawing.Point(24, 243);
+            this.tishilab.Name = "tishilab";
+            this.tishilab.Size = new System.Drawing.Size(202, 15);
+            this.tishilab.TabIndex = 7;
+            this.tishilab.Text = "提示：各项信息都必须填完整";
+            // 
+            // yhqxlab
+            // 
+            this.yhqxlab.AutoSize = true;
+            this.yhqxlab.Location = new System.Drawing.Point(24, 191);
+            this.yhqxlab.Name = "yhqxlab";
+            this.yhqxlab.Size = new System.Drawing.Size(67, 15);
+            this.yhqxlab.TabIndex = 6;
+            this.yhqxlab.Text = "用户权限";
+            // 
+            // ksbmlab
+            // 
+            this.ksbmlab.AutoSize = true;
+            this.ksbmlab.Location = new System.Drawing.Point(241, 137);
+            this.ksbmlab.Name = "ksbmlab";
+            this.ksbmlab.Size = new System.Drawing.Size(67, 15);
+            this.ksbmlab.TabIndex = 5;
+            this.ksbmlab.Text = "科室编码";
+            // 
+            // tjkslab
+            // 
+            this.tjkslab.AutoSize = true;
+            this.tjkslab.Location = new System.Drawing.Point(24, 144);
+            this.tjkslab.Name = "tjkslab";
+            this.tjkslab.Size = new System.Drawing.Size(67, 15);
+            this.tjkslab.TabIndex = 4;
+            this.tjkslab.Text = "体检科室";
+            // 
+            // mmlab
+            // 
+            this.mmlab.AutoSize = true;
+            this.mmlab.Location = new System.Drawing.Point(255, 83);
+            this.mmlab.Name = "mmlab";
+            this.mmlab.Size = new System.Drawing.Size(37, 15);
+            this.mmlab.TabIndex = 3;
+            this.mmlab.Text = "密码";
+            // 
+            // yhmlab
+            // 
+            this.yhmlab.AutoSize = true;
+            this.yhmlab.Location = new System.Drawing.Point(24, 93);
+            this.yhmlab.Name = "yhmlab";
+            this.yhmlab.Size = new System.Drawing.Size(52, 15);
+            this.yhmlab.TabIndex = 2;
+            this.yhmlab.Text = "用户名";
+            // 
+            // yhxmlab
+            // 
+            this.yhxmlab.AutoSize = true;
+            this.yhxmlab.Location = new System.Drawing.Point(241, 39);
+            this.yhxmlab.Name = "yhxmlab";
+            this.yhxmlab.Size = new System.Drawing.Size(67, 15);
+            this.yhxmlab.TabIndex = 1;
+            this.yhxmlab.Text = "用户姓名";
+            // 
+            // xhbhlab
+            // 
+            this.xhbhlab.AutoSize = true;
+            this.xhbhlab.Location = new System.Drawing.Point(24, 39);
+            this.xhbhlab.Name = "xhbhlab";
+            this.xhbhlab.Size = new System.Drawing.Size(67, 15);
+            this.xhbhlab.TabIndex = 0;
+            this.xhbhlab.Text = "用户编号";
+            // 
             // addbtn
             // 
             this.addbtn.Location = new System.Drawing.Point(66, 312);
@@ -94,144 +232,7 @@
             this.resetbtn.TabIndex = 1;
             this.resetbtn.Text = "重置";
             this.resetbtn.UseVisualStyleBackColor = true;
-            // 
-            // xhbhlab
-            // 
-            this.xhbhlab.AutoSize = true;
-            this.xhbhlab.Location = new System.Drawing.Point(24, 39);
-            this.xhbhlab.Name = "xhbhlab";
-            this.xhbhlab.Size = new System.Drawing.Size(67, 15);
-            this.xhbhlab.TabIndex = 0;
-            this.xhbhlab.Text = "用户编号";
-            // 
-            // yhxmlab
-            // 
-            this.yhxmlab.AutoSize = true;
-            this.yhxmlab.Location = new System.Drawing.Point(241, 39);
-            this.yhxmlab.Name = "yhxmlab";
-            this.yhxmlab.Size = new System.Drawing.Size(67, 15);
-            this.yhxmlab.TabIndex = 1;
-            this.yhxmlab.Text = "用户姓名";
-            // 
-            // yhmlab
-            // 
-            this.yhmlab.AutoSize = true;
-            this.yhmlab.Location = new System.Drawing.Point(24, 93);
-            this.yhmlab.Name = "yhmlab";
-            this.yhmlab.Size = new System.Drawing.Size(52, 15);
-            this.yhmlab.TabIndex = 2;
-            this.yhmlab.Text = "用户名";
-            // 
-            // mmlab
-            // 
-            this.mmlab.AutoSize = true;
-            this.mmlab.Location = new System.Drawing.Point(255, 83);
-            this.mmlab.Name = "mmlab";
-            this.mmlab.Size = new System.Drawing.Size(37, 15);
-            this.mmlab.TabIndex = 3;
-            this.mmlab.Text = "密码";
-            // 
-            // tjkslab
-            // 
-            this.tjkslab.AutoSize = true;
-            this.tjkslab.Location = new System.Drawing.Point(24, 144);
-            this.tjkslab.Name = "tjkslab";
-            this.tjkslab.Size = new System.Drawing.Size(67, 15);
-            this.tjkslab.TabIndex = 4;
-            this.tjkslab.Text = "体检科室";
-            // 
-            // ksbmlab
-            // 
-            this.ksbmlab.AutoSize = true;
-            this.ksbmlab.Location = new System.Drawing.Point(241, 137);
-            this.ksbmlab.Name = "ksbmlab";
-            this.ksbmlab.Size = new System.Drawing.Size(67, 15);
-            this.ksbmlab.TabIndex = 5;
-            this.ksbmlab.Text = "科室编码";
-            // 
-            // yhqxlab
-            // 
-            this.yhqxlab.AutoSize = true;
-            this.yhqxlab.Location = new System.Drawing.Point(24, 191);
-            this.yhqxlab.Name = "yhqxlab";
-            this.yhqxlab.Size = new System.Drawing.Size(67, 15);
-            this.yhqxlab.TabIndex = 6;
-            this.yhqxlab.Text = "用户权限";
-            // 
-            // tishilab
-            // 
-            this.tishilab.AutoSize = true;
-            this.tishilab.ForeColor = System.Drawing.Color.Red;
-            this.tishilab.Location = new System.Drawing.Point(24, 243);
-            this.tishilab.Name = "tishilab";
-            this.tishilab.Size = new System.Drawing.Size(202, 15);
-            this.tishilab.TabIndex = 7;
-            this.tishilab.Text = "提示：各项信息都必须填完整";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(110, 36);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 25);
-            this.textBox1.TabIndex = 8;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(314, 39);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 25);
-            this.textBox2.TabIndex = 9;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(110, 83);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 25);
-            this.textBox3.TabIndex = 10;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(314, 80);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 25);
-            this.textBox4.TabIndex = 11;
-            // 
-            // textBox5
-            // 
-            this.textBox5.Location = new System.Drawing.Point(110, 134);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(100, 25);
-            this.textBox5.TabIndex = 12;
-            // 
-            // textBox6
-            // 
-            this.textBox6.Location = new System.Drawing.Point(314, 134);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 25);
-            this.textBox6.TabIndex = 13;
-            // 
-            // textBox7
-            // 
-            this.textBox7.Location = new System.Drawing.Point(110, 188);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 25);
-            this.textBox7.TabIndex = 14;
-            // 
-            // qxbmlab
-            // 
-            this.qxbmlab.AutoSize = true;
-            this.qxbmlab.Location = new System.Drawing.Point(244, 188);
-            this.qxbmlab.Name = "qxbmlab";
-            this.qxbmlab.Size = new System.Drawing.Size(67, 15);
-            this.qxbmlab.TabIndex = 15;
-            this.qxbmlab.Text = "权限编码";
-            // 
-            // textBox8
-            // 
-            this.textBox8.Location = new System.Drawing.Point(314, 181);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(100, 25);
-            this.textBox8.TabIndex = 16;
+            this.resetbtn.Click += new System.EventHandler(this.resetbtn_Click);
             // 
             // addUserDic
             // 
