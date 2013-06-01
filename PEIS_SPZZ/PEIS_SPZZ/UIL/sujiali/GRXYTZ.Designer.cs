@@ -28,69 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.xytzdgv = new System.Windows.Forms.DataGridView();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new PEIS_SPZZ.UIL.sujiali.DataGridViewActionButtonColumn();
-            this.dataGridViewActionButtonColumn1 = new PEIS_SPZZ.UIL.sujiali.DataGridViewActionButtonColumn();
             this.pageBar1 = new PEIS_SPZZ.UIL.sujiali.PageBar();
-            ((System.ComponentModel.ISupportInitialize)(this.xytzdgv)).BeginInit();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.action = new PEIS_SPZZ.UIL.UserControls.DataGridViewActionButtonColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // xytzdgv
-            // 
-            this.xytzdgv.BackgroundColor = System.Drawing.Color.White;
-            this.xytzdgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.xytzdgv.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6,
-            this.Column7,
-            this.Column2});
-            this.xytzdgv.Location = new System.Drawing.Point(59, 58);
-            this.xytzdgv.Name = "xytzdgv";
-            this.xytzdgv.RowTemplate.Height = 23;
-            this.xytzdgv.Size = new System.Drawing.Size(643, 290);
-            this.xytzdgv.TabIndex = 1;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Column3";
-            this.Column3.Name = "Column3";
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Column4";
-            this.Column4.Name = "Column4";
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Column5";
-            this.Column5.Name = "Column5";
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Column6";
-            this.Column6.Name = "Column6";
-            // 
-            // Column7
-            // 
-            this.Column7.HeaderText = "Column7";
-            this.Column7.Name = "Column7";
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            // 
-            // dataGridViewActionButtonColumn1
-            // 
-            this.dataGridViewActionButtonColumn1.HeaderText = "Column2";
-            this.dataGridViewActionButtonColumn1.Name = "dataGridViewActionButtonColumn1";
             // 
             // pageBar1
             // 
@@ -104,19 +46,33 @@
             this.pageBar1.PageSize = 15;
             this.pageBar1.Size = new System.Drawing.Size(350, 22);
             this.pageBar1.TabIndex = 0;
-            this.pageBar1.Load += new System.EventHandler(this.pageBar1_Load_1);
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.action});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 40);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowTemplate.Height = 23;
+            this.dataGridView1.Size = new System.Drawing.Size(350, 251);
+            this.dataGridView1.TabIndex = 1;
+            // 
+            // action
+            // 
+            this.action.HeaderText = "操作";
+            this.action.Name = "action";
             // 
             // GRXYTZ
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(854, 408);
-            this.Controls.Add(this.xytzdgv);
+            this.ClientSize = new System.Drawing.Size(480, 303);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.pageBar1);
             this.Name = "GRXYTZ";
             this.Text = "GRXYTZ";
-            ((System.ComponentModel.ISupportInitialize)(this.xytzdgv)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -124,14 +80,11 @@
         #endregion
 
         private PageBar pageBar1;
-        private System.Windows.Forms.DataGridView xytzdgv;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column7;
-        private DataGridViewActionButtonColumn Column2;
-        private DataGridViewActionButtonColumn dataGridViewActionButtonColumn1;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private UserControls.DataGridViewActionButtonColumn action;
+
+      
+
 
 
         // private global::PageBar.PageBar pageBar1;
