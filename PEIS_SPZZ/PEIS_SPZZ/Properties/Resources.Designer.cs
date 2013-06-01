@@ -151,6 +151,27 @@ namespace PEIS_SPZZ.Properties {
             }
         }
         
+        public static System.Drawing.Bitmap grstzk_add {
+            get {
+                object obj = ResourceManager.GetObject("grstzk_add", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap grstzk_info {
+            get {
+                object obj = ResourceManager.GetObject("grstzk_info", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        public static System.Drawing.Bitmap grstzk_modify {
+            get {
+                object obj = ResourceManager.GetObject("grstzk_modify", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         public static System.Drawing.Bitmap HeaderBG {
             get {
                 object obj = ResourceManager.GetObject("HeaderBG", resourceCulture);
