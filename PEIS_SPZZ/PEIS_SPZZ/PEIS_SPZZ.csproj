@@ -242,11 +242,23 @@
       <DependentUpon>userDic.cs</DependentUpon>
     </Compile>
     <Compile Include="UIL\UserControls\DataGridViewActionButtonColumn.cs" />
-    <Compile Include="UIL\zhongsuyu\Form1.cs">
+    <Compile Include="UIL\zhongsuyu\yuyue.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UIL\zhongsuyu\Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UIL\zhongsuyu\yuyue.Designer.cs">
+      <DependentUpon>yuyue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\zhongsuyu\dengji.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\zhongsuyu\dengji.Designer.cs">
+      <DependentUpon>dengji.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIL\zhongsuyu\yuyuetime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIL\zhongsuyu\yuyuetime.Designer.cs">
+      <DependentUpon>yuyuetime.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -305,8 +317,14 @@
     <EmbeddedResource Include="UIL\penghaoran\userDic.resx">
       <DependentUpon>userDic.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UIL\zhongsuyu\Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="UIL\zhongsuyu\yuyue.resx">
+      <DependentUpon>yuyue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\zhongsuyu\dengji.resx">
+      <DependentUpon>dengji.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIL\zhongsuyu\yuyuetime.resx">
+      <DependentUpon>yuyuetime.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="App.config">
       <SubType>Designer</SubType>

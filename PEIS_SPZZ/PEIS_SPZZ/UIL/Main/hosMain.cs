@@ -11,6 +11,7 @@ namespace PEIS_SPZZ.UIL.Main
 {
     public partial class hosMain : Form
     {
+        int[] mdi=new int[3];
         public hosMain()
         {
             InitializeComponent();
@@ -19,6 +20,15 @@ namespace PEIS_SPZZ.UIL.Main
         private void 个人预约ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Form1 test = Form1.Instance;
+             for (int i = 0; i < 3; i++)
+            {
+                if (mdi[i] == 0)
+                {
+                    mdi[i] = 1;
+                    yuyue fm = new yuyue(mdi,i);
+                    fm.MdiParent = this;
+                    fm.Show();
+                    break;
         }
 
         private void hosMain_FormClosed(object sender, FormClosedEventArgs e)

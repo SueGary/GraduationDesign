@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace PEIS_SPZZ.UIL.zhongsuyu
 {
-    public partial class Form1 : Form
+    public partial class yuyuetime : Form
     {
-        public Form1()
+        public yuyuetime()
         {
             InitializeComponent();
         }
