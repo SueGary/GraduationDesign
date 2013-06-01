@@ -23,18 +23,9 @@ namespace PEIS_SPZZ
 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-<<<<<<< HEAD
-            Create test = Create.Instance;
+            Default test = Default.Instance;
             //Application.Run(test);
             Application.Run(new hosMain());
-=======
-            Default test = Default.Instance;
-            Application.Run(test);
-           // Application.Run(new Default());
->>>>>>> 1b899edd4103f960730e69b407083a3321248f91
-
-
-         
         }
         // 全局异常处理
         public class ApplicationEventHandlerClass
@@ -43,7 +34,7 @@ namespace PEIS_SPZZ
             {
                 Form1.ShowException(e.Exception);
 
-               // FormSysMessage.ShowException(e.Exception); // 调用FormSysMessage窗体，显示异常信息。
+                // FormSysMessage.ShowException(e.Exception); // 调用FormSysMessage窗体，显示异常信息。
             }
         }
     }

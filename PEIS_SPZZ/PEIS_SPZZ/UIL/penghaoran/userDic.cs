@@ -12,13 +12,8 @@ namespace PEIS_SPZZ.UIL.userDic
 {
     public partial class userDic : Form
     {
-        //string sqlcommand, sqluser;
-        //BindingManagerBase bmb;
-        //DataSet dateset1;
         public userDic()
         {
-            //sqlcommand = sqlCmd;
-            //sqluser = sqlus;
             InitializeComponent();
         }
         public DataSet selectYh(string sqlselect)
