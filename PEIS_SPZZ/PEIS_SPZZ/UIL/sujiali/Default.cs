@@ -9,9 +9,9 @@ using System.Windows.Forms;
 
 namespace PEIS_SPZZ.UIL.sujiali
 {
-    public partial class GRXYTZ : Form
+    public partial class Default : Form
     {
-        public GRXYTZ()
+        public Default()
         {
             InitializeComponent();
         }
