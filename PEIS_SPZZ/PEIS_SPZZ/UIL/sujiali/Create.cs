@@ -75,5 +75,10 @@ namespace PEIS_SPZZ.UIL.sujiali
         {
             
         }
+
+        private void cancel_Click(object sender, EventArgs e)
+        {
+            this.Visible = false;
+        }
     }
 }

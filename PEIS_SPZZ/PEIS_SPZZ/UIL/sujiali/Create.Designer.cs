@@ -50,6 +50,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.contentpb = new System.Windows.Forms.PictureBox();
             this.LOGOpb = new System.Windows.Forms.PictureBox();
+            this.cancel = new System.Windows.Forms.Button();
             this.xueya_box.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.contentpb)).BeginInit();
@@ -263,6 +264,16 @@
             this.LOGOpb.TabIndex = 0;
             this.LOGOpb.TabStop = false;
             // 
+            // cancel
+            // 
+            this.cancel.Location = new System.Drawing.Point(662, 411);
+            this.cancel.Name = "cancel";
+            this.cancel.Size = new System.Drawing.Size(75, 23);
+            this.cancel.TabIndex = 8;
+            this.cancel.Text = "取消";
+            this.cancel.UseVisualStyleBackColor = true;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
+            // 
             // Create
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
@@ -270,6 +281,7 @@
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(849, 487);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.cancel);
             this.Controls.Add(this.savebtn);
             this.Controls.Add(this.dtbox);
             this.Controls.Add(this.label9);
@@ -288,6 +300,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Create";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Create";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Create_FormClosing);
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Create_FormClosed);
@@ -326,5 +339,6 @@
         private System.Windows.Forms.TextBox tjryidbox;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button cancel;
     }
 }

@@ -43,6 +43,7 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.addbtn = new System.Windows.Forms.Button();
+            this.cancelbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.grxytzdgv)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -180,7 +181,7 @@
             // 
             // addbtn
             // 
-            this.addbtn.Location = new System.Drawing.Point(667, 479);
+            this.addbtn.Location = new System.Drawing.Point(647, 479);
             this.addbtn.Name = "addbtn";
             this.addbtn.Size = new System.Drawing.Size(75, 23);
             this.addbtn.TabIndex = 5;
@@ -188,12 +189,23 @@
             this.addbtn.UseVisualStyleBackColor = true;
             this.addbtn.Click += new System.EventHandler(this.addbtn_Click);
             // 
+            // cancelbtn
+            // 
+            this.cancelbtn.Location = new System.Drawing.Point(740, 479);
+            this.cancelbtn.Name = "cancelbtn";
+            this.cancelbtn.Size = new System.Drawing.Size(75, 23);
+            this.cancelbtn.TabIndex = 5;
+            this.cancelbtn.Text = "取消";
+            this.cancelbtn.UseVisualStyleBackColor = true;
+            this.cancelbtn.Click += new System.EventHandler(this.cancelbtn_Click);
+            // 
             // Default
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(827, 514);
+            this.Controls.Add(this.cancelbtn);
             this.Controls.Add(this.addbtn);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.grxytzdgv);
@@ -231,5 +243,6 @@
         private UserControls.DataGridViewActionButtonColumn dataGridViewActionButtonColumn1;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Button addbtn;
+        private System.Windows.Forms.Button cancelbtn;
     }
 }
