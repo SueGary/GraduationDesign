@@ -25,7 +25,7 @@
         /// <summary>
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
-        /// </summary>
+        /// </summary>E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\UIL\sujiali\GRXYTZ.cs
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();

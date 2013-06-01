@@ -83,7 +83,27 @@ namespace PEIS_SPZZ.DAL.Common
         /// <param name="gRXX">个人血压、体重（GRXYTZ）实例对象</param>
         protected void ReadGRXYTZPageData(IDataReader dataReader, GRXYTZ gRXYTZ)
         {
-            
+            //流水号
+            if (dataReader["ID"] != DBNull.Value)
+                gRXYTZ.Id = Convert.ToInt32(dataReader["ID"]);
+            //体检人编号
+            if (dataReader["TJRYID"] != DBNull.Value)
+                gRXYTZ.Tjryid = Convert.ToString(dataReader["TJRYID"]);
+            //收缩压
+            if (dataReader["SSY"] != DBNull.Value)
+                gRXYTZ.Ssy = Convert.ToString(dataReader["SSY"]);
+            //舒张压
+            if (dataReader["SZY"] != DBNull.Value)
+                gRXYTZ.Szy = Convert.ToString(dataReader["SZY"]);
+            //体重
+            if (dataReader["TZ"] != DBNull.Value)
+                gRXYTZ.Tz = Convert.ToString(dataReader["TZ"]);
+            //心率
+            if (dataReader["XL"] != DBNull.Value)
+                gRXYTZ.Xl = Convert.ToString(dataReader["XL"]);
+            //日期
+            if (dataReader["RQSJ"] != DBNull.Value)
+                gRXYTZ.Rqsj = Convert.ToString(dataReader["RQSJ"]);
         }
 
         /// <summary>

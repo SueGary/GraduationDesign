@@ -60,6 +60,13 @@ namespace PEIS_SPZZ.Properties {
             }
         }
         
+        public static System.Drawing.Bitmap background {
+            get {
+                object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         public static System.Drawing.Bitmap BtnDelete {
             get {
                 object obj = ResourceManager.GetObject("BtnDelete", resourceCulture);

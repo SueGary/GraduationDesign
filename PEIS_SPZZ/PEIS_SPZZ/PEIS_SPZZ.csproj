@@ -274,6 +274,9 @@
     <EmbeddedResource Include="UIL\sujiali\Create.resx">
       <DependentUpon>Create.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UIL\sujiali\Default.resx">
+      <DependentUpon>Default.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UIL\sujiali\GRXYTZ.resx">
       <DependentUpon>GRXYTZ.cs</DependentUpon>
     </EmbeddedResource>
@@ -465,6 +468,7 @@
     <None Include="Resources\TitleTmpPathModify.png" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\sujiali\background.png" />
     <Content Include="Resources\sujiali\grstzk_add.png" />
     <Content Include="Resources\sujiali\grstzk_info.png" />
     <Content Include="Resources\sujiali\grstzk_modify.png" />
