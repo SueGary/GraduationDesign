@@ -212,7 +212,7 @@
     <Compile Include="UIL\penghaoran\userDic.Designer.cs">
       <DependentUpon>userDic.cs</DependentUpon>
     </Compile>
-    <Compile Include="UIL\sujiali\DataGridViewActionButtonColumn.cs" />
+    <Compile Include="UIL\UserControls\DataGridViewActionButtonColumn.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -265,7 +265,6 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="ClassDiagram1.cd" />
-    <None Include="ClassDiagram2.cd" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -443,9 +442,7 @@
   <ItemGroup>
     <None Include="Resources\TitleTmpPathModify.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="UIL\UserControls\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

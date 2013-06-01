@@ -6,7 +6,7 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 
-namespace SUJIALI.PEIS.UIL
+namespace PEIS_SPZZ.UIL.UserControls
 {
     /// <summary>
     /// 对象名称：DataGridView操作按钮列（查看详细）

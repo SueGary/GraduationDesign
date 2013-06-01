@@ -6,7 +6,7 @@ using System.Data;
 using System.Text;
 using System.Windows.Forms;
 
-namespace SUJIALI.PEIS.UIL.UserControls
+namespace PEIS_SPZZ.UIL.UserControls
 {
     /// <summary>
     /// 对象名称：自定义的多行Label控件
