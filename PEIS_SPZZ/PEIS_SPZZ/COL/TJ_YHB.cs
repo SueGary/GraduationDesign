@@ -17,93 +17,98 @@ namespace PEIS_SPZZ.COL
        /// <summary>
        /// [变量] 用户编号
        /// </summary>
-       private string yhid;
+       private string YHID;
        /// <summary>
        /// [变量] 用户姓名
        /// </summary>
-       private string yhxm;
+       private string YHXM;
        /// <summary>
        /// [变量] 帐号
        /// </summary>
-       private string yhm;
+       private string YHM;
        /// <summary>
        /// [变量] 密码
        /// </summary>
-       private string mm;
+       private string MM;
        /// <summary>
        /// [变量] 体检科室
        /// </summary>
-       private string tjks;
+       private string TJKS;
        /// <summary>
        /// [变量] 科室编码
        /// </summary>
-       private string ksbm;
+       private string KSBM;
        /// <summary>
        /// [变量] 用户权限
        /// </summary>
-       private string yhqx;
+       private string YHQX;
        /// <summary>
        /// [变量] 权限
        /// </summary>
-       private int qxbm;
+       private int QXBM;
 
        /// <summary>
        /// [属性] 用户编号
        /// </summary>
        public string Yhid {
-           get { return yhid; }
-           set { yhid = value; }
+           get { return YHID; }
+           set { YHID = value; }
        }
        /// <summary>
        /// [属性] 用户姓名
        /// </summary>
        public string Yhxm
        {
-           get { return yhxm; }
-           set { yhxm=value;}
+           get { return YHXM; }
+           set { YHXM =value;}
        }
        /// <summary>
        /// [属性] 帐号
        /// </summary>
        public string Yhm
        {
-           get { return yhm; }
-           set { yhm=value;}
+           get { return YHM; }
+           set { YHM = value; }
        }
        /// <summary>
        /// [属性] 密码
        /// </summary>
-       public string Mm{
-           get { return mm; }
-           set { mm=value;}
+       public string Mm
+       {
+           get { return MM; }
+           set { MM = value; }
        }
        /// <summary>
        /// [属性] 体检科室
        /// </summary>
-       public string Tjks{
-           get { return tjks; }
-           set { tjks=value;}
+       public string Tjks
+       {
+           get { return TJKS;}
+           set { TJKS=value;}
        }
        /// <summary>
        /// [属性] 科室编码
        /// </summary>
-       public string Ksbm{
-           get { return ksbm; }
-           set { ksbm=value;}
+       public string Ksbm
+       {
+           get { return KSBM; }
+           set { KSBM=value;}
        }
        /// <summary>
        /// [属性] 用户权限
        /// </summary>
-       public string Yhqx{
-           get { return yhqx; }
-           set { yhqx=value;}
+       public string Yhqx
+       {
+           get { return YHQX; }
+           set { YHQX=value;}
        }
        /// <summary>
        /// [属性] 权限
        /// </summary>
-       public int Qxbm{
-           get { return qxbm; }
-           set { qxbm=value;}
+       public int Qxbm
+       {
+           get { return QXBM; }
+           set { QXBM = value;}
        }
     }
 }
