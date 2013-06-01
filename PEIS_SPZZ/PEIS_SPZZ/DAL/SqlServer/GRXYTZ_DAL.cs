@@ -24,13 +24,11 @@ namespace PEIS_SPZZ.DAL.SqlServer
         /// <returns></returns>
         public override int Insert(COL.GRXYTZ gRXYTZ)
         {
-            string sqlText = "INSERT INTO [GRXYTZ]"
-                           + "([ID],[TJRYID],[SSY],[SZY],[TZ],[XL],[RQSJ)"
-                           + "VALUES"
-                           + "(@ID,@TJRYID,@SSY,@SZY,@TZ,@XL,@RQSJ)";
+           // string sqlText = "INSERT INTO [GRXYTZ]([ID],[TJRYID],[SSY],[SZY],[TZ],[XL],[RQSJ])VALUES(@ID,@TJRYID,@SSY,@SZY,@TZ,@XL,@RQSJ)";
+            string sqlText = "INSERT INTO [GRXYTZ]([TJRYID],[SSY],[SZY],[TZ],[XL],[RQSJ])VALUES(@TJRYID,@SSY,@SZY,@TZ,@XL,@RQSJ)";
             SqlParameter[] parameters = 
             {
-                new SqlParameter("@ID", SqlDbType.Int,32){ Value =gRXYTZ.Id},
+             //   new SqlParameter("@ID", SqlDbType.Int,32){ Value =gRXYTZ.Id},
                 new SqlParameter("@TJRYID", SqlDbType.NVarChar , 10){ Value = gRXYTZ.Tjryid},
                 new SqlParameter("@SSY", SqlDbType.Text){ Value = gRXYTZ.Ssy},
                 new SqlParameter("@SZY", SqlDbType.Text){ Value = gRXYTZ.Szy },

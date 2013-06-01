@@ -34,8 +34,8 @@ namespace PEIS_SPZZ.BLL
         public static void CheckValid(GRXYTZ gRXYTZ)
         {
             #region 检查各属性是否符合空值约束
-            if (DataValid.IsNull(gRXYTZ.Id))
-                throw new CustomException("“ID”不能为空，请您确认输入是否正确。");
+            //if (DataValid.IsNull(gRXYTZ.Id))
+            //    throw new CustomException("“ID”不能为空，请您确认输入是否正确。");
 
             if (DataValid.IsNull(gRXYTZ.Rqsj))
                 throw new CustomException("“日期/时间”不能为空，请您确认输入是否正确。");

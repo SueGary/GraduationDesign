@@ -31,12 +31,12 @@
             this.LOGOpb = new System.Windows.Forms.PictureBox();
             this.contentpb = new System.Windows.Forms.PictureBox();
             this.xueya_box = new System.Windows.Forms.GroupBox();
-            this.ssy = new System.Windows.Forms.Label();
-            this.szy = new System.Windows.Forms.Label();
-            this.ssybox = new System.Windows.Forms.TextBox();
             this.szybox = new System.Windows.Forms.TextBox();
-            this.danwei = new System.Windows.Forms.Label();
+            this.ssybox = new System.Windows.Forms.TextBox();
+            this.szy = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.danwei = new System.Windows.Forms.Label();
+            this.ssy = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.xlbox = new System.Windows.Forms.TextBox();
@@ -92,14 +92,19 @@
             this.xueya_box.TabStop = false;
             this.xueya_box.Text = "血压";
             // 
-            // ssy
+            // szybox
             // 
-            this.ssy.AutoSize = true;
-            this.ssy.Location = new System.Drawing.Point(6, 40);
-            this.ssy.Name = "ssy";
-            this.ssy.Size = new System.Drawing.Size(84, 21);
-            this.ssy.TabIndex = 0;
-            this.ssy.Text = "收缩压:";
+            this.szybox.Location = new System.Drawing.Point(96, 76);
+            this.szybox.Name = "szybox";
+            this.szybox.Size = new System.Drawing.Size(100, 31);
+            this.szybox.TabIndex = 2;
+            // 
+            // ssybox
+            // 
+            this.ssybox.Location = new System.Drawing.Point(96, 36);
+            this.ssybox.Name = "ssybox";
+            this.ssybox.Size = new System.Drawing.Size(100, 31);
+            this.ssybox.TabIndex = 1;
             // 
             // szy
             // 
@@ -110,19 +115,14 @@
             this.szy.TabIndex = 0;
             this.szy.Text = "舒张压:";
             // 
-            // ssybox
+            // label1
             // 
-            this.ssybox.Location = new System.Drawing.Point(96, 36);
-            this.ssybox.Name = "ssybox";
-            this.ssybox.Size = new System.Drawing.Size(100, 31);
-            this.ssybox.TabIndex = 1;
-            // 
-            // szybox
-            // 
-            this.szybox.Location = new System.Drawing.Point(96, 76);
-            this.szybox.Name = "szybox";
-            this.szybox.Size = new System.Drawing.Size(100, 31);
-            this.szybox.TabIndex = 1;
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(202, 40);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(54, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "mmHg";
             // 
             // danwei
             // 
@@ -133,14 +133,14 @@
             this.danwei.TabIndex = 0;
             this.danwei.Text = "mmHg";
             // 
-            // label1
+            // ssy
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(202, 40);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(54, 21);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "mmHg";
+            this.ssy.AutoSize = true;
+            this.ssy.Location = new System.Drawing.Point(6, 40);
+            this.ssy.Name = "ssy";
+            this.ssy.Size = new System.Drawing.Size(84, 21);
+            this.ssy.TabIndex = 0;
+            this.ssy.Text = "收缩压:";
             // 
             // label2
             // 
@@ -168,7 +168,7 @@
             this.xlbox.Location = new System.Drawing.Point(248, 243);
             this.xlbox.Name = "xlbox";
             this.xlbox.Size = new System.Drawing.Size(100, 29);
-            this.xlbox.TabIndex = 1;
+            this.xlbox.TabIndex = 3;
             // 
             // label6
             // 
@@ -186,7 +186,7 @@
             this.weightbox.Location = new System.Drawing.Point(248, 307);
             this.weightbox.Name = "weightbox";
             this.weightbox.Size = new System.Drawing.Size(100, 29);
-            this.weightbox.TabIndex = 1;
+            this.weightbox.TabIndex = 4;
             // 
             // label7
             // 
