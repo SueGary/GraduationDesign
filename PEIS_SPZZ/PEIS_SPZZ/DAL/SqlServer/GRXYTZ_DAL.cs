@@ -46,12 +46,11 @@ namespace PEIS_SPZZ.DAL.SqlServer
         public override int Update(COL.GRXYTZ gRXYTZ)
         {
             string sqlText = "UPDATE [GRXYTZ] SET "
-                         + "[TJRYID]=@TJRYID,[SSY]=@SSY,[SZY]=@SZY,[TZ]=@TZ,[XL]=@XL,[RQSJ]=@RQSJ"
-                         + "WHERE [ID]=@ID";
+                         + "[SSY]=@SSY,[SZY]=@SZY,[TZ]=@TZ,[XL]=@XL,[RQSJ]=@RQSJ WHERE [ID]=@ID";
             SqlParameter[] parameters = 
             {
                 new SqlParameter("@ID", SqlDbType.Int,32){ Value =gRXYTZ.Id},
-                new SqlParameter("@TJRYID", SqlDbType.NVarChar , 10){ Value = gRXYTZ.Tjryid},
+             //   new SqlParameter("@TJRYID", SqlDbType.NVarChar , 10){ Value = gRXYTZ.Tjryid},
                 new SqlParameter("@SSY", SqlDbType.Text){ Value = gRXYTZ.Ssy},
                 new SqlParameter("@SZY", SqlDbType.Text){ Value = gRXYTZ.Szy },
                 new SqlParameter("@TZ", SqlDbType.Text){ Value = gRXYTZ.Tz},

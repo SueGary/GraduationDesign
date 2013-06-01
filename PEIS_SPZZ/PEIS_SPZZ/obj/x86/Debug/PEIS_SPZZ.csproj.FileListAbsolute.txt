@@ -97,3 +97,4 @@ E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\RdlCompile.compiled
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.exe
 E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.pdb
 F:\C#\毕业设计\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.Default.resources
+E:\GraduationDesign\PEIS_SPZZ\PEIS_SPZZ\obj\x86\Debug\PEIS_SPZZ.UIL.sujiali.Modify.resources

@@ -186,10 +186,10 @@ namespace PEIS_SPZZ.UIL.UserControls
             if (e.RowIndex < 0) return false;
             if (sender is DataGridView)
             {
-                DataGridView xytzdgv = (DataGridView)sender;
-                if (xytzdgv.Columns[e.ColumnIndex] is DataGridViewActionButtonColumn)
+                DataGridView grxytzdgv = (DataGridView)sender;
+                if (grxytzdgv.Columns[e.ColumnIndex] is DataGridViewActionButtonColumn)
                 {
-                    Rectangle cellBounds = xytzdgv[e.ColumnIndex, e.RowIndex].ContentBounds;
+                    Rectangle cellBounds = grxytzdgv[e.ColumnIndex, e.RowIndex].ContentBounds;
                     Rectangle recModify = new Rectangle(cellBounds.Location.X + cellBounds.Width / 2 - ImageModify.Width - 2, cellBounds.Location.Y + (cellBounds.Height - ImageModify.Height) / 2, ImageModify.Width, ImageModify.Height);
                     if (IsInRect(e.X, e.Y, recModify))
                         return true;
@@ -207,10 +207,10 @@ namespace PEIS_SPZZ.UIL.UserControls
             if (e.RowIndex < 0) return false;
             if (sender is DataGridView)
             {
-                DataGridView xytzdgv = (DataGridView)sender;
-                if (xytzdgv.Columns[e.ColumnIndex] is DataGridViewActionButtonColumn)
+                DataGridView grxytzdgv = (DataGridView)sender;
+                if (grxytzdgv.Columns[e.ColumnIndex] is DataGridViewActionButtonColumn)
                 {
-                    Rectangle cellBounds = xytzdgv[e.ColumnIndex, e.RowIndex].ContentBounds;
+                    Rectangle cellBounds = grxytzdgv[e.ColumnIndex, e.RowIndex].ContentBounds;
                     Rectangle recDelete = new Rectangle(cellBounds.Location.X + cellBounds.Width / 2 + 2, cellBounds.Location.Y + (cellBounds.Height - ImageDelete.Height) / 2, ImageDelete.Width, ImageDelete.Height);
                     if (IsInRect(e.X, e.Y, recDelete))
                         return true;

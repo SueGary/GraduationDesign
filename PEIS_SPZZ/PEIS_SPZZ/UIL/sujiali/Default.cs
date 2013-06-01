@@ -38,24 +38,35 @@ namespace PEIS_SPZZ.UIL.sujiali
                 return instance;
             }
         }
-        /// <summary>
-        /// 对DataGridView控件的数据源进行绑定。
-        /// </summary>
-        private static void BindDataGrid()
-        {
-            instance.grxytzpb.DataControl = instance.grxytzdgv;
-            instance.grxytzpb.DataSource = GRXYTZ_BLL.GetPageList(instance.grxytzpb.PageSize, instance.grxytzpb.CurPage);
-            instance.grxytzpb.DataBind();
-        }
+
         public Default()
         {
             InitializeComponent();
         }
 
+        /// <summary>
+        /// 用户单击DataGridView时的事件处理方法。
+        /// </summary>
+        private void DgvGrid_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
+        {
+            //用户单击DataGridView“操作”列中的“修改”按钮。
+            if (DataGridViewActionButtonCell.IsModifyButtonClick(sender, e))
+            {
+                string objectId = grxytzdgv["ColAction", e.RowIndex].Value.ToString(); // 获取所要修改关联对象的主键。
+           //     Modify.LoadDataById(objectId);                                       // 根据关联对象的主键，从数据库中获取信息。
+           //     FormMain.LoadNewControl(Modify.Instance);                            // 载入该模块的修改信息界面至主窗体显示。
+            }
 
+            //用户单击DataGridView“操作”列中的“删除”按钮。
+            if (DataGridViewActionButtonCell.IsDeleteButtonClick(sender, e))
+            {
+                string objectId = grxytzdgv["ColAction", e.RowIndex].Value.ToString(); // 获取所要删除关联对象的主键。
+           //     Delete.LoadDataById(objectId);                                       // 根据关联对象的主键，从数据库中获取信息。
+            //    FormMain.LoadNewControl(Delete.Instance);                            // 载入该模块的删除信息界面至主窗体显示。
+            }
+        }
 
-
-   
+     
 
         /// <summary>
         /// 显示最后一页的数据，该方法为静态方法，供外界控制信息列表页数调用。
@@ -65,14 +76,20 @@ namespace PEIS_SPZZ.UIL.sujiali
             instance.grxytzpb.CurPage = int.MaxValue;
         }
 
+        public static void Refresh()
+        {
+            instance.grxytzpb.CurPage = instance.grxytzpb.CurPage;
+        }
+
         private void grxytzdgv_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
         {
             //用户单击DataGridView“操作”列中的“修改”按钮。
             if (DataGridViewActionButtonCell.IsModifyButtonClick(sender, e))
             {
                 string objectId = grxytzdgv["actioncol", e.RowIndex].Value.ToString(); // 获取所要修改关联对象的主键。
-             //   Modify.LoadDataById(objectId);                                       // 根据关联对象的主键，从数据库中获取信息。
-            //    FormMain.LoadNewControl(Modify.Instance);                            // 载入该模块的修改信息界面至主窗体显示。
+                Modify.LoadDataById(objectId);                                       // 根据关联对象的主键，从数据库中获取信息。
+                Modify.Instance.Show();                            // 载入该模块的修改信息界面至主窗体显示。
+
             }
 
             //用户单击DataGridView“操作”列中的“删除”按钮。
@@ -82,6 +99,17 @@ namespace PEIS_SPZZ.UIL.sujiali
            //     Delete.LoadDataById(objectId);                                       // 根据关联对象的主键，从数据库中获取信息。
             //    FormMain.LoadNewControl(Delete.Instance);                            // 载入该模块的删除信息界面至主窗体显示。
             }
+        }
+
+
+        /// <summary>
+        /// 对DataGridView控件的数据源进行绑定。
+        /// </summary>
+        private static void BindDataGrid()
+        {
+            instance.grxytzpb.DataControl = instance.grxytzdgv;
+            instance.grxytzpb.DataSource = GRXYTZ_BLL.GetPageList(instance.grxytzpb.PageSize, instance.grxytzpb.CurPage);
+            instance.grxytzpb.DataBind();
         }
 
          /// <summary>
@@ -99,8 +127,9 @@ namespace PEIS_SPZZ.UIL.sujiali
 
         private void addbtn_Click(object sender, EventArgs e)
         {
-            Create create = new Create();
-            create.Show();
+           
+            Create.Instance.Show();
+            Create.Instance.Focus();
         }
 
         private void cancelbtn_Click(object sender, EventArgs e)
