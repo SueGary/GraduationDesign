@@ -270,6 +270,9 @@
     <EmbeddedResource Include="UIL\Reporter\reporter.resx">
       <DependentUpon>reporter.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UIL\sujiali\Create.resx">
+      <DependentUpon>Create.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UIL\sujiali\GRXYTZ.resx">
       <DependentUpon>GRXYTZ.cs</DependentUpon>
     </EmbeddedResource>
